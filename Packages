@@ -10,6 +10,7 @@ SHA1: dee33dc49fba63d99ad0308481536156dc7bbe6d
 SHA256: 95814b2865deb1cfdc8f0264336a1d470629bce0fd1919f032bd791e8dbedf8e
 Section: Packaging
 Description: 有根插件 转 无根插件(成功后路径：var/mobile/.Derootifier）
+SileoDepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/siriplus.json
 Author: 夕颜
 Icon: ./img/icon/xy.png
 Name: Derootifier转无根
