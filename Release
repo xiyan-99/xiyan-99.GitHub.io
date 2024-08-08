@@ -3,6 +3,6 @@ Label: xiyan
 Suite: stable
 Version: 1.0
 Codename: xiyan
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm64
 Components: main
 Description: 夕颜测试
