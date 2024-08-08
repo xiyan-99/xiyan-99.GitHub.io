@@ -4,13 +4,14 @@ Architecture: iphoneos-arm64
 Maintainer: 夕颜
 Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2),libzstd1,oldabi,openssh-server,file,fakeroot,ldid,odcctools,zstd
 Filename: ./debs/DEROOTIFIER_1.3_iphoneos-arm64.deb
-Size: 529720
-MD5sum: fb3080dad2cb62d06169b87ad526171c
-SHA1: 7981b5c0dac54f0f9328e4a2276dccb596bb5226
-SHA256: 21267ec62806ee6951137a7943e7c486205395cc8fff843b351dadf05cc20ad0
-Section: 插件
+Size: 529700
+MD5sum: 48c2e4e4fcfea66cb115121a7363b7e1
+SHA1: dee33dc49fba63d99ad0308481536156dc7bbe6d
+SHA256: 95814b2865deb1cfdc8f0264336a1d470629bce0fd1919f032bd791e8dbedf8e
+Section: Packaging
 Description: 有根插件 转 无根插件(成功后路径：var/mobile/.Derootifier）
 Author: 夕颜
+Icon: ./img/icon/xy.png
 Name: Derootifier转无根
 Sileodepiction: DEROOTIFIER
 
@@ -21,12 +22,13 @@ Maintainer: 夕颜
 Installed-Size: 1744
 Depends: dev.theos.orion (>= 1.0.0), com.opa334.ccsupport, mobilesubstrate, firmware (>= 13.0)
 Filename: ./debs/com.xiyan.siriplus_1.3_iphoneos-arm64.deb
-Size: 272032
-MD5sum: 452061760b417ef33bd816ab98ce5fc3
-SHA1: a8c9f8abe16b7c983947ddad197bedfc8fb3a67b
-SHA256: 975705edc54869a6ddbcedfe3624747c65c8fe63c886f5dbe3386bfa0fa8803d
+Size: 272324
+MD5sum: 5dc358ede73729b880ff11a96a8c4ac3
+SHA1: aad4ce72919af863d704f6745bcafbddcc1d4e03
+SHA256: 84b087c34232d5cd92dae124e6f9ab5ad426b953ff7d66d51ccac4c25a1bf2df
 Section: 插件
-Description: Siri接入ChatGPT/Gemini
+Description: Siri接入ChatGPT/Gemini由夕颜购买提取免费使用（需自备api）
 Author: 夕颜
+Icon: ./img/icon/xy.png
 Name: SiriPlus
 
