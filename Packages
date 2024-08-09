@@ -15,6 +15,26 @@ Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/ico
 Name: 有根转无根插件-rootless
 Sileodepiction: DEROOTIFIER
 
+Package: MisakaHelper
+Version: 2.0-8
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: Misaka
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Provides: MisakaHelper
+Filename: ./debs/微信插件/MisakaHelper_Rootless.deb
+Size: 12906448
+MD5sum: 7e508c3c3e06f29d9cd40acb45ac8604
+SHA1: 682f62b986ed438809d2a05c2ba9e5de4da0c5db
+SHA256: ef1f58ad59159b7b92d6853442ae70e89d4f4e4aa0f5ddcda495476527739f73
+Section: 微信插件
+Priority: optional
+Description: MisakaHelper
+Author: Misaka
+Name: MisakaHelper-Rootless
+
 Package: ThemePro
 Version: 2.9.3
 Architecture: iphoneos-arm64
@@ -117,22 +137,6 @@ Section: 微信插件
 Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
 Author: 黄白
 Name: 黄白助手-rootless
-
-Package: com.MisakaHelper
-Version: 2.0-7
-Architecture: iphoneos-arm64
-Maintainer: 夕颜
-Depends: mobilesubstrate
-Filename: ./debs/微信插件/com.MisakaHelper.deb
-Size: 13117164
-MD5sum: f134c973a3132b9e3b97541221620a34
-SHA1: b30c8814dc9ab8cfc589040c9a70c5f72faf636b
-SHA256: 1b7c0f738a58a59e651e0ff04e3313d08ece4645444abb1a697081381ea9ec13
-Section: 微信插件
-Description: MisakaHelper和其它微信插件类似，可以抢红包，可以强制关注公众号…
-Author: Misaka
-Name: MisakaHelper-rootless
-Sponsor: misaka
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-5
