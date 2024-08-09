@@ -4,16 +4,15 @@ Architecture: iphoneos-arm64
 Maintainer: 夕颜
 Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2),libzstd1,oldabi,openssh-server,file,fakeroot,ldid,odcctools,zstd
 Filename: ./debs/DEROOTIFIER_1.3_iphoneos-arm64.deb
-Size: 529700
-MD5sum: 48c2e4e4fcfea66cb115121a7363b7e1
-SHA1: dee33dc49fba63d99ad0308481536156dc7bbe6d
-SHA256: 95814b2865deb1cfdc8f0264336a1d470629bce0fd1919f032bd791e8dbedf8e
-Section: Packaging
+Size: 529860
+MD5sum: f8acc6ff3f620abb02c1bb8299eaadda
+SHA1: b55c97064d2d0d79279917b1f08c165238dbbb12
+SHA256: 4f7a5f34760bf180fe55cbea11f2690120da139607378e948e2d18b53dee0871
+Section: 插件
 Description: 有根插件 转 无根插件(成功后路径：var/mobile/.Derootifier）
-SileoDepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/siriplus.json
 Author: 夕颜
-Icon: ./img/icon/xy.png
-Name: Derootifier转无根
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/icon/xy.png
+Name: 有根转无根插件-rootless
 Sileodepiction: DEROOTIFIER
 
 Package: com.xiyan.siriplus
@@ -23,13 +22,14 @@ Maintainer: 夕颜
 Installed-Size: 1744
 Depends: dev.theos.orion (>= 1.0.0), com.opa334.ccsupport, mobilesubstrate, firmware (>= 13.0)
 Filename: ./debs/com.xiyan.siriplus_1.3_iphoneos-arm64.deb
-Size: 272324
-MD5sum: 5dc358ede73729b880ff11a96a8c4ac3
-SHA1: aad4ce72919af863d704f6745bcafbddcc1d4e03
-SHA256: 84b087c34232d5cd92dae124e6f9ab5ad426b953ff7d66d51ccac4c25a1bf2df
-Section: 插件
-Description: Siri接入ChatGPT/Gemini由夕颜购买提取免费使用（需自备api）
+Size: 272260
+MD5sum: 9bffe1e0897cbf36a00355570536b8b6
+SHA1: 16937298bf0e6fd6e09ea803f6b3bd8db82e93a1
+SHA256: dcabd5f73a4389969b1a2b52fb0b4299927248890dc74736d0b412553c34adbf
+Section: 系统增强
+Description: Siri接入ChatGPT/Gemini由夕颜购买提取免费使用（需自备api）支持iOS14.0-16.6.1
 Author: 夕颜
-Icon: ./img/icon/xy.png
-Name: SiriPlus
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/icon/xy.png
+Name: SiriPlus-rootless
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/siriplus.json
 
