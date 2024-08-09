@@ -15,6 +15,144 @@ Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/ico
 Name: 有根转无根插件-rootless
 Sileodepiction: DEROOTIFIER
 
+Package: ThemePro
+Version: 2.9.3
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: tp
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Provides: ThemePro
+Filename: ./debs/微信插件/ThemePro_2.9.3_iphoneos-arm64.deb
+Size: 6215576
+MD5sum: 6d04b7f82e0deb7ce3fdaa953a0c18f5
+SHA1: b5cb9657acf2f3450f4150565aba255a4b0b4d7f
+SHA256: cb55817036062d762b157db3274be17b24658bbfda0ad39acb71d64e5cdb064e
+Section: 微信插件
+Priority: optional
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Author: MustangYM
+Name: ThemePro-2.9.3-rootless
+
+Package: com.25mao.doutu.rootless
+Version: 3.1-5
+Architecture: iphoneos-arm64
+Maintainer: mao
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件/com.25mao.doutu.rootless.deb
+Size: 1209404
+MD5sum: cb80e902a6210bda0a99027aed572b7f
+SHA1: f749a846c560a24010870ed9281975ab96d38b76
+SHA256: dd906898397fd71d68612805ae9c1935ce8495c046ac0b7ba11fc7f910ab87b9
+Section: 微信插件
+Priority: optional
+Description: 斗图助手-Rootless
+Author: Mao
+Name: 斗图助手-Rootless
+Sponsor: mao
+
+Package: com.25mao.miyou.rootless
+Version: 3.8-0
+Architecture: iphoneos-arm64
+Maintainer: mao
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件/com.25mao.miyou.rootless.deb
+Size: 10164644
+MD5sum: e7b8d05a966b24e0e051e858482c3e31
+SHA1: 1b1cb2d1c3d7ec747d94044cade8aa1921b0dc22
+SHA256: 0b012ea74d307c65c3b3424b8a381ea2a4d395c9714e3af70516b46040796083
+Section: 微信插件
+Priority: optional
+Description: 微信助手-Rootless
+Author: Mao
+Name: 微信助手-Rootless
+Sponsor: mao
+
+Package: com.25mao.wcplugins.rootless
+Version: 0.1-3
+Architecture: iphoneos-arm64
+Maintainer: mao
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件/com.25mao.wcplugins.rootless.deb
+Size: 19636
+MD5sum: cefccc7311aca97765bbc95113dd8550
+SHA1: 9e212db3f7ec16a9d4a16e141571d854e52b1afb
+SHA256: 5951a43d971e622a03f547cfda7331f8a0fed30964d5e36ae1f5b02be0357549
+Section: 微信插件
+Priority: optional
+Description: 插件管理-Rootless
+Author: Mao
+Name: 微信插件管理-Rootless
+Sponsor: mao
+
+Package: com.25mao.weapptool.rootless
+Version: 0.1-9
+Architecture: iphoneos-arm64
+Maintainer: mao
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件/com.25mao.weapptool.rootless.deb
+Size: 27052
+MD5sum: 16a4e6cf0311227bd080cebdd8c296be
+SHA1: 882732786fddced0272c7e867c9cd84d1483bbaa
+SHA256: 711539c4e1c8491f68e944b394c94044eacc3db341b57d33a9c81c8e3d2604b1
+Section: 微信插件
+Priority: optional
+Description: 微信小程序助手
+Author: Mao
+Name: 微信小程序助手-Rootless
+Sponsor: mao
+
+Package: com.HBWechatHelper.ailun
+Version: 1.7.3
+Architecture: iphoneos-arm64
+Maintainer: 黄白
+Depends: mobilesubstrate
+Filename: ./debs/微信插件/com.HBWechatHelper.ailun_1.7.3_iphoneos-arm64.deb
+Size: 9204264
+MD5sum: 0eab25cd5077c14c5bc0c837b6d11951
+SHA1: 2827cf90230e784165053e678fb763b59444f629
+SHA256: 95fe5542ebda3322688654950e297169315348e356d8f21303c5dfd14b12a529
+Section: 微信插件
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: 黄白
+Name: 黄白助手-rootless
+
+Package: com.MisakaHelper
+Version: 2.0-7
+Architecture: iphoneos-arm64
+Maintainer: 夕颜
+Depends: mobilesubstrate
+Filename: ./debs/微信插件/com.MisakaHelper.deb
+Size: 13117164
+MD5sum: f134c973a3132b9e3b97541221620a34
+SHA1: b30c8814dc9ab8cfc589040c9a70c5f72faf636b
+SHA256: 1b7c0f738a58a59e651e0ff04e3313d08ece4645444abb1a697081381ea9ec13
+Section: 微信插件
+Description: MisakaHelper和其它微信插件类似，可以抢红包，可以强制关注公众号…
+Author: Misaka
+Name: MisakaHelper-rootless
+Sponsor: misaka
+
+Package: com.curtin.pkc.rootless
+Version: 0.5-5
+Architecture: iphoneos-arm64
+Maintainer: Curtin <curtinlv@126.com>
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件/com.curtin.pkc.rootless_0.5-5_iphoneos-arm64.deb
+Size: 520100
+MD5sum: 1fcceed2a31c3c34f455ad9752f7ecd8
+SHA1: e2ac64ce885398c4f3f5d241b046ff497e6e5920
+SHA256: ce11e4e9ddbbb47b10a8a07c569c20cd591d74757625e2abc11585e888672a6c
+Section: 微信插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin <curtinlv@126.com>
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_rootless
+Sponsor: Curtin
+
 Package: com.xiyan.siriplus
 Version: 1.3
 Architecture: iphoneos-arm64
@@ -32,4 +170,21 @@ Author: 夕颜
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/icon/xy.png
 Name: SiriPlus-rootless
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/siriplus.json
+
+Package: dumpapp.wechat
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: 夕颜
+Installed-Size: 24000
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/微信插件/com.dumpapp.wechat-rootless.deb
+Size: 9337064
+MD5sum: a59ec3dadc84166a6d01f9dc2b5a14b9
+SHA1: 8686019364fbe4a7bbb46811982e680ed6dc3bbf
+SHA256: ab1b20231bd1358308ebf274c69e98bb36abd3ca9df6d1fda88e445eed70df5e
+Section: 微信插件
+Description: 微信插件锤子助手，就是微信净化换了个名字重现江湖，喜欢微信净化的用户可以试试此插件，可以防撤回，抢红包，转发语音等功能，自行体验！越狱因为分享更精彩！
+Author: DumpApp
+Name: 锤子助手-Rootless
+Sponsor: 夕颜
 
