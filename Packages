@@ -55,6 +55,158 @@ Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成
 Author: MustangYM
 Name: ThemePro-2.9.3-rootless
 
+Package: cn.zqbb.disupdateapp
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 740
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/Hello插件/cn.zqbb.disupdateapp_1.0-2_iphoneos-arm64_.deb
+Size: 125778
+MD5sum: b8344c3a041da2b6f332cebb3fa93010
+SHA1: e4757f043d2aa17793eddb3c965eb9283a0252ee
+SHA256: 9eb46ad1edb3dabc20a7490bb52a9acae61f8c4dd865025f5229431d58f1c1db
+Section: Tweaks
+Description: 屏蔽App Store更新提示(Block App Store Updates)!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
+Name: Hello App
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
+
+Package: cn.zqbb.fix120hz
+Version: 1.2.0-51
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 2908
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: ./debs/Hello插件/cn.zqbb.fix120hz_1.2.0-51_iphoneos-arm64.deb
+Size: 641748
+MD5sum: 4ffa1ef55edcdaceb7496fb1dbb5152f
+SHA1: 4707b85df49a1678b5925386d394e3f78b9e97c2
+SHA256: 7b441cbf6dc2559138e97f02232dd84c658c1f97512088f0a7b888bc2da58deb
+Section: Tweaks
+Description:
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+Name: Hello 120Hz
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
+Package: cn.zqbb.fix120hz15
+Version: 1.1.0-1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0) , firmware (<< 16.0)
+Filename: ./debs/Hello插件/cn.zqbb.fix120hz15_1.1.0-1_iphoneos-arm64.deb
+Size: 9480
+MD5sum: 77aa302bca741d139e682131e0b4420d
+SHA1: 60bcdd9605bb0030b2807f7794943feba9e9ea4b
+SHA256: b98557f0d0050c9edf6fce2f65b9fa3d6f3a3231bead165b4d82e0a0f3b4ce8d
+Section: Tweaks
+Description:
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Author: zqbb
+Icon: https://rootless.zq666.eu.org/web/icon/com.zqbb.fix120hz
+Name: 120Hz Fix (iOS15) 免费版
+Sileodepiction: https://rootless.zq666.eu.org/web/com.zqbb.fix120hz
+
+Package: cn.zqbb.helloarea
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 304
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Hello插件/cn.zqbb.helloarea_0.0.3_iphoneos-arm64.deb
+Size: 55548
+MD5sum: ce1f6622e0a6961bd2cea6a77163b1fb
+SHA1: 7436c44b3674136a798308f3a4349dae9c81ccc1
+SHA256: 6983e14639097ef8f4d5d264fa8b4656b101a0aec9d01222d99b177107c78690
+Section: Tweaks
+Description: 设置底栏高度!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.helloarea
+Name: Hello Area
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.helloarea
+
+Package: cn.zqbb.hellojoker
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 624
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Filename: ./debs/Hello插件/cn.zqbb.hellojoker_1.0.3_iphoneos-arm64.deb
+Size: 96740
+MD5sum: f690260441174d8809ef13a8fedf1fd6
+SHA1: f3cca6d2a9ae767974f4ca9e17323e86b7ef1f85
+SHA256: 07f438644798b3f0a7c74999fc32ebd922d2c5ff5a61c248837fd42dcb580d75
+Section: Tweaks
+Description: 禁止检测越狱App
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hellojoker
+Name: Hello Joker
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hellojoker
+
+Package: cn.zqbb.hellospeed
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Hello插件/cn.zqbb.hellospeed_1.1.3_iphoneos-arm64.deb
+Size: 96842
+MD5sum: c1727c35e1430f9f4a613c385311b573
+SHA1: f50a25bdf5d5289c3cd2b9b04fcf5280ba891a1e
+SHA256: b4501424629130bfb640ecda47f20ddb7c2338124b41493b6871944993751c01
+Section: Tweaks
+Description: SpringBoard动画加速!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hellospeed
+Name: Hello Speed
+
+Package: cn.zqbb.holdcpu
+Version: 2.0.0-22
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 2272
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: ./debs/Hello插件/cn.zqbb.holdcpu_2.0.0-22_iphoneos-arm64.deb
+Size: 569586
+MD5sum: 5b8597baa4381d46fac932a5fb167e67
+SHA1: 30721663a78c366b81abb0b8188bf2f15aefecbf
+SHA256: c8fb6be72796ff3fe67e6ddf5a03f1932ff5a994a43395b35bbc297ba5ee77be
+Section: Tweaks
+Description: (解除温控) (锁定低电量CPU频率)
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+Name: Hello CPU
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: cn.zqbb.orzfolder
+Version: 1.1.5-29
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 2752
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/Hello插件/cn.zqbb.orzfolder_1.1.5-29_iphoneos-arm64.deb
+Size: 602146
+MD5sum: a9da7ddf5deed257eaa15d67ffadab78
+SHA1: ac964a7c5cb87bef1f16ca8d83a44970ade30198
+SHA256: e277e77e10533819243498511f067ac0fa51763c3e66b6d4939506542fbf581c
+Section: Tweaks
+Description: Folder Layout Customization Tool
+ - 文件夹颜值 ? 美 : 丑
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.orzfolder
+Name: Hello Folder
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.orzfolder
+
 Package: com.25mao.doutu.rootless
 Version: 3.1-5
 Architecture: iphoneos-arm64
@@ -175,6 +327,43 @@ Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/ico
 Name: SiriPlus-rootless
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/siriplus.json
 
+Package: com.zqbb.limitcharging
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 524
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Conflicts: zp.limitcharging.rootless
+Filename: ./debs/Hello插件/com.zqbb.limitcharging_1.0.1_iphoneos-arm64.deb
+Size: 18776
+MD5sum: 15753acc68a2c29b6cbc7bc6b19c51d5
+SHA1: 9141015b5d3a9d3dba1575f53be83fb846180094
+SHA256: 223008a2f54e8559581b64ea3a2c58f8c6e5a16b740eadb2d3fa86e6b941548d
+Section: Tweaks
+Description: Hello Charging (限制充电)
+ - Wi-Fi Not Disconnected on Lock Screen (Standby consumes 5% more power)
+ - 锁屏不断Wi-Fi(待机多费电5%)
+Author: zqbb
+Name: Hello Charging
+Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.limitcharging
+
+Package: com.zqbb.savephotos
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/Hello插件/com.zqbb.savephotos_1.1_iphoneos-arm64.deb
+Size: 4424
+MD5sum: e4683961afaae9dc20e4522e1353b441
+SHA1: 31a49568a84e3318f8f4ccf73e85e4ad3caa03f6
+SHA256: 82d9daaf5ec6e593ac484f52fd1213592422a9f3115017d24198ad5ac9ee2c07
+Section: Tweaks
+Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
+Author: zqbb
+Name: Hello Snapper
+Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
+
 Package: dumpapp.wechat
 Version: 2.0.1
 Architecture: iphoneos-arm64
@@ -191,4 +380,23 @@ Description: 微信插件锤子助手，就是微信净化换了个名字重现�
 Author: DumpApp
 Name: 锤子助手-Rootless
 Sponsor: 夕颜
+
+Package: zp.stopautolaunchapps
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Filename: ./debs/Hello插件/zp.stopautolaunchapps_1.0.2_iphoneos-arm64.deb
+Size: 3128
+MD5sum: d70363781be194dbc56b87a209a13f24
+SHA1: b0fc76652012edd3a27ce9b1da633e4fd0fb1fd9
+SHA256: df815a9003673a5096be2e958cc647388fe06f035a53b56e838b844fd8666b0f
+Section: Tweaks
+Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯!
+ - 优点:节约内存,少杀后台.
+ - 玄学:减少重启概率
+Author: zqbb
+Name: Hello 3Q
+Sileodepiction: https://rootless.002599.xyz/web/zp.stopautolaunchapps
 
