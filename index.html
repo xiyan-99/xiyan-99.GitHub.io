@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiyan Repo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            color: #1e90ff;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            line-height: 1.6;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* 按钮之间的间距 */
+            margin-top: 20px;
+        }
+        .button {
+            padding: 15px 0;
+            width: 200px; /* 固定宽度 */
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            background-color: #1e90ff;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .button-secondary {
+            background-color: #32cd32;
+        }
+        .button-secondary:hover {
+            background-color: #228b22;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎来到Xiyan Repo</h1>
+        <p>点击添加到包管理器</p>
+
+        <div class="buttons">
+            <a href="sileo://source/http://example.com/repo/" class="button">添加到 Sileo</a>
+            <a href="zbra://sources/add/http://example.com/repo/" class="button button-secondary">添加到 Zebra</a>
+            <a href="mailto:zhouziyan312@gmail.com" class="button">联系我 Emil</a>
+        </div>
+    </div>
+</body>
+</html>
