@@ -644,15 +644,15 @@ Maintainer: 夕颜
 Installed-Size: 1744
 Depends: dev.theos.orion (>= 1.0.0), com.opa334.ccsupport, mobilesubstrate, firmware (>= 13.0)
 Filename: ./debs/系统增强/com.xiyan.siriplus_1.3_iphoneos-arm64.deb
-Size: 272512
-MD5sum: 5b4804c2df8d31d8e18b64a4bc20b28a
-SHA1: 5c4df0835c6531859319fe314b05d6b787284984
-SHA256: 1980cea7a5451098c530d7c4525d07825636f96ace556c73df1d8d310ca8cfff
+Size: 272268
+MD5sum: d327a38b35b48d151bf91008967b951a
+SHA1: 18a6e75c0f58bfd59787f2d53a95448491b27ca5
+SHA256: 1f590f40a3189267dd3af0bd3c6e271e6f852679b02eb987621c99e3da17863d
 Section: 系统增强
 Author: 夕颜
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/icon/xy.png
 Name: SiriPlus-rootless
-Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/siriplus描述.json
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/siri.json
 
 Package: com.zqbb.limitcharging
 Version: 1.0.1
