@@ -1,20 +1,3 @@
-Package: DEROOTIFIER
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: 夕颜
-Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2),libzstd1,oldabi,openssh-server,file,fakeroot,ldid,odcctools,zstd
-Filename: ./debs/DEROOTIFIER_1.3_iphoneos-arm64.deb
-Size: 529860
-MD5sum: f8acc6ff3f620abb02c1bb8299eaadda
-SHA1: b55c97064d2d0d79279917b1f08c165238dbbb12
-SHA256: 4f7a5f34760bf180fe55cbea11f2690120da139607378e948e2d18b53dee0871
-Section: 插件
-Description: 有根插件 转 无根插件(成功后路径：var/mobile/.Derootifier）
-Author: 夕颜
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/icon/xy.png
-Name: 有根转无根插件-rootless
-Sileodepiction: DEROOTIFIER
-
 Package: MisakaHelper
 Version: 2.0-8
 Architecture: iphoneos-arm64
@@ -54,6 +37,59 @@ Priority: optional
 Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
 Author: MustangYM
 Name: ThemePro-2.9.3-rootless
+
+Package: cn.llld.kbtool
+Version: 1.3.0-1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 8016
+Depends: mobilesubstrate
+Filename: ./debs/系统增强/cn.llld.kbtool_1.3.0-1_iphoneos-arm64.deb
+Size: 3434120
+MD5sum: b17cf30447b6ff11f97ddbff89e4ec28
+SHA1: 7a336decee9726fe39d3f9d0ba53b42cabe6202a
+SHA256: cfb6db7ea78b728cf01e314c1f7e95d09a90e829642fa6f937602c21dcf956cd
+Section: 来了老弟-插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: Panel-Tools-rootless
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.qsyy
+Version: 2.2.2-5
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 5712
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/系统增强/cn.llld.qsyy_2.2.2-5_iphoneos-arm64.deb
+Size: 2083316
+MD5sum: 7dc8807194952d74f899f8b67ab764b9
+SHA1: 72450c9b048692e03207473213fe92c2076e72ce
+SHA256: 984e0f903b7015a1752c514b1640c84a0a931d1f7a17f3d3a3dc66fa2761a0af
+Section: 来了老弟-插件
+Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record，Custom text replacement, custom text size, custom text view width, height, custom text view horizontal and vertical coordinates, custom text color, custom text font, custom text transparency etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：分屏，自动翻译修改通话时间，修改联系人，修改通话记录，翻译替换文本，自定义文字替换，自定义文字大小，自定义文字视图宽度，高度，自定义文字视图横向纵向的坐标，自定义文字颜色，自定义文字字体，自定义文字透明度，隐藏设备实际信息，靓仔装逼等(非所有文字，个别函数需要等我适配)。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FT悬浮文本增强替换翻译汉化
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qsyy/fy.json
+
+Package: cn.llld.snapshottool
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 1580
+Depends: mobilesubstrate
+Filename: ./debs/系统增强/STTool_1.0_iphoneos-arm64.deb
+Size: 1251320
+MD5sum: 97917e17a567560976b871841509bb60
+SHA1: daa55f0afb8cdda363b6fb149d371e1cc2737e1d
+SHA256: 8193047924fc0bd2e6b4500bb94a2ef82d8301e4d494e0e27f0d983dca8c4c2b
+Section: 来了老弟-插件
+Description: Snapshot sharing and copying, simplified version(Usage: Touch the image with both fingers)---对于图片的共享和复制到剪切板功能，简化版(免费版)。***使用方法：双指触摸图片即可(非100%应用或场景)***
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
+Name: STTool-rootless
 
 Package: cn.zqbb.disupdateapp
 Version: 1.0-2
@@ -309,6 +345,22 @@ Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135
 Name: PKC_rootless
 Sponsor: Curtin
 
+Package: com.hk.rootless.crane
+Version: 1.3.14-6
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.5), com.opa334.libsandy, com.hk.crane.cn.rl, com.opa334.libundirect (>= 1.1.4) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices, com.opa334.crane
+Filename: ./debs/系统增强/Crane(rootless).deb
+Size: 571396
+MD5sum: eaaf11a64cd26c96da16c08ed42254b0
+SHA1: dbe7320637137c8457237ee2d99a129e005da059
+SHA256: 1212789daebac0db7e281d549629607b4cdea59588f960b3ded13545bbf36a91
+Section: 嗨-系统
+Description: 为应用程序提供多个容器，账号多开神器。
+Author: opa334
+Name: Crane(rootless)
+
 Package: com.netskao.appdata
 Version: 1.4.2
 Architecture: iphoneos-arm64
@@ -551,23 +603,73 @@ Description: 使用ios15+ API显示微信应用的通知化身
 Author: Netskao
 Name: WeChatNotiAvatar
 
+Package: com.opa334.choicy
+Version: 1.4.9-3
+Architecture: iphoneos-arm64
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 884
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/系统增强/com.opa334.choicy_1.4.9-3_iphoneos-arm64.deb
+Size: 103496
+MD5sum: 2b7fc09b2c352be489cc0c6b70f691e5
+SHA1: a1d837b114fb78787a7ebf86b0f2452989b9b2dc
+SHA256: a1d20c914416f9fc67fe163cdc9f32c27ce1796b69021da668818b0970672688
+Section: 系统增强
+Description: 插件注入调整
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy-插件调整
+
+Package: com.rootless.crane
+Version: 1.3.14-6
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.5), com.opa334.libsandy, com.hk.crane.cn.rl, com.opa334.libundirect (>= 1.1.4) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices, com.opa334.crane
+Filename: ./debs/系统增强/com.rootless.crane_1.3.14-6_iphoneos-arm64.deb
+Size: 570632
+MD5sum: 7247b4e67ca4bd7793a8d4c51b725297
+SHA1: 6846d8e7fe19ec615bb413d5f6a4312b7f0afe29
+SHA256: 45206f70b1a086d8aa3841889d4549f2c159d83ddb95709605a7754eff8693bd
+Section: 系统增强
+Description: 为应用程序提供多个容器，账号多开神器，支持推送。
+Author: opa334
+Name: Crane(rootless)
+
+Package: com.xiyan.arm
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: 夕颜
+Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2),libzstd1,oldabi,openssh-server,file,fakeroot,ldid,odcctools,zstd
+Filename: ./debs/系统增强/com.xiyan.arm_1.3_iphoneos-arm64.deb
+Size: 529844
+MD5sum: 0064b61786642dde4ad3d4309f8e32af
+SHA1: ca4e374d80c6543df7e8368ac5b8eaf393797df8
+SHA256: 214e13ef073660fdccea7417dda75f0f1b52870030736e0fde71ba6a9d2cdfb5
+Section: 系统增强
+Description: 有根插件转无根插件(成功后路径：var/mobile/.Derootifier）
+Author: 夕颜
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/icon/xy.png
+Name: 有根转无根插件-rootless
+Sileodepiction: DEROOTIFIER
+
 Package: com.xiyan.siriplus
 Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: 夕颜
 Installed-Size: 1744
 Depends: dev.theos.orion (>= 1.0.0), com.opa334.ccsupport, mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/com.xiyan.siriplus_1.3_iphoneos-arm64.deb
-Size: 272260
-MD5sum: 9bffe1e0897cbf36a00355570536b8b6
-SHA1: 16937298bf0e6fd6e09ea803f6b3bd8db82e93a1
-SHA256: dcabd5f73a4389969b1a2b52fb0b4299927248890dc74736d0b412553c34adbf
+Filename: ./debs/系统增强/com.xiyan.siriplus_1.3_iphoneos-arm64.deb
+Size: 272324
+MD5sum: 362898e6269e2162a9497853b1224b2e
+SHA1: 5e5659a23af8e6ea36f77f58132679507ccdc7c5
+SHA256: 8eb3d13294547cb7945fa34146564c059c67825ec5a6f714e4ec1c433a1f74ec
 Section: 系统增强
 Description: Siri接入ChatGPT/Gemini由夕颜购买提取免费使用（需自备api）支持iOS14.0-16.6.1
 Author: 夕颜
+Depiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/siriplus.json
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/icon/xy.png
 Name: SiriPlus-rootless
-Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/siriplus.json
 
 Package: com.zqbb.limitcharging
 Version: 1.0.1
@@ -621,6 +723,24 @@ Section: 微信插件
 Description: 微信插件锤子助手，就是微信净化换了个名字重现江湖，喜欢微信净化的用户可以试试此插件，可以防撤回，抢红包，转发语音等功能，自行体验！越狱因为分享更精彩！
 Author: DumpApp
 Name: 锤子助手-Rootless
+Sponsor: 夕颜
+
+Package: xiyan.choicy.zh-hans
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: 夕颜
+Depends: com.opa334.choicy
+Replaces: com.opa334.choicy
+Filename: ./debs/系统增强/xiyan.choicy.zh-hans_0.1.1_iphoneos-arm64.deb
+Size: 3720
+MD5sum: 9730304f1029263fa2218d9e0e549293
+SHA1: 35ffceeb0e3fa298a389dfe1a27085348e04a6a0
+SHA256: 8cdd4d568a09c543430a542b47278dae9819a4c9a5365fa8afa68fc9e445a64d
+Section: 系统增强
+Description: 为Choicy插件提供简体中文，基本上各个版本的choicy都可汉化、无法更新choicy请先更新完插件之后再安装汉化插件！
+Author: zhaonan
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/CydiaIcon.png
+Name: Choicy屏蔽越狱汉化插件-Rootless
 Sponsor: 夕颜
 
 Package: zp.stopautolaunchapps
