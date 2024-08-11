@@ -644,16 +644,15 @@ Maintainer: 夕颜
 Installed-Size: 1744
 Depends: dev.theos.orion (>= 1.0.0), com.opa334.ccsupport, mobilesubstrate, firmware (>= 13.0)
 Filename: ./debs/系统增强/com.xiyan.siriplus_1.3_iphoneos-arm64.deb
-Size: 271968
-MD5sum: 38e6bcb68cf48522907d56e22d6a6314
-SHA1: a4f0a49c0e119e4b3708914045f89efe732767f6
-SHA256: 2e2d7a1280b6adbb6858691da7c4b9f285516fbcf58edbdf45dc321fb1cf5267
+Size: 272512
+MD5sum: 5b4804c2df8d31d8e18b64a4bc20b28a
+SHA1: 5c4df0835c6531859319fe314b05d6b787284984
+SHA256: 1980cea7a5451098c530d7c4525d07825636f96ace556c73df1d8d310ca8cfff
 Section: 系统增强
-Description: Siri接入ChatGPT/Gemini由夕颜购买提取免费使用（需自备api）支持iOS14.0-16.6.1
 Author: 夕颜
-Depiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/siriplus描述.json
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/icon/xy.png
 Name: SiriPlus-rootless
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/siriplus描述.json
 
 Package: com.zqbb.limitcharging
 Version: 1.0.1
