@@ -5,7 +5,7 @@
     "banners": [{
         "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/Love.png",
         "title": "by夕颜",
-        "package": "DEROOTIFIER",
+        "package": "com.xiyan.siriplus",
         "hideShadow": false
     }]
 }
