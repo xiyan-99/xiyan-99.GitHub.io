@@ -731,11 +731,11 @@ Maintainer: zhaonan
 Depends: coreutils, sed, plutil, firmware (>> 14.0)
 Conflicts: mobilesubstrate (= 999)
 Filename: ./debs/开发&工具/com.xy.bindfs_0.5.2_iphoneos-arm64.deb
-Size: 13036
-MD5sum: 240e9481acbf86ac29d8a58833288e71
-SHA1: 8600f9badf88d5d4055b3e980c7173039c0c9bc6
-SHA256: 0bac76c843703c9c7ff8c10e3a8470a2aa3c0b057656a3692cfb8f07b969b724
-Section: 终端&工具
+Size: 13040
+MD5sum: 5901c064712f815e42a5d54ec2af0cf0
+SHA1: b7215527dc2869eb2d9664b5d19a15d35f32b3c2
+SHA256: 68e94eb88bb59b18768826dfa06f28c587121ad2ddcc393a96ce58b3671a4f6f
+Section: 终端&开发
 Description: 以 bindfs 挂载文件夹的 cli 工具支持系统15.0-16.5
 Author: zhaonan
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
@@ -794,62 +794,6 @@ Description: 微信插件锤子助手，就是微信净化换了个名字重现�
 Author: DumpApp
 Name: 锤子助手-Rootless
 Sponsor: 夕颜
-
-Package: git
-Version: 2.39.1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 29680
-Depends: libiosexec1 (>= 1.2.2), libcurl4, libssl3, libintl8, libpcre2-8-0, libidn2-0, firmware (>= 14.0) | libexpat1, pager
-Filename: ./debs/开发&工具/git_2.39.1_iphoneos-arm.deb
-Size: 5389940
-MD5sum: 4e2f71d88a51e64383ce5e2586c4f9a9
-SHA1: 150d47abccfc327715c46a31b52a1cf09d0b59c0
-SHA256: ae580c15625342e64832c70db2543c4a5ae0dae97ce11a7a6289a137b8fc7daa
-Section: 终端&开发
-Priority: optional
-Description: 快速，可扩展，分布式修订控制系统
- Git是流行版本控制系统，旨在处理非常大的
- 具有速度和效率的项目；它用于许多知名度
- 开源项目，最著名的是Linux内核。
- GIT属于分布式源代码管理工具的类别。
- 每个git工作目录都是一个完整的完整存储库
- 修订跟踪功能，不取决于网络访问或
- 中央服务器。
-
-Package: gitea
-Version: 1.18.5
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 92728
-Pre-Depends: system-cmds (>= 854.40.2-2)
-Depends: libiosexec1 (>= 1.2.2), git, libpam2
-Filename: ./debs/开发&工具/gitea_1.18.5_iphoneos-arm.deb
-Size: 29299744
-MD5sum: e26a1c67276fee9b375d599c03e90d49
-SHA1: 1a2e5ba5483b6efb0e6faee9874359a6dce0bb9e
-SHA256: f85bf84c98d8320286ccebf2f91d694c36b545405e13110c0c66b018726dabed
-Section: 终端&开发
-Priority: optional
-Homepage: https://gitea.com/
-Description: 无痛的自托GIT服务git
-
-Package: python3
-Version: 3.9.9-1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 16
-Depends: python3.9
-Filename: ./debs/开发&工具/python3_3.9.9-1_iphoneos-arm.deb
-Size: 5524
-MD5sum: 960d08ebcd5142511b7bc8e86e6a03cd
-SHA1: 3875f1cb2e596cbe5966836ab81a1816dd9a00d3
-SHA256: 52342df0789e4fc2479d73ab333af325f14a3221d2da1e6af65ccd9ac15c76c2
-Section: 终端&开发
-Priority: optional
-Description: 解释，交互式，面向对象的编程语言。
- 从命令行安装PIP可以使用`sudo python -m susepip`命令完成。
- 安装PIP后，在/usr/share/sdks中为您的平台放置一个SDK（例如/usr/share/sdks/iphoneos.sdk）
 
 Package: ws.xy.lizinewterm
 Version: 3.0
