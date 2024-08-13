@@ -345,6 +345,59 @@ Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135
 Name: PKC_rootless
 Sponsor: Curtin
 
+Package: com.nan.deb-filza-script-b
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Pre-Depends: com.tigisoftware.filza64bit | com.tigisoftware.filza
+Depends: com.nan.deb
+Filename: ./debs/开发&工具/com.nan.deb-filza-script-b_0.1.0_iphoneos-arm64.deb
+Size: 1180
+MD5sum: 5363079ac5fccbdbb10d8a6906fc1d27
+SHA1: c71276238678927d85ffbb16099197354dd91368
+SHA256: 005036974e9866113c19e631737c1400508c17f382016f163ad5f5c38158629b
+Section: 终端&开发
+Description: deb 扩展，Filza 脚本，打包 deb，打包有 deb 的目录
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Filza打包deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js_b.json
+
+Package: com.nan.dpkg-fill-daemon
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Pre-Depends: com.nan.dpkg-fill
+Conflicts: com.nan.dpkg-fill-triggers
+Filename: ./debs/开发&工具/com.nan.dpkg-fill-daemon_0.1.0_iphoneos-arm64.deb
+Size: 1936
+MD5sum: 0a6b8bc2371ba7065e6ad38dc9f81842
+SHA1: 35a84743d2aa16c4ab70b7abb7147da83ebec164
+SHA256: a61863c6a5c2de599af17dca03f21634149347908828b84b19e4426d57c437a5
+Section: 终端&开发
+Description: 一个自动触发器，可以被多数插件安装时触发，拉起 dpkg-fill 进行自动填充丢失的值
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: dpkg-fill daemon
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.dpkg-fill/js_daemon.json
+
+Package: com.nan.givemedeb
+Version: 0.2.1
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/开发&工具/com.nan.givemedeb_0.2.1_iphoneos-arm64.deb
+Size: 2488
+MD5sum: 775babe540d40bdcae633b7c4b8b7bc1
+SHA1: fc3b2351a04aa19279e461e95a9550f77704fa2a
+SHA256: 554420b55e293da567a22f277d4c7cb32735313b12d6e5274865b875eed532c0
+Section: 终端&开发
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
 Package: com.netskao.appdata
 Version: 1.4.2
 Architecture: iphoneos-arm64
@@ -620,6 +673,23 @@ Description: 为应用程序提供多个容器，账号多开神器，支持推�
 Author: opa334
 Name: Crane(rootless)
 
+Package: com.x.deb
+Version: 0.2.9
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, findutils, curl, zstd, xz-utils, bzip2, gzip
+Filename: ./debs/开发&工具/com.x.deb_0.2.9_iphoneos-arm64.deb
+Size: 5556
+MD5sum: 9c9e952619d837f840d4bd73d5cdc83d
+SHA1: 4c12d069c6a6e07cd8fd4e83f4d130804ec08480
+SHA256: b3a8bbeeb755a15df9e3151d3da45d2ff17a67f6f92b94ae62a5f77d36f64709
+Section: 终端&开发
+Description: deb 工具，普通解压，普通打包，批量解压，批量打包，提取已安装软件包，deb 信息查看
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js.json
+
 Package: com.xiyan.arm
 Version: 1.3
 Architecture: iphoneos-arm64
@@ -653,6 +723,23 @@ Author: 夕颜
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/icon/xy.png
 Name: SiriPlus-rootless
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/siri.json
+
+Package: com.xy.bindfs
+Version: 0.5.2
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/开发&工具/com.xy.bindfs_0.5.2_iphoneos-arm64.deb
+Size: 13036
+MD5sum: 240e9481acbf86ac29d8a58833288e71
+SHA1: 8600f9badf88d5d4055b3e980c7173039c0c9bc6
+SHA256: 0bac76c843703c9c7ff8c10e3a8470a2aa3c0b057656a3692cfb8f07b969b724
+Section: 终端&工具
+Description: 以 bindfs 挂载文件夹的 cli 工具支持系统15.0-16.5
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: mount_bindfs（挂载工具）
 
 Package: com.zqbb.limitcharging
 Version: 1.0.1
@@ -707,6 +794,97 @@ Description: 微信插件锤子助手，就是微信净化换了个名字重现�
 Author: DumpApp
 Name: 锤子助手-Rootless
 Sponsor: 夕颜
+
+Package: git
+Version: 2.39.1
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 29680
+Depends: libiosexec1 (>= 1.2.2), libcurl4, libssl3, libintl8, libpcre2-8-0, libidn2-0, firmware (>= 14.0) | libexpat1, pager
+Filename: ./debs/开发&工具/git_2.39.1_iphoneos-arm.deb
+Size: 5389940
+MD5sum: 4e2f71d88a51e64383ce5e2586c4f9a9
+SHA1: 150d47abccfc327715c46a31b52a1cf09d0b59c0
+SHA256: ae580c15625342e64832c70db2543c4a5ae0dae97ce11a7a6289a137b8fc7daa
+Section: 终端&开发
+Priority: optional
+Description: 快速，可扩展，分布式修订控制系统
+ Git是流行版本控制系统，旨在处理非常大的
+ 具有速度和效率的项目；它用于许多知名度
+ 开源项目，最著名的是Linux内核。
+ GIT属于分布式源代码管理工具的类别。
+ 每个git工作目录都是一个完整的完整存储库
+ 修订跟踪功能，不取决于网络访问或
+ 中央服务器。
+
+Package: gitea
+Version: 1.18.5
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 92728
+Pre-Depends: system-cmds (>= 854.40.2-2)
+Depends: libiosexec1 (>= 1.2.2), git, libpam2
+Filename: ./debs/开发&工具/gitea_1.18.5_iphoneos-arm.deb
+Size: 29299744
+MD5sum: e26a1c67276fee9b375d599c03e90d49
+SHA1: 1a2e5ba5483b6efb0e6faee9874359a6dce0bb9e
+SHA256: f85bf84c98d8320286ccebf2f91d694c36b545405e13110c0c66b018726dabed
+Section: 终端&开发
+Priority: optional
+Homepage: https://gitea.com/
+Description: 无痛的自托GIT服务git
+
+Package: python3
+Version: 3.9.9-1
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 16
+Depends: python3.9
+Filename: ./debs/开发&工具/python3_3.9.9-1_iphoneos-arm.deb
+Size: 5524
+MD5sum: 960d08ebcd5142511b7bc8e86e6a03cd
+SHA1: 3875f1cb2e596cbe5966836ab81a1816dd9a00d3
+SHA256: 52342df0789e4fc2479d73ab333af325f14a3221d2da1e6af65ccd9ac15c76c2
+Section: 终端&开发
+Priority: optional
+Description: 解释，交互式，面向对象的编程语言。
+ 从命令行安装PIP可以使用`sudo python -m susepip`命令完成。
+ 安装PIP后，在/usr/share/sdks中为您的平台放置一个SDK（例如/usr/share/sdks/iphoneos.sdk）
+
+Package: ws.xy.lizinewterm
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: 夕颜
+Installed-Size: 14899
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Filename: ./debs/开发&工具/ws.xy.lizinewterm_3.0_iphoneos-arm64.deb
+Size: 18542212
+MD5sum: 7e27c54d7be9a1492c560d4c470ee861
+SHA1: 859a561ef2a9cf763fad91d0664a2c3a42eaa8b7
+SHA256: e349d8d58d9483dabcf6005bafdb3343c29bbcdc38f959afef3d9301683ac8ea
+Section: 终端&开发
+Description: iOS上的终端newterm3中文版
+Tag: compatible_min::ios14.0
+Author: 夕颜
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: newterm3中文版
+
+Package: ws.xy.newterm3
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: 夕颜
+Installed-Size: 14899
+Filename: ./debs/开发&工具/ws.xy.newterm3_3.0_iphoneos-arm64.deb
+Size: 3839136
+MD5sum: 6d2bf784218e7f63c643773e815f1fc0
+SHA1: a003713645f8706ea17a6f6e10488c48d9a80a84
+SHA256: 13f4ba46e00a7e4aca0b0f37d5426fde605b960a49891b9af068e7b7d59bfa3b
+Section: 终端&开发
+Description: iOS上的终端
+Tag: compatible_min::ios14.0
+Author: 夕颜
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm3
 
 Package: xiyan.choicy.zh-hans
 Version: 0.1.1
