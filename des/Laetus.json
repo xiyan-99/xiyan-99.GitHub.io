@@ -10,8 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Laetus - 无限自定义iOS原生键盘，包括简单的背景颜色、色调和文本• 图片：作为背景显示• 图像：使用图像构建的主题提供完整的键盘主题体验。• HTML主题：使用 HTML/Javascript/CSS 构建的主题提供交互式甚至动画键盘主题• Widget Themes：使用 Objective-c 构建的主题，提供可由 iOS 开发人员提供的完整主题体验。对Laetus 构建主题感兴趣的人可以在此处查看文档：https://github.com/SparkDev97/LaetusDocumentation
-",
+                    "markdown": "Laetus - 无限自定义iOS原生键盘，包括简单的背景颜色、色调和文本• 图片：作为背景显示• 图像：使用图像构建的主题提供完整的键盘主题体验。• HTML主题：使用 HTML/Javascript/CSS 构建的主题提供交互式甚至动画键盘主题• Widget Themes：使用 Objective-c 构建的主题，提供可由 iOS 开发人员提供的完整主题体验。对Laetus 构建主题感兴趣的人可以在此处查看文档：https://github.com/SparkDev97/LaetusDocumentation",
                     "useSpacing": true
                 },
                 {
@@ -24,34 +23,86 @@
                             "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/键盘主题/清新.jpg"
                         },
                         {
-                            "accessibilityText": "Screenshot",
+                            "accessibilityText": "Screenshot2",
                             "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/键盘主题/Starfall.jpg"
                         },
                         {
-                            "accessibilityText": "Screenshot",
+                            "accessibilityText": "Screenshot2",
                             "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/键盘主题/Sens keyboard.jpg"
                         },
                         {
-                            "accessibilityText": "Screenshot",
+                            "accessibilityText": "Screenshot2",
                             "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/键盘主题/Latia.jpg"
                         },
                         {
-                        "accessibilityText": "Screenshot",
+                            "accessibilityText": "Screenshot2",
                             "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/键盘主题/Bebopkeys.jpg"
                         },
                         {
-                            "accessibilityText": "Screenshot",
+                            "accessibilityText": "Screenshot2",
+                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/键盘主题/Sens keyboard.jpg"
+            
+                        },
+                        {
+                            "accessibilityText": "Screenshot2",
                             "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/键盘主题/Cosmicglacier.JPG"
+
                         },
                         {
-                            "accessibilityText": "Screenshot",
+                            "accessibilityText": "Screenshot2",
                             "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/键盘主题/Butterfly.jpg"
+
                         },
                         {
-                            "accessibilityText": "Screenshot",
+                            "accessibilityText": "Screenshot2",
                             "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/键盘主题/Bigsur.jpg"
                         }
                     ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "夕颜",
+                    "title": "作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "3.5",
+                    "title": "最新版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "IOS15～16.6.1",
+                    "title": "支持系统范围"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 08 月 11 日",
+                    "title": "最后更新日期"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
                 }
             ]
         }
