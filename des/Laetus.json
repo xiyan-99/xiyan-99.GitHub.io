@@ -1,0 +1,55 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/Love.png",
+    "tintColor": "#FF4455",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Laetus - 无限自定义iOS原生键盘，包括简单的背景颜色、色调和文本• 图片：作为背景显示• 图像：使用图像构建的主题提供完整的键盘主题体验。• HTML主题：使用 HTML/Javascript/CSS 构建的主题提供交互式甚至动画键盘主题• Widget Themes：使用 Objective-c 构建的主题，提供可由 iOS 开发人员提供的完整主题体验。对Laetus 构建主题感兴趣的人可以在此处查看文档：https://github.com/SparkDev97/LaetusDocumentation
+",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 346.4533333333333}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/siriplusimg/siriplus-1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/siriplusimg/siriplus-2.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/siriplusimg/siriplus-3.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/siriplusimg/siriplus-4.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/siriplusimg/siriplus-5.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/siriplusimg/siriplus-6.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/siriplusimg/siriplus-7.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
