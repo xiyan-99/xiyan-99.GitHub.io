@@ -993,40 +993,6 @@ Name: Butterfly键盘主题
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Butterfly.json
 Sponsor: xy
 
-Package: x.CosmicGlacierRootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: xy
-Depends: x.laetus
-Filename: ./debs/键盘美化/x.CosmicGlacierRootless_1.0_iphoneos-arm64.deb
-Size: 1122616
-MD5sum: df0386181af950e2345776f7bc579a17
-SHA1: 04986f179a250c0360083a5105b52bc7176774ee
-SHA256: 7a524e8e19551d67a8b295015c4143db6db501b13bc34b30c8cb07c49f9425d4
-Section: 键盘美化
-Author: unknown
-Icon: https://chinesebuilding.club/pic/jp.png
-Name: CosmicGlacier键盘主题
-Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Cosmicglacier.json
-Sponsor: xy
-
-Package: x.LatiaRootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: xy
-Depends: x.laetus
-Filename: ./debs/键盘美化/x.LatiaRootless_1.0_iphoneos-arm64.deb
-Size: 73852
-MD5sum: d1789b61982632a89fdde9e2d3b36e81
-SHA1: b062179fdb2f6e08715eb8d7d30e2959068832e7
-SHA256: 78c0f7e6774aebd2d2e4d0f2b9157aa1373f6666c15e927b36164b16734d467b
-Section: 键盘美化
-Author: unknown
-Icon: https://chinesebuilding.club/pic/jp.png
-Name: Latia键盘主题
-Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Latia.json
-Sponsor: xy
-
 Package: x.SNESKEYBOARDRootless
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -1336,6 +1302,24 @@ Author: ichitaso
 Icon: https://
 Name: OTADisabler屏蔽系统更新-Rootless
 Sponsor: xy
+
+Package: x.qinxinjianpan
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: x.laetus
+Filename: ./debs/键盘美化/x.qinxinjianpan_1.deb
+Size: 417344
+MD5sum: e7b608845274c256914f00daeffa60fc
+SHA1: 2e7485b5d07b885bfc5a929918d9478b7642b30a
+SHA256: fa0e4c64deda67d350b8d481f6d6c0d0db5f1302fb8ea715ac7660ece91037d8
+Section: 键盘美化
+Description: Laetus加载的键盘主题。
+Author: x
+Icon: https://chinesebuilding.club/pic/jp.png
+Name: Qingxin键盘主题
+Sileodescription: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Qingxin.json
+Sponsor: x
 
 Package: x.settingsrevamp
 Version: 2.1.1
