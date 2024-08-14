@@ -959,16 +959,34 @@ Author: 夕颜
 Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Name: NewTerm3
 
+Package: x.Bebopkeys
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: xy
+Installed-Size: 1828
+Depends: x.laetus
+Filename: ./debs/键盘美化/x.Bebopkeys_1.1_iphoneos-arm64.deb
+Size: 835656
+MD5sum: 4abd317ed9be6131f1256c095efbc166
+SHA1: f31096ebd43781db49889e920eea45e8a2b2a034
+SHA256: 2714080c616985c18c08bde0867833e4e160832775aa670cc75e90bb17edbd2a
+Section: 键盘美化
+Author: Spark
+Icon: https://chinesebuilding.club/pic/jp.png
+Name: Bebopkeys键盘主题
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Bebopkeys.json
+Sponsor: xy
+
 Package: x.BigsurRootless
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: xy
 Depends: x.laetus
 Filename: ./debs/键盘美化/x.BigsurRootless_1.0_iphoneos-arm64.deb
-Size: 86412
-MD5sum: 21b5957c7a9564ffc09277dc72726f35
-SHA1: af43a98be4d003eed47f1d6f6379d51f93faa49f
-SHA256: 6f2facad042cd12c63a96a1ea87c0b4fd14f6c1601c0df2d87b78046a1baecb2
+Size: 86416
+MD5sum: fe5f31ef44a4f5dd738ac2a03c003af8
+SHA1: 5594ad51e4374a8f69b66ca8c386e5eee08bd7e1
+SHA256: 14c4b41fbb1bd40ff091f79bf4919b3fd65259c6290bafc1e259e335c66e3460
 Section: 键盘美化
 Author: xy
 Icon: https://chinesebuilding.club/pic/jp.png
@@ -983,11 +1001,11 @@ Maintainer: xy
 Depends: x.laetus
 Filename: ./debs/键盘美化/x.ButterflyThemeRootless_1.0_iphoneos-arm64.deb
 Size: 259780
-MD5sum: 5c9c5eaa749c032f7b38be2e5127828b
-SHA1: 55b5f8caa3c0d6e6cd6f9cbcdb2e425c70d8110d
-SHA256: 6f3feed5abebfd0344c4764bb2a4c5f3fec4d7b4b4429d1a0706cac8ee8856f4
+MD5sum: 066f76aa4808d0de51d3b7c6b94837a2
+SHA1: 439212740ad9baff8f9041612130739d6d61db8a
+SHA256: 55819b5d1b0fe88627c36b1b0b6b3959e38dc053ee1e533677d5e964fb9d1191
 Section: 键盘美化
-Author: @Angel4044
+Author: x
 Icon: https://chinesebuilding.club/pic/jp.png
 Name: Butterfly键盘主题
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Butterfly.json
@@ -1000,14 +1018,14 @@ Maintainer: xy
 Depends: x.laetus
 Filename: ./debs/键盘美化/x.SNESKEYBOARDRootless_1.1_iphoneos-arm64.deb
 Size: 18643548
-MD5sum: 811f1d0bad78147f889b885f19fd7f96
-SHA1: 6c9c503915d3613c94ebf461c1f2a024564a1e08
-SHA256: 75e845933aa6090214a84ce92c6678c7761be06cc456a13797fa579c994589a7
+MD5sum: 2a69b965a3f30a96e467fbf93f0e12b1
+SHA1: 18193bd9400664d8a23ddf4eca06d9b9c2deda9e
+SHA256: dad1d0535a2490b47e420bce8ae0ba69a1d4dc092d4e14369133f910cde627ff
 Section: 键盘美化
 Author: x
 Icon: https://chinesebuilding.club/pic/jp.png
-Name: SNES KEYBOARD键盘主题
-Sileodescription: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Sens keyboard.json
+Name: SNESKEYBOARD键盘主题
+Sileodescription: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Senskeyboard.json
 Sponsor: xy
 
 Package: x.StarfallThemeRootless
@@ -1016,10 +1034,10 @@ Architecture: iphoneos-arm64
 Maintainer: xy
 Depends: x.laetus
 Filename: ./debs/键盘美化/x.StarfallThemeRootless_1.0_iphoneos-arm64.deb
-Size: 17878404
-MD5sum: c10a5a1d4ed9af2694da161d3d2d196b
-SHA1: 2d57355b119d0b9c8aa8d24d277fb2b00606d42d
-SHA256: 9f2ec98044c56883043dbb26c3e28eb39b4c31946681dd6e9fc39557934ccf15
+Size: 17878376
+MD5sum: 3b98f2af2c3cecaa40bd3e8283a1764c
+SHA1: e753a03ec76d7eddde38e7e805b4587fadc5558f
+SHA256: 6937db88c0fabe3338b8054d9ceacca1f942ff29f06e3d6c3f0313b21dcbd187
 Section: 键盘美化
 Author: x
 Icon: https://chinesebuilding.club/pic/jp.png
@@ -1219,24 +1237,6 @@ Architecture: iphoneos-arm64
 Maintainer: xy
 Installed-Size: 1828
 Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
-Filename: ./debs/键盘美化/x.bebopkeysrootless.deb
-Size: 835104
-MD5sum: 81041f3f4e413f2b2d5f633226b32cec
-SHA1: 9d9b7885dde6005eaba2140eb6ec8618e3b791c0
-SHA256: 2010f5bf3806d0cd924516fa1430abcf514d7fd984eaed51846e5513dd523190
-Section: 键盘美化
-Author: Spark
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/CydiaIcon.png
-Name: Laetus键盘美化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Laetus.json
-Sponsor: xy
-
-Package: x.laetus
-Version: 3.5.1
-Architecture: iphoneos-arm64
-Maintainer: xy
-Installed-Size: 1828
-Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
 Filename: ./debs/键盘美化/x.laetus_3.5.1_iphoneos-arm64.deb
 Size: 835104
 MD5sum: e9bb6d1da98d9206d25d8fb0bd71a3b1
@@ -1308,13 +1308,12 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: x
 Depends: x.laetus
-Filename: ./debs/键盘美化/x.qinxinjianpan_1.deb
-Size: 417344
-MD5sum: e7b608845274c256914f00daeffa60fc
-SHA1: 2e7485b5d07b885bfc5a929918d9478b7642b30a
-SHA256: fa0e4c64deda67d350b8d481f6d6c0d0db5f1302fb8ea715ac7660ece91037d8
+Filename: ./debs/键盘美化/x.qinxinjianpan_1.0_iphoneos-arm64.deb
+Size: 417388
+MD5sum: 368c422f95fbe40c945b44c241bb7f16
+SHA1: b9389872e23ae42610690c485ba22a2fd059d51c
+SHA256: 477d71414882502549889c3d5f6494aa816dd4972e82b91e4d2a0b7216fa9117
 Section: 键盘美化
-Description: Laetus加载的键盘主题。
 Author: x
 Icon: https://chinesebuilding.club/pic/jp.png
 Name: Qingxin键盘主题
