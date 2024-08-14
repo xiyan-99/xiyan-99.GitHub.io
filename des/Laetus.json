@@ -16,6 +16,7 @@
                 {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
+                    "itemSize": "{160, 346}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
@@ -72,7 +73,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "3.5",
+                    "text": "3.5.1",
                     "title": "最新版本"
                 },
                 {

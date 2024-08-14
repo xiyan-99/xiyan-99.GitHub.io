@@ -16,11 +16,12 @@
                 {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
+                    "itemSize": "{160, 346}",
 
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/键盘主题/Butterfly.jpg"
+                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/键盘主题/Butterfly.PNG"
                         }
                     ]
                 },
