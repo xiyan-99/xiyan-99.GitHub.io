@@ -77,8 +77,8 @@
                     "class": "DepictionReviewView",
                     "title": "评论",
                     "author": "xiyan",
-                    "markdown": "nice. 5/5.",
-                    "rating": 3.5,
+                    "markdown": "nice. ",
+                    "rating": 5,
                     "tintColor": "#FF4455"
                 }
             ]
