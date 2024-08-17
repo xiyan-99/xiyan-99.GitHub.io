@@ -16,7 +16,7 @@
                 {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
-                    "itemSize": "{160, 346.4533333333333}",
+                    "itemSize": "{160, 346}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
@@ -24,7 +24,7 @@
                         },
                         {
                             "accessibilityText": "Screenshot2",
-                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/siriplusimg/siriplus-2.png"
+                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/siriplusimg/siriplus-2.PNG"
                         }
                     ]
                 },
@@ -72,6 +72,14 @@
                 {
                     "class": "DepictionSpacerView",
                     "spacing": 16
+                },
+                {
+                    "class": "DepictionReviewView",
+                    "title": "A review.",
+                    "author": "Shuga",
+                    "markdown": "I, Shuga, reviewed this. Red tint. 3.5/5.",
+                    "rating": 3.5,
+                    "tintColor": "#FF4455"
                 }
             ]
         }

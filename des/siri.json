@@ -72,6 +72,14 @@
                 {
                     "class": "DepictionSpacerView",
                     "spacing": 16
+                },
+                {
+                    "class": "DepictionReviewView",
+                    "title": "评论.",
+                    "author": "xiyan",
+                    "markdown": "I, nice. 4/5.",
+                    "rating": 3.5,
+                    "tintColor": "#FF4455"
                 }
             ]
         }
