@@ -1,54 +1,3 @@
-Package: x.SNESKEYBOARDRootless
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: xy
-Depends: x.laetus
-Filename: ./debs/x.SNESKEYBOARDRootless_1.1_iphoneos-arm64.deb
-Size: 18643548
-MD5sum: 4553853703f9211db300a005a665cb92
-SHA1: 89cc7b9f674eccae605748f22cc4910ce8c52905
-SHA256: 4a90677ec317c41cf306dfc6f2f308a2c25b2dabd5582f3fdbb3904698c7b608
-Section: 键盘美化
-Author: x
-Icon: https://chinesebuilding.club/pic/jp.png
-Name: SNESKEYBOARD键盘主题
-Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Senskeyboard.json
-Sponsor: xy
-
-Package: x.StarfallThemeRootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: xy
-Depends: x.laetus
-Filename: ./debs/x.StarfallThemeRootless_1.0_iphoneos-arm64.deb
-Size: 17878424
-MD5sum: ed4b0c63ee88be95d014ace4540659e3
-SHA1: eca5abc4200af1d43539f66b2b52c485f1091237
-SHA256: 4358cbfe59195c9afb7e46c87269021e7bfd38380aecbb331cdae80f2aa92eda
-Section: 键盘美化
-Author: x
-Icon: https://chinesebuilding.club/pic/jp.png
-Name: Starfall键盘主题
-Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Starfall.json
-Sponsor: xy
-
-Package: x.qinxinjianpan
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: x
-Depends: x.laetus
-Filename: ./debs/x.qinxinjianpan_1.0_iphoneos-arm64.deb
-Size: 417356
-MD5sum: 6691e51693deae7c9a689811b673bd1e
-SHA1: 8ac250ef7dc348ed3523f9d3ec3bb91e02a0691a
-SHA256: 4496a44eecba2c218253452be9df69f47737df2897c112895f9b6f5af8b30eed
-Section: 键盘美化
-Author: x
-Icon: https://chinesebuilding.club/pic/jp.png
-Name: Qingxin键盘主题
-Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Qingxin.json
-Sponsor: x
-
 Package: MisakaHelper
 Version: 2.0-8
 Architecture: iphoneos-arm64
@@ -69,6 +18,26 @@ Description: MisakaHelper
 Author: Misaka
 Name: MisakaHelper-Rootless
 
+Package: MisakaHelper
+Version: 2.1-0
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: Misaka
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Provides: MisakaHelper
+Filename: ./debs/微信插件/MisakaHelper_2.1-0_iphoneos-arm64.deb
+Size: 13147360
+MD5sum: 886423c790d1474006b3a913ee279e5c
+SHA1: 0690b4faf3d3599815694a079b02baf6f12afd34
+SHA256: 7c92821ee7f792646f21ad7149ce8174d0cc55413bcd5c12b2cd5b6b9b6b62de
+Section: 微信插件
+Priority: optional
+Description: MisakaHelper
+Author: Misaka
+Name: MisakaHelper-rootless
+
 Package: ThemePro
 Version: 2.9.3
 Architecture: iphoneos-arm64
@@ -88,6 +57,58 @@ Priority: optional
 Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
 Author: MustangYM
 Name: ThemePro-2.9.3-rootless
+
+Package: ThemePro
+Version: 3.0.8
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: MustangYM <MustangYM@yeah.net>
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Provides: ThemePro
+Filename: ./debs/微信插件/ThemePro_3.0.8_iphoneos-arm64.deb
+Size: 6279216
+MD5sum: 292727af740b32b7a4a5d988ada75234
+SHA1: 92c837f984ce44165a01b68d66c4ff6565f1b40d
+SHA256: 6336cda4e7a9363e9b0c8b7f62113629d016a4e3478431874e24e80352a63314
+Section: 微信插件
+Priority: optional
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Author: MustangYM
+Name: ThemePro-3.0.8-Rootless
+
+Package: bloom
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: firmware (>= 14.0), gzip, dev.theos.orion14, com.ginsu.comet
+Filename: ./debs/系统增强/bloom_1.0.2_iphoneos-arm64.deb
+Size: 1939096
+MD5sum: 6cc97d199a9c4335397f8bc77d84b8ab
+SHA1: d7f59d374cb2e0cc8d8dee7d5b06ad1a4e0f1418
+SHA256: e277ca91f73d801ff8d959f5915619bb957c0f7760ef6272639fc2eb530c736d
+Section: 系统增强
+Description: 漂亮的动画通知。CBZ破解
+Author: yan
+Icon: https://media.havoc.app/66146449f290ffddc2a3059a
+Name: Bloom
+
+Package: bluefinder
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), firmware (>= 11.0)
+Filename: ./debs/系统增强/bluefinder_1.1.3_iphoneos-arm64.deb
+Size: 222660
+MD5sum: 46b56f9d93d8c071bb90b5636bd47344
+SHA1: dece06bae7eae4f8ff6e03bfbf209c1b1d8c12e7
+SHA256: 3cf2dbd9e15fc063ba2eeaa6d7699c8409fd2be759bf02be15c9369b98a3b751
+Section: 系统增强
+Description: 使用蓝牙设备查找您的iPhone！
+Author: AnthoPak
+Icon: https://img.chariz.cloud/icon/bluefinder/icon@3x.png
+Name: BlueFinder
 
 Package: cn.llld.kbtool
 Version: 1.3.0-1
@@ -396,6 +417,43 @@ Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135
 Name: PKC_rootless
 Sponsor: Curtin
 
+Package: com.curtin.pkc.rootless
+Version: 0.5-6
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件/com.curtin.pkc.rootless_0.5-6_iphoneos-arm64.deb
+Size: 536344
+MD5sum: 627d378d26ebe02131708c817f0d7106
+SHA1: 201006567a80aa1d7b0646b7dbea9168583787d7
+SHA256: e60102800bb5af3ed30caaf6a1eb50f7dbdf931f16e4c9be5cfadb296711667b
+Section: 微信插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_rootless
+
+Package: com.ginsu.comet
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: Ginsu <njl02@outlook.com>
+Installed-Size: 2211
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/系统增强/com.ginsu.comet_1.0.5_iphoneos-arm64.deb
+Size: 228708
+MD5sum: 2fbac2acbaf83a54ab67b5e0f5831e83
+SHA1: 36ace39b596d7f1b3f53a4b849e4a286117743ff
+SHA256: 9d9d50264e5a47bf8a607e14ff8c9ba1f04f89f757b6f0d342c4dfbe11c097b7
+Section: 系统增强
+Description: A SwiftUI Prefs Framework
+Tag: compatible_min::ios14.0
+Author: Ginsu <njl02@outlook.com>
+Depiction: https://chariz.com/get/comet
+Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
+Name: Comet
+
 Package: com.lclrc.hammerit
 Version: 1.7.0
 Architecture: iphoneos-arm64
@@ -412,6 +470,41 @@ Description: 控制您的文字或按照您的意愿进行翻译。
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
+
+Package: com.lclrc.hidepullover
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/系统增强/com.lclrc.hidepullover_0.0.1_iphoneos-arm64.deb
+Size: 4496
+MD5sum: 9806ea99b29de34d148cbe64e12cfeae
+SHA1: 3ccde4c4407f5a8ed03320e321d662804a958236
+SHA256: d6ff46c255b2971f82c5aef5e305bcb1847953080ab5e18a3adf86470625e103
+Section: 系统增强
+Description: 1. 系统截屏时隐藏    2. 收起到最小时让它不那么显眼
+Author: SquidForce
+Name: HidePullOver 隐藏PullOver小把手
+
+Package: com.mtac.launchlogo
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 432
+Depends: firmware (>=14.0)
+Filename: ./debs/系统增强/com.mtac.launchlogo_1.0_iphoneos-arm64.deb
+Size: 32888
+MD5sum: 28dad2ca9d723a24b384d7c1de744756
+SHA1: 38b0908aeeb4b68664cbbbb76d1a238dfe38421a
+SHA256: 6d53e30a8ea4a5d8db6d8e7bb5c8924b410866d26ac295d6384aa5562500fff7
+Section: 系统增强
+Description: 仅在注销期间，苹果启动的logo自定义设置
+Tag: purpose::extension, role::developer
+Author: MTAC
+Icon: https://mtac.app/repo/assets/com.mtac.launchlogo/icon-rounded.png
+Name: LaunchLogo
+Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.launchlogo.json
 
 Package: com.nan.deb-filza-script-b
 Version: 0.1.0
@@ -1131,6 +1224,53 @@ Icon: https
 Name: 微信虚拟视频-Rootless
 Sponsor: 搬运工
 
+Package: com.pingfan.wechat
+Version: 2.2-1
+Architecture: iphoneos-arm64
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/微信插件/com.pingfan.wechat_2.2-1_iphoneos-arm64 (1).deb
+Size: 1664152
+MD5sum: 84e93075d35e32e600fda2ec7762ee10
+SHA1: 15303e618495b3f7e60753ae54951c40f378a209
+SHA256: 4d97844a1d26e79868026ba646b1c935f53a7abe7d9cd30f0320fff2aa875c5f
+Section: 微信插件
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
+Author: 平凡
+Name: 虚拟视频-rootless
+
+Package: com.pingfan.wechat
+Version: 2.2-1
+Architecture: iphoneos-arm64
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/微信插件/com.pingfan.wechat_2.2-1_iphoneos-arm64.deb
+Size: 1664152
+MD5sum: c19ba0b61d426db26b0f046f2b368b42
+SHA1: c71132ee4a403306884b5acf0942ae424bdc13ba
+SHA256: df080a3e1d0cee7d4db3a23b419a37ea4f90913bbac8b50b549f564019e806e8
+Section: 微信插件
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
+Author: 平凡
+Name: 虚拟视频-rootless
+
+Package: com.ps.smoothcursorios13
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 6.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: ./debs/系统增强/com.ps.smoothcursorios13_0.0.1_iphoneos-arm64.deb
+Size: 3096
+MD5sum: 726aaf49e2a8763f628c2db6600f9cfd
+SHA1: db7787a5fa8af04575fc0f09316f5d5f19d5394a
+SHA256: e11e55b98fe7b9d26eb736a5eac77a4a7b4dc1ed4db6b6be58c801c15d7088e3
+Section: 系统增强
+Description: Office 2013-styled cursor animation.
+Author: PoomSmart
+Name: SmoothCursor (iOS 13+)
+
 Package: com.rootless.crane
 Version: 1.3.14-6
 Architecture: iphoneos-arm64
@@ -1146,6 +1286,22 @@ Section: 系统增强
 Description: 为应用程序提供多个容器，账号多开神器，支持推送。
 Author: opa334
 Name: Crane(rootless)
+
+Package: com.sunshinesong.dynamic-notifier
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 812
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/系统增强/com.sunshinesong.dynamic-notifier_1.0.4_iphoneos-arm64.deb
+Size: 129944
+MD5sum: a836b99ecc3fd64c49864f8ca1f498f6
+SHA1: 5cbbacea47391a6f083dc36fc7330f8e49143d3c
+SHA256: 615358a22b63ef16b808fe14e85ffe19c36796765489bf0ebd695f225a45ad90
+Section: 系统增强
+Description: 灵动消息，就是这么简单。仅仅支持iOS16+ (14pro,14pro max)。only support above ios16.0(14pro and 14pro max)
+Author: sunshinesong
+Name: dynamic-notifier灵动岛通知
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.6
@@ -1837,6 +1993,23 @@ Priority: optional
 Homepage: https://gitea.com/
 Description: 无痛的自托管GIT服务git
 
+Package: lastlook
+Version: 4.2
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1742
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/系统增强/lastlook_4.2_iphoneos-arm64.deb
+Size: 451060
+MD5sum: 75249b75fc48426af759a7fe9b67b953
+SHA1: 17a3533b623df4b2a4281518a529e141aac12148
+SHA256: 96298bb3008a3b90447586102342da8a120b20140b27b25462e9b7c4a62e62ce
+Section: 系统增强
+Description: 一个AOD调整，锁屏调整，有无限的可能性！（由M哥添加简体中文汉化包）
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
+
 Package: python3
 Version: 3.9.9-1
 Architecture: iphoneos-arm64
@@ -1899,6 +2072,24 @@ Description: 通用型App屏蔽越狱检测插件
 Author: Avatar
 Name: 阿凡达
 Sponsor: Avatar
+
+Package: velvet2
+Version: 2.1.2
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 629
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: ./debs/系统增强/velvet2_2.1.2_iphoneos-arm64.deb
+Size: 95592
+MD5sum: 909c3e2d59ab19ae003763503711226b
+SHA1: 9d77e2966ef60c11ac5f1ce039c233837b02a1e8
+SHA256: 03ead1dba6e710e84117f5170e27713ba83d3ce1322ad8c0727e516446fc1ed7
+Section: 系统增强
+Description: 完全可定制的通知体验
+Author: NoisyFlake
+Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
+Name: Velvet 2
 
 Package: ws.xy.lizinewterm
 Version: 3.0
@@ -1987,6 +2178,57 @@ Name: Butterfly键盘主题
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Butterfly.json
 Sponsor: xy
 
+Package: x.SNESKEYBOARDRootless
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: xy
+Depends: x.laetus
+Filename: ./debs/键盘美化/x.SNESKEYBOARDRootless_1.1_iphoneos-arm64.deb
+Size: 18643548
+MD5sum: 4553853703f9211db300a005a665cb92
+SHA1: 89cc7b9f674eccae605748f22cc4910ce8c52905
+SHA256: 4a90677ec317c41cf306dfc6f2f308a2c25b2dabd5582f3fdbb3904698c7b608
+Section: 键盘美化
+Author: x
+Icon: https://chinesebuilding.club/pic/jp.png
+Name: SNESKEYBOARD键盘主题
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Senskeyboard.json
+Sponsor: xy
+
+Package: x.StarfallThemeRootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: xy
+Depends: x.laetus
+Filename: ./debs/键盘美化/x.StarfallThemeRootless_1.0_iphoneos-arm64.deb
+Size: 17878424
+MD5sum: ed4b0c63ee88be95d014ace4540659e3
+SHA1: eca5abc4200af1d43539f66b2b52c485f1091237
+SHA256: 4358cbfe59195c9afb7e46c87269021e7bfd38380aecbb331cdae80f2aa92eda
+Section: 键盘美化
+Author: x
+Icon: https://chinesebuilding.club/pic/jp.png
+Name: Starfall键盘主题
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Starfall.json
+Sponsor: xy
+
+Package: x.Videonoads
+Version: 2.1.2
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 356
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/软件增强/x.Videonoads_2.1.2_iphoneos-arm64.deb
+Size: 87256
+MD5sum: 0ac5f16666100f776140456a988a60ce
+SHA1: 3e87f9e213f7f7777f6543d8e6e5c43c7c2edc2f
+SHA256: 118c4cf2f3027d1ee8cff9a9e4cbc3d1c81a93d1a86fccda071be7ccf0464612
+Section: 软件增强
+Description: 腾讯视频、爱奇艺、优酷去广告
+Author: M哥
+Name: Video视频去广告-Rootless
+Sponsor: x
+
 Package: x.afc2d-arm64
 Version: 1.2.0
 Architecture: iphoneos-arm64
@@ -2027,6 +2269,23 @@ Icon: https://
 Name: AppTools-Rootless
 Sponsor: xy
 
+Package: x.awemefullscreen
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 108
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/软件增强/x.awemefullscreen_1.deb
+Size: 23864
+MD5sum: 93a7699b66937556b76be9f6f682cbb5
+SHA1: c64fd141182abc715ef44ea99edc8cd6c160d129
+SHA256: c52d7fea1d18480e50537b86ed2b48beaaae77ef9c0256dfb78d44c5f88dc671
+Section: 软件增强
+Description: Aweme Full Screen. Tested on version 29.8.0 only, Failures due to subsequent version updates will not be maintained.这是一款让抖音全屏显示的插件，仅在抖音29.8.0版本上测试可用，Netskao大神开发，
+Author: Netskao
+Name: 抖音全屏-Rootless
+Sponsor: x
+
 Package: x.axon.rootless
 Version: 2.1.3
 Architecture: iphoneos-arm64
@@ -2045,6 +2304,22 @@ Author: Nepeta & Baw Appie & Acreson
 Icon: https://
 Name: Axon美化通知-Rootles
 Sponsor: xy
+
+Package: x.baidunetdiskoutput-rootless
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: mobilesubstrate
+Filename: ./debs/软件增强/x.baidunetdiskoutput-rootless_1.0.1_iphoneos-arm64.deb
+Size: 142028
+MD5sum: 948e1d69aa1ce37d7c0cb8bfe04cdda4
+SHA1: 419e46592bc8899659aab28f4bf500869652377d
+SHA256: 1519aacf29a22dc8c0c397507659614487089d0fb792f3228f438b5e9e062b16
+Section: 软件增强
+Description: 缓存文件添加导出按钮。
+Author: lly
+Name: 百度网盘缓存文件导出-Rootless
+Sponsor: x
 
 Package: x.classicfolders3
 Version: 3.0.4.5
@@ -2099,6 +2374,24 @@ Icon: https://
 Name: DLEasy视频下载器-Rootless
 Sponsor: xy
 
+Package: x.dockcontroller
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 409
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.tomaszpoliszuk.colorpickerwell, com.chpwn.iconsupport | firmware (>= 13.0)
+Filename: ./debs/系统增强/x.dockcontroller_2.1_iphoneos-arm64.deb
+Size: 62536
+MD5sum: 7176bb59e299d5c87f3699be3b736457
+SHA1: 0e8cc6e96b2bb1d72d49e36a2fc483847ba4a7e8
+SHA256: fdded19041da18c24d276a4dcacab0b4bf09443358ea8c74934180d08585e963
+Section: 系统增强
+Description: Control Your Dock一款可以透明dock栏，添加多个图标到dock栏的插件，
+Tag: purpose::extension
+Author: Tomasz Poliszuk
+Name: Dock Controller-Rootless
+Sponsor: x
+
 Package: x.eneko
 Version: 1.4.2
 Architecture: iphoneos-arm64
@@ -2135,6 +2428,55 @@ Author: Skitty
 Icon: https://
 Name: Ersatz替换文字-Rootless
 Sponsor: xy
+
+Package: x.iapstorefugu-rootless
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/软件增强/x.iapstorefugu-rootless_0.0.deb
+Size: 41792
+MD5sum: a89cb1c4f82675b6958ca19a68cde36d
+SHA1: 5af02e80329296e7bb8c7ae05e4a66ae2b5548ea
+SHA256: 7c12d412dce0b3a638735795906cc2474e91e35a7bf657cac6e9cbab376828af
+Section: 软件增强
+Description: App Store需要付费的软件可以先试试此内购插件，弹窗付款点取消即可，不行那就是破解不了
+Author: lly
+Name: IAPStore内购破解-Rootless
+Sponsor: x
+
+Package: x.infuseplus
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: mobilesubstrate
+Conflicts: com.dvntm.infuseplus
+Filename: ./debs/软件增强/x.infuseplus_1.1.deb
+Size: 167528
+MD5sum: 685013291b26ef0e385d808477581b7e
+SHA1: bb2e57c858339e17d93925574ce062bf74c13d3b
+SHA256: ef1bbc2fdabc2ddf549902462ff81e7d40c9ec01e658f242988ba924e3bdc4d0
+Section: 软件增强
+Description: InfuseiOS应用程序的增强器，专业功能强制后台播放，双击播放/暂停手势，向前/向后搜索按钮的自定义搜索时间，自定义双击可跳过时间播放设置菜单中的播放速度。播放设置菜单中的音量增强，在通知中心自定义海报和名称，您可以在“设置”选项卡中找到 Infuse Plus 首选项具体功能
+Author: dvntm
+Name: Infuse Plus-Rootless
+Sponsor: x
+
+Package: x.instagramnoads-rootless
+Version: 1.3-5
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 556
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/软件增强/x.instagramnoads-rootless_1.3-5_iphoneos-arm64.deb
+Size: 136616
+MD5sum: 071474ee63d39a8c956e4918c1a453ca
+SHA1: cbbc37b62c93dbdebd14551c55dd8675c776b0f5
+SHA256: 27ed0f18ad352fe45075260163788f6e0721e12a7c10cba562fe528514bd9ecf
+Section: 软件增强
+Description: Instagram去广告
+Author: Netskao
+Name: Instagram去广告-Rootless
 
 Package: x.instalauncher2
 Version: 1.11.1
@@ -2245,6 +2587,73 @@ Icon: https://
 Name: OTADisabler屏蔽系统更新-Rootless
 Sponsor: xy
 
+Package: x.qinxinjianpan
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: x.laetus
+Filename: ./debs/键盘美化/x.qinxinjianpan_1.0_iphoneos-arm64.deb
+Size: 417356
+MD5sum: 6691e51693deae7c9a689811b673bd1e
+SHA1: 8ac250ef7dc348ed3523f9d3ec3bb91e02a0691a
+SHA256: 4496a44eecba2c218253452be9df69f47737df2897c112895f9b6f5af8b30eed
+Section: 键盘美化
+Author: x
+Icon: https://chinesebuilding.club/pic/jp.png
+Name: Qingxin键盘主题
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Qingxin.json
+Sponsor: x
+
+Package: x.qqmusicnoad.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/软件增强/x.qqmusicnoad.rootless_1.0.0_iphoneos-arm64.deb
+Size: 3104
+MD5sum: a58be8a0dc2c694ed7cba0a0862bf451
+SHA1: 0cb5097421a89f498fd9e9a4c6b00e67c3da1eb1
+SHA256: 652754e3c202e5831036c4478dd5199af8ec41d756dad5515edc9ed831165616
+Section: 软件增强
+Description: 去掉QQ音乐首页启动广告。
+Author: Snail
+Name: QQ音乐去广告-Rootless
+Sponsor: x
+
+Package: x.rootless.bhtwitter
+Version: 4.3.5
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/软件增强/x.rootless.bhtwitter_4.3.5_iphoneos-arm64.deb
+Size: 1065900
+MD5sum: ba0724f6576c3e54a9ec4c53c607e3ad
+SHA1: ad5745fb5bddde42a236fe76df7ae6deac3a8915
+SHA256: c605dcf1314ea32f39af75270b55bcc84b2b7aee34936e4f3edbaf49b08461aa
+Section: 软件增强
+Description: 去广告，视频下载，自定义设置，插件设置位于推特设置顶部
+Author: Bandar Alruwaili
+Name: BHTwitter推特优化-Rootless
+Sponsor: x
+
+Package: x.rootless.cc
+Version: 2.0.5.5
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless
+Filename: ./debs/软件增强/x.rootless.cc_2.0.5.5_iphoneos-arm64.deb
+Size: 508160
+MD5sum: 670890190e00140f616ee74c7d0b4944
+SHA1: 7718a9bdf5ddec80632e89f9af5f9856d62a8c20
+SHA256: d41ef5e1700651bb5335e964cef87f1c869b7a8a270d5dd9f593a6c8d15ae3d2
+Section: 系统增强
+Description: 集合的控制中心模块：定位、注销、设置、VPN等模块来自skypain。一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX等模块来自Netskao。实时CPU使用率模块来自SOPPPra。系统运行时间模块来自MTAC。感谢Skypain、Netskao、SOPPPra、MTAC等各位大佬
+Author: 妖刀
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: CCLess控制中心多模块-Rootless
+Sponsor: x
 
 Package: x.settingsrevamp
 Version: 2.1.1
@@ -2265,6 +2674,41 @@ Icon: https://
 Name: SettingsRevamp设置归类-Rootless
 Sponsor: xy
 
+Package: x.shortvideodl-rootless
+Version: 1.8.0
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 4848
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo
+Filename: ./debs/软件增强/x.shortvideodl-rootless_1.8.0_iphoneos-arm64.deb
+Size: 1334140
+MD5sum: 0fd0703ae81350fb0130c885220f0d1b
+SHA1: 0bb699990d94571b6e69441a35f3dfd80a5ee270
+SHA256: 42ee001c1c1100ffc40176a9e99f4a03962723221f34db56a2c90655cbaf136e
+Section: 软件增强
+Description: 支持抖音、快手、微视等无水印下载。微信公众号、视频号视频下载。
+Author: lenglengyu
+Name: 短视频助手-Rootless
+Sponsor: x
+
+Package: x.smartbattery
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: ws.hbang.common
+Conflicts: com.idevicelover.smartbattery2
+Filename: ./debs/系统增强/x.smartbattery_1.6_iphoneos-arm64.deb
+Size: 670440
+MD5sum: 7f01cf439ca3c42d4cdb1cc459677736
+SHA1: bd68653b347e428dd873cc0e4b34fa38f20f2085
+SHA256: 76fa9bfb17b528eeeb673601fbda17af595dd66cbbe129dae411916168c5db2a
+Section: 系统增强
+Description: 监控、节省和调整电池的终极调整。
+Author: elias
+Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
+Name: SmartBattery iOS 15 - 16
+
 Package: x.snapper3
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -2283,6 +2727,23 @@ Icon: https://
 Name: Snapper 3智能截图-Rootless
 Sponsor: xy
 
+Package: x.sogouinput.rootless
+Version: 0.1-2
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/软件增强/x.sogouinput.rootless_0.1-2_iphoneos-arm64.deb
+Size: 3344
+MD5sum: b259e039d18eb0506dc72ee982f452bf
+SHA1: 84202de24138036eac15659a8cfcd7aa014d8532
+SHA256: d74c34a173aabd07e611f496f5a01b835eafef38c51eac36a7ae6fc2ba54390b
+Section: 软件增强
+Description: 输入法皮肤内购破解，点击购买皮肤，出现弹窗时，取消即可
+Author: IOSign
+Name: 搜狗输入法内购破解-Rootless
+Sponsor: x
+
 Package: x.speedster
 Version: 2.1.1
 Architecture: iphoneos-arm64
@@ -2300,6 +2761,40 @@ Author: Hoangdus
 Icon: https://
 Name: Speedster系统动画加速-Rootless
 Sponsor: xy
+
+Package: x.stella
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 1032
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, firmware (>= 13.0), ws.hbang.common (>= 1.2)
+Filename: ./debs/系统增强/x.stella_1.0.4_iphoneos-arm64.deb
+Size: 664584
+MD5sum: 83d8b82197f4f4b2b3c117c9c125a087
+SHA1: 8b87dd3d06af56e922df264fa807c48a89e979c0
+SHA256: a60c5ac8d2808c9e56f8604f633a5488aefe1027e357c897c389b24bff5b3f5a
+Section: 系统增强
+Description: 桌面及锁屏増加落雪特效
+Author: yan
+Name: Stella落雪特效-Rootless
+Sponsor: x
+
+Package: x.surge-advanced
+Version: 0.5.6.0
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 428
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/软件增强/x.surge-advanced_0.5.6.0_iphoneos-arm64.deb
+Size: 125824
+MD5sum: 52c67ca1ab8b12ad0d1b9cae5019a1d3
+SHA1: 3b0bca149f7c762b2e32b1cf6d3d60f86381bcef
+SHA256: 1c83d9957892f89c5b95e34a06dc40a2f17c03bfcf102cee85c7219626007f3b
+Section: 软件增强
+Description: 美区安装surge，插件直接解锁会员！适配5.5.6以及下版本，无法破解可使用appdata插件降级APP
+Author: Pay NE
+Name: Surge破解-Rootless
+Sponsor: x
 
 Package: x.swipeunlocktext.rootless
 Version: 1.0.1
@@ -2337,6 +2832,23 @@ Icon: https://
 Name: Watched手表配对-Rootless
 Sponsor: 夕颜
 
+Package: x.wbb
+Version: 0.4-1
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/软件增强/x.wbb_0.4-1_iphoneos-arm64.deb
+Size: 18232
+MD5sum: f1ce24f8e79c489eb40f3c246b747985
+SHA1: 1911080c8c92d054ee627399ce01659ad4e5bad0
+SHA256: 7b705f4f1cc2cb4af055ccd45f9856eeecfc069a050bfa525e8256b2c0882954
+Section: 软件增强
+Description: 给微博加点小功能，去广告啥的，可注入 可越狱版，随意写的，设置排版要加的东西多*长按'我'页面的（创作中心）或者（浏览记录）（我的访问记录）的文字，弹出设置。。。来了老弟出品，必属精品。
+Author: 来了老弟
+Name: 微博优化-Rootless
+Sponsor: x
+
 Package: x.wechatnotiavatar
 Version: 1.2-5
 Architecture: iphoneos-arm64
@@ -2355,6 +2867,59 @@ Author: Netskao
 Icon: https://
 Name: 微信头像-Rootless
 Sponsor: 夕颜
+
+Package: x.youtubereborn
+Version: 4.1.5
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 24784
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, com.yourepo.jpet26.youtubetools1, com.justinpetkovic.youtubetools, com.johnzaro.perfectyoutube, com.ichitaso.youtubepatcher, com.yourepo.ikghd.youtubekiller, com.yourepo.ikghd.youtubekillers, com.sinfool.youtopia, com.google.ios.ytadblock, prasa.youtubeplus, com.unlimapps.ytpp, com.twickd.laki.raspberry, com.laki.raspberry, com.twickd.lazar.raspberry, 0xcc.woodfairy.noytads, weeb.lillie.enhancerforyoutubepremium, weeb.lillie.youtubepremiu
+Replaces: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, weeb.lillie.enhancerforyoutubepremium
+Provides: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, weeb.lillie.enhancerforyoutubepremium
+Filename: ./debs/软件增强/x.youtubereborn_4.1.5_iphoneos-arm64.deb
+Size: 9031620
+MD5sum: 6c2370fc12911d320d33131a2357802f
+SHA1: 6c3e6c319b889f117bed9c91c135c6ee4135003c
+SHA256: c5f5fb808ca2d8822d1f85da67875ebde98c0d8e5d3b65330b314c9af81a6409
+Section: 软件增强
+Description: YouTube Reborn 中文版，根据开源，刀刀直接编译的中文版。油管高级自定义插件，可去广告、下载、画中画、改布局等。
+Author: Lillie
+Name: YouTube增强-Rootless
+Sponsor: x
+
+Package: x.zfbb
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/软件增强/x.zfbb_1.2_iphoneos-arm64.deb
+Size: 18248
+MD5sum: 75634293b8c065b8edad80fcacb6e93c
+SHA1: 4e63a81fd5006955ee78f20b305a50a68e2881d1
+SHA256: 40cea1f48ce076a38ef4e9cb2c0094904da3b7584b2707c9cb5e134384287edf
+Section: 软件增强
+Description: 可注入可越狱使用。自定义步数，屏蔽越狱检测，移除理财，精简主页显示内容.***长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置***,支持任意版本。支付宝设置里冠梁视频，底部就居中了！
+Author: 来了老弟 X：h_h_x_t
+Name: 支付宝步数修改-Rootless
+Sponsor: x
+
+Package: x.zomigle
+Version: 0.1.0-beta1
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: firmware (>= 14.0)
+Filename: ./debs/系统增强/x.zomigle_0.1.0-beta1_iphoneos-arm64.deb
+Size: 16940
+MD5sum: b40ecad5cc5e55520945ae4a989b0b1d
+SHA1: ce470e979027cfff8746be7467b5e325ae5d71c5
+SHA256: 64ca3f87c0a2f701572f4f68039d9e54fdd426a204fac1409a8a884a7620ab0f
+Section: 系统增强
+Description: ZomigleApple Watch 配对神器。无需升级系统，低版本系统设备也可以配对高版本系统的手表。
+Author: HAHALOSAH
+Name: Zomigle手表配对-Rootless
+Sponsor: x
 
 Package: xiyan.choicy.zh-hans
 Version: 0.1.1
