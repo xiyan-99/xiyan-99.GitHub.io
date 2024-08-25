@@ -163,6 +163,24 @@ Author: 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
 Name: STTool-rootless
 
+Package: cn.llld.snapshottool
+Version: 1.0.0-2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 3736
+Depends: mobilesubstrate
+Filename: ./debs/Tweaks/cn.llld.snapshottool_1.0.0-2_iphoneos-arm64.deb
+Size: 937492
+MD5sum: d427a46ecd4370868548777167fe6881
+SHA1: afdb6b68b057434cd6b61966f35e629eceb62f47
+SHA256: c4cbefc739c9ce9246e976a9c7f48ff8846dcd15bc36dbaa79fd139cf2e2215e
+Section: 插件
+Description: ---对于应用软件的图片，（无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
+Name: STTool
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
 Package: cn.zqbb.disupdateapp
 Version: 1.0-2
 Architecture: iphoneos-arm64
@@ -315,6 +333,22 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.orzfolder
 Name: Hello Folder
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.orzfolder
 
+Package: com.0xkuj.backgrounderaction15autostate
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 384
+Depends: jp.akusio.backgrounderaction15, com.opa334.altlist
+Filename: ./debs/系统增强/com.0xkuj.backgrounderaction15autostate_1.0.3_iphoneos-arm64.deb
+Size: 25700
+MD5sum: 2277b970368ccc18f8278609f5bfca95
+SHA1: b29ef427774524183ce3101e956ef43be29ad9a3
+SHA256: eb18ec7971958bb3f6e47289723a4022a81d50ce278f5e6021b6de59b7eeb9a0
+Section: 系统增强
+Description: 保存BackgroundAction15真后台切换的操作状态，选择app自动真后台
+Author: 0xkuj
+Name: BackgrounderAction15自动真后台
+
 Package: com.25mao.doutu.rootless
 Version: 3.1-5
 Architecture: iphoneos-arm64
@@ -382,6 +416,22 @@ Description: 微信小程序助手
 Author: Mao
 Name: 微信小程序助手-Rootless
 Sponsor: mao
+
+Package: com.82flex.removewidgetbg
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 200
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/系统增强/com.82flex.removewidgetbg_0.0.4_iphoneos-arm64.deb
+Size: 8872
+MD5sum: fb6a52b284a011d1295c10fd00996845
+SHA1: 0d1c433b0d7f690fc6b491959e35bd71fda2ffe9
+SHA256: ae3071407cab0a069537f1a8e33237fb4ae3e4e50cf6a18ad3f49e9a42d576ea
+Section: 软件增强
+Description: 已适配系统自带小组件和 Top Widgets⁺ 小组件，移除小组件背景，让桌面更干净。
+Author: Lessica <82flex@gmail.com>
+Name: 移除小组件背景
 
 Package: com.HBWechatHelper.ailun
 Version: 1.7.3
@@ -453,6 +503,22 @@ Author: Ginsu <njl02@outlook.com>
 Depiction: https://chariz.com/get/comet
 Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
 Name: Comet
+
+Package: com.guozi.fuckads
+Version: 5.2.0
+Architecture: iphoneos-arm64
+Maintainer: 小果子
+Installed-Size: 2532
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/系统增强/com.guozi.fuckads_5.2.0_iphoneos-arm64.deb
+Size: 1093744
+MD5sum: 2f6c089f3f4812598623896e18d29935
+SHA1: db0f34a59c4ae9249dd9b9282d12ee022b4dc6cd
+SHA256: 1767a83db233f90c71d86ef699c2241bba8020965753cbe8295bfb0c83cdf968
+Section: 软件增强
+Description: 通用去广告插件,拿去看电影去吧,通杀大部分第三方广告
+Author: 小果子
+Name: 通用去广告-FuckAds
 
 Package: com.lclrc.hammerit
 Version: 1.7.0
@@ -1190,6 +1256,22 @@ Author: niceios
 Name: NiceLogX【Rootless】
 Sponsor: niceios
 
+Package: com.nil.WXHelper
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/微信插件/com.nil.WXHelper_0.1_iphoneos-arm64.deb
+Size: 9137156
+MD5sum: de7796a6272194689b5a981b5e8130b3
+SHA1: 8555af1fe92546412c1e4d475dcbc12015019388
+SHA256: ac44e25f30ea1ea1dbd7bb2d36fcc8d75c378e3cb41f8048cd4ac01da30e373f
+Section: 微信插件
+Priority: optional
+Description: chatgpt文字转语音
+Author: Lin
+Name: WXHelper-rootless
+
 Package: com.opa334.choicy
 Version: 1.4.9-3
 Architecture: iphoneos-arm64
@@ -1286,6 +1368,188 @@ Section: 系统增强
 Description: 为应用程序提供多个容器，账号多开神器，支持推送。
 Author: opa334
 Name: Crane(rootless)
+
+Package: com.spark.snowboard
+Version: 1.5.37-Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 3268
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/SnowBoard滑雪板/com.spark.snowboard_1.5.37-Beta4-rootless_iphoneos-arm64.deb
+Size: 1124280
+MD5sum: 33fa8445a45ec43ae171c6654f11854e
+SHA1: f4751cf889253469da297047b1b8e134ef0315e8
+SHA256: d72338ca38b72e558b152036b7ce4ddd40e5e5f60324350d3503f9cb9d3da04e
+Section: SnowBoard滑雪板
+Description: 滑雪板主题平台
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard滑雪板主题平台
+
+Package: com.spark.snowboard.dock
+Version: 1.1.3~Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 440
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoard滑雪板/com.spark.snowboard.dock_1.1.3~Beta4-rootless_iphoneos-arm64.deb
+Size: 31864
+MD5sum: 66932b92ba5e5a695aaf27334dc9c67e
+SHA1: 017329c53f431d074a32f60bccd8bbb11e6c3650
+SHA256: 78b94d653b4802017301d89513e5e4dcb16cff7b5cf4157e0ad1c090609975ea
+Section: SnowBoard滑雪板
+Description: Dock for SnowBoard
+Author: Spark
+Name: SnowBoard Dock Extension滑雪板dock扩展
+
+Package: com.spark.snowboard.effects
+Version: 1.2.2-Beta2-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 412
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoard滑雪板/com.spark.snowboard.effects_1.2.2-Beta2-rootless_iphoneos-arm64.deb
+Size: 32776
+MD5sum: 74d4d070c7fe2904df3af05c96fed409
+SHA1: 692a60d6674857e09cf3ef9be044af9959cb9326
+SHA256: a796091da09a9325589166d980626875c891e954a0db30cd767ad93c9c7ea7e9
+Section: SnowBoard滑雪板
+Description: Icon Effects for SnowBoard
+Author: Spark
+Name: SnowBoard图标效果扩展
+
+Package: com.spark.snowboard.fonts
+Version: 1.1.0~Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 392
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Conflicts: com.ipr.bytafont, com.bytafont.bytafont3
+Replaces: com.ipr.bytafont, com.bytafont.bytafont3
+Provides: com.ipr.bytafont, com.bytafont.bytafont3
+Filename: ./debs/SnowBoard滑雪板/com.spark.snowboard.fonts_1.1.0~Beta4-rootless_iphoneos-arm64.deb
+Size: 20464
+MD5sum: 68a65869719d2fa6f4b6dd9bf1bd4cb5
+SHA1: 0965d85b35f9b7bf6612d36c79dd6ad4086da7be
+SHA256: 23084822ad12a5a9e58c7e502ae84fa2f3a2edcac0f0353bf7480ff0efc931fd
+Section: SnowBoard滑雪板
+Description: Fonts for SnowBoard
+Author: Spark
+Name: SnowBoard 字体扩展
+
+Package: com.spark.snowboard.labels
+Version: 1.1.1~Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 432
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoard滑雪板/com.spark.snowboard.labels_1.1.1~Beta4-rootless_iphoneos-arm64.deb
+Size: 25424
+MD5sum: f2e295cddc0b8fa9d3ab64cc2839a8fd
+SHA1: a7fdb61c2be7ac169bba97ba7d2b3365823a6aa8
+SHA256: c039728f40884b50849146473d30d698bb38ff9b1e94c2c116b653d24d6fbe54
+Section: SnowBoard滑雪板
+Description: Labels for SnowBoard
+Author: Spark
+Name: SnowBoard 标签扩展
+
+Package: com.spark.snowboard.masks
+Version: 1.2.2-Beta2-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 340
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoard滑雪板/com.spark.snowboard.masks_1.2.2-Beta2-rootless_iphoneos-arm64.deb
+Size: 18784
+MD5sum: ebb2da70111718d3c598bad9c4a107a7
+SHA1: aeee6d06907fbb6358fa5739efd7c4543c3a650d
+SHA256: ebadb6126d61d4ef075e5c027f0dbc5c182e4645eb2b75f6e9a378bf52adf209
+Section: SnowBoard滑雪板
+Description: Icon masks for SnowBoard
+Author: Spark
+Name: SnowBoard 图标遮罩扩展
+
+Package: com.spark.snowboard.presetextension
+Version: 1.1.0~Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 488
+Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
+Filename: ./debs/SnowBoard滑雪板/com.spark.snowboard.presetextension_1.1.0~Beta4-rootless_iphoneos-arm64.deb
+Size: 43204
+MD5sum: 972da193c2e925045f7589038a7a47d1
+SHA1: eb455a4a8f0dac63b70128b6fb3fcb2e3d57ed1e
+SHA256: 86f3af6505d9fc9b0d7f1b67f37b2011a0bdb90424c8146c845c21ed303b2b97
+Section: SnowBoard滑雪板
+Description: SnowBoard Presets Extension
+Author: Spark
+Name: SnowBoard 预设扩展
+
+Package: com.spark.snowboard.settingsicons
+Version: 1.0.26~Beta3-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 340
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoard滑雪板/com.spark.snowboard.settingsicons_1.0.26~Beta3-rootless_iphoneos-arm64.deb
+Size: 17680
+MD5sum: 4c5c83948260e09616e17ae11201a14d
+SHA1: da98a2d90b1a0839dd03c9f6fae32ed4ed34cb3d
+SHA256: 1264a5468132c9fba6fb65d6a9ede6fb86bc57362b55095f3b336dc2d68e6ac4
+Section: SnowBoard滑雪板
+Description: Settings Icons for SnowBoard
+Author: Spark
+Name: SnowBoard 设置图标扩展
+
+Package: com.spark.snowboard.statusbar
+Version: 1.1.0-Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 364
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoard滑雪板/com.spark.snowboard.statusbar_1.1.0-Beta4-rootless_iphoneos-arm64.deb
+Size: 26876
+MD5sum: 3107d0619cca4011d0c1772bac67599f
+SHA1: 1ec7874eecf2d8f7cbebc86e38c3251fc054faef
+SHA256: eef2535d045a9e17cd038195da659d3245f0794f2e77da54703da60df6707dcd
+Section: SnowBoard滑雪板
+Description: StatusBar for SnowBoard
+Author: Spark
+Name: SnowBoard 状态栏扩展
+
+Package: com.spark.snowboard.ui
+Version: 1.3.0~Beta2-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 476
+Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
+Filename: ./debs/SnowBoard滑雪板/com.spark.snowboard.ui_1.3.0~Beta2-rootless_iphoneos-arm64.deb
+Size: 65408
+MD5sum: a8b946aa9e345434aa50c5cb7ee5bdf2
+SHA1: 01a26e4c1f2de6782a023ca80d5c56d94c7a507b
+SHA256: 9d4f75bb5224618a9d96ce7e9d04c6e431ff4332a5063e6ac043ed16180adbaf
+Section: SnowBoard滑雪板
+Description: UI Extension for SnowBoard
+Author: Spark
+Name: SnowBoard UI扩展
+
+Package: com.spark.snowboardapplication
+Version: 1.1.0~Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 992
+Depends: com.spark.snowboard
+Filename: ./debs/SnowBoard滑雪板/com.spark.snowboardapplication_1.1.0~Beta4-rootless_iphoneos-arm64.deb
+Size: 608076
+MD5sum: 1e82bcfaedb2a0c7791d9445ea418dde
+SHA1: b1440c5e177d5de0d7693326ca5e044e1aa8360b
+SHA256: cb15cc972a514f956383b6cb705e20b1db1e8b41b5e7a40a58d4cbc8f1fb522b
+Section: SnowBoard滑雪板
+Description: SnowBoard滑雪板app
+Author: Spark
+Name: SnowBoard滑雪板app
 
 Package: com.sunshinesong.dynamic-notifier
 Version: 1.0.4
@@ -1993,6 +2257,22 @@ Priority: optional
 Homepage: https://gitea.com/
 Description: 无痛的自托管GIT服务git
 
+Package: jp.akusio.backgrounderaction15
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: @akusio_RR
+Installed-Size: 340
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/系统增强/jp.akusio.backgrounderaction15_0.1.0_iphoneos-arm64.deb
+Size: 9868
+MD5sum: 687af5db40457a18b4b46245bcae22da
+SHA1: a206266744c390660a81d351ad0141d7a0063b9a
+SHA256: 45034a53adea236aa38bb948e25371330d47a37fd42a3f228c3c31cf4b952995
+Section: 系统增强
+Description: 在控制中心中添加当前app“真后台”操作。
+Author: @akusio_RR
+Name: BackgrounderAction15真后台
+
 Package: lastlook
 Version: 4.2
 Architecture: iphoneos-arm64
@@ -2090,6 +2370,22 @@ Description: 完全可定制的通知体验
 Author: NoisyFlake
 Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
 Name: Velvet 2
+
+Package: wiki.qaq.writenow
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 14244
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/系统增强/wiki.qaq.writenow_1.4_iphoneos-arm64.deb
+Size: 3108608
+MD5sum: 05babb4ceca8a3c6e94b542d1697f55a
+SHA1: 8df7ab6085ca8e19c97cbf0744861a150d413cd7
+SHA256: 569f76bb0fca999c2798619ade01dc781364eccac7b81066eb5406c23b61766e
+Section: 软件增强
+Description: AI写作工具
+Author: Lessica <82flex@gmail.com>
+Name: Write Now妙写
 
 Package: ws.xy.lizinewterm
 Version: 3.0
@@ -2643,15 +2939,14 @@ Architecture: iphoneos-arm64
 Maintainer: x
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless
-Filename: ./debs/软件增强/x.rootless.cc_2.0.5.5_iphoneos-arm64.deb
-Size: 508160
-MD5sum: 670890190e00140f616ee74c7d0b4944
-SHA1: 7718a9bdf5ddec80632e89f9af5f9856d62a8c20
-SHA256: d41ef5e1700651bb5335e964cef87f1c869b7a8a270d5dd9f593a6c8d15ae3d2
+Filename: ./debs/系统增强/x.rootless.cc_2.0.5.5_iphoneos-arm64.deb
+Size: 507592
+MD5sum: 67ba5312b1618263763347fbfec2e12a
+SHA1: b34f4b8bd244027de80ce7ca1d0e0daac48fa395
+SHA256: f26bdae43f18fc66911b85ebed637c3efedc83197f8b2508d31dbe8d389f24e7
 Section: 系统增强
 Description: 集合的控制中心模块：定位、注销、设置、VPN等模块来自skypain。一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX等模块来自Netskao。实时CPU使用率模块来自SOPPPra。系统运行时间模块来自MTAC。感谢Skypain、Netskao、SOPPPra、MTAC等各位大佬
 Author: 妖刀
-Icon: https://chinesebuilding.club/pic/cydia.png
 Name: CCLess控制中心多模块-Rootless
 Sponsor: x
 
