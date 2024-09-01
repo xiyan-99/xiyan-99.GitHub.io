@@ -1,3 +1,23 @@
+Package: ApibugTextToVoice
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: <apibug6@gmail.com>
+Depends: mobilesubstrate
+Conflicts: ApibugTextToVoice
+Replaces: ApibugTextToVoice
+Provides: ApibugTextToVoice
+Filename: ./debs/微信插件/ApibugTextToVoice_1.0.5_iphoneos-arm64.deb
+Size: 168680
+MD5sum: 103709091589cf1187f4e72af16cacaf
+SHA1: 7dcc676959ce007b53fedfdf1bd16efa129826a2
+SHA256: f5e617490e9272b8b2372782f4611415a40698a7d1cf44846874c4fc6257cbf3
+Section: 微信插件
+Priority: optional
+Description: Apibug微信文字转语音插件
+Author: x
+Name: Apibug微信文字转语音
+
 Package: MisakaHelper
 Version: 2.0-8
 Architecture: iphoneos-arm64
@@ -17,6 +37,26 @@ Priority: optional
 Description: MisakaHelper
 Author: Misaka
 Name: MisakaHelper-Rootless
+
+Package: MisakaHelper
+Version: 2.1-0
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: Misaka
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Provides: MisakaHelper
+Filename: ./debs/微信插件/MisakaHelper_2.1-0_iphoneos-arm64 (1).deb
+Size: 13178040
+MD5sum: f27425b638b85b92453d59910ebe64ff
+SHA1: 032945e2ffa8ed6abcea7d04580a1060ce64a194
+SHA256: fe127d60bb8045a93a7bd636476efee1a0340bc93de53f962574a5e7325b7e0c
+Section: 微信插件
+Priority: optional
+Description: MisakaHelper
+Author: Misaka
+Name: MisakaHelper_END-rootless
 
 Package: MisakaHelper
 Version: 2.1-0
@@ -127,6 +167,41 @@ Author: 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
 Name: Panel-Tools-rootless
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.kbtool
+Version: 1.6.1-1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 11068
+Depends: mobilesubstrate
+Filename: ./debs/Tweaks/cn.llld.kbtool_1.6.1-1_iphoneos-arm64.deb
+Size: 3309464
+MD5sum: ee2aab3d35feed8341ffb4630cc4c8ac
+SHA1: a1f91466cb297b41b76f501f15f3499a811635b4
+SHA256: 55d7f60c56930fd5524bdc0a409bf5896745119176ab652c0d2d8d2c2572a6ac
+Section: 插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: Panel-Tools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.pts
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/Tweaks/cn.llld.pts_0.1_iphoneos-arm64.deb
+Size: 10580
+MD5sum: a593499b78be83490f64fd935ea99031
+SHA1: 87737e0d83147df6ef23e40ba9cdc579043f5cb8
+SHA256: 1ce36a228ed2a61df9446a51f52a49f1372d149f19a167afd4daf6c622d5c367
+Section: 插件
+Description: 可注入可越狱使用，免费。补充iOS原生的不足，给多个网页类型的应用（比如：各种浏览器，Copilot等），在原工具栏的基础上增加功能按钮(撤销，重做，全选，复制，粘贴，剪切板，换行)，顺便也解决我个人插件PT没有对这方面的行为处理.
+Author: 来了老弟
+Name: PTs
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.pts/pts.json
 
 Package: cn.llld.qsyy
 Version: 2.2.2-5
@@ -314,6 +389,25 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 Name: Hello CPU
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
 
+Package: cn.zqbb.holdcpu
+Version: 2.1.0-6
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 2172
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: ./debs/Tweaks/cn.zqbb.holdcpu_2.1.0-6_iphoneos-arm64.deb
+Size: 546392
+MD5sum: 72b7b114fb7c65f5e085b36562dddb1f
+SHA1: 42caf5f5287212dc9679800723a940d4eb1116ec
+SHA256: d36d8a60201d4b5acc612ae9b7967eab1f5b7dba6ee38ff4eb6ed34ac536db87
+Section: 插件
+Description: (解除温控) (锁定低电量CPU频率)
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+Name: Hello CPU
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
 Package: cn.zqbb.orzfolder
 Version: 1.1.5-29
 Architecture: iphoneos-arm64
@@ -383,6 +477,23 @@ Author: Mao
 Name: 微信助手-Rootless
 Sponsor: mao
 
+Package: com.25mao.msgfilt.rootless
+Version: 1.0-5.1
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件/com.25mao.msgfilt.rootless_1.0-5.1_iphoneos-arm64.deb
+Size: 122200
+MD5sum: 9c553dd9ff694279a09bbbfe4d39e93e
+SHA1: f7b8e811ae92a53e8ebc004d2d11e7123ba9d795
+SHA256: 67c5217696ce73dcad25bb3a9186b076789b29d9eddadc189ec55803bb378463
+Section: 微信插件
+Priority: optional
+Description: 消息屏蔽助手
+Author: Mao
+Name: 消息屏蔽助手-Rootless
+Sponsor: admin@25mao.com
+
 Package: com.25mao.wcplugins.rootless
 Version: 0.1-3
 Architecture: iphoneos-arm64
@@ -448,6 +559,21 @@ Description: 黄白助手-微信插件                                          
 Author: 黄白
 Name: 黄白助手-rootless
 
+Package: com.HBWechatHelper.ailun
+Version: 1.7.4
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/微信插件/com.HBWechatHelper.ailun_1.7.4_iphoneos-arm64.deb
+Size: 9273568
+MD5sum: 6e5d2082b9f31df78089cda5209a49cc
+SHA1: 3eb66c5b9483f4658fd584055064f1d543f78560
+SHA256: 189cab70b103ee0cf11c478597735e53ea55d196b88bb27dd64b9e94cf07513d
+Section: 微信助手
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手-Rootless
+
 Package: com.curtin.pkc.rootless
 Version: 0.5-5
 Architecture: iphoneos-arm64
@@ -484,6 +610,56 @@ Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、�
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_rootless
+
+Package: com.curtin.pkc.rootless
+Version: 0.5-8
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件/com.curtin.pkc.rootless_0.5-8_iphoneos-arm64.deb
+Size: 548064
+MD5sum: 254802f1c391dad545d7944e2802c6f5
+SHA1: 679adea60a79445a21ca3eed609acaabbb6d9b8e
+SHA256: fe5027afaab6346eab81073df5c203e740c2bee98b7e18165b81205fd74dfc6b
+Section: 微信插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
+
+Package: com.dao.bigshotsnapper3plugin
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Jonathan Winger-lang
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
+Filename: ./debs/系统增强/com.dao.bigshotsnapper3plugin_1.1_iphoneos-arm64.deb
+Size: 19232
+MD5sum: bc5338fdf53985f2633fc057f04d96d5
+SHA1: 3d21e9db50fdf22a02d9ab8a6532e7832803f03a
+SHA256: 29babcd25bab37223bf69740c034cf87ff2492f8c72d3434985ab920fc9d2798
+Section: 系统增强
+Description: 支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用(没提示)。
+Author: Jonathan Winger-lang
+Name: BigShot 长截图(rootless)
+
+Package: com.edge.siri
+Version: 3.1.1-9
+Architecture: iphoneos-arm64
+Maintainer: tangerine
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/系统增强/com.edge.siri_3.1.1-9_iphoneos-arm64.deb
+Size: 15200
+MD5sum: a024620f7de54c1e1b980f57e4fcfeae
+SHA1: c594d95c818033872dd36eaa5ee67851bd88e3f2
+SHA256: 6b635baebc4d8b1b9a6fa9f7792d6ed636882ee7f7b8371217cbe8b00d501a36
+Section: 系统增强
+Description: 模仿iOS18唤醒Siri边框效果，无设置项。安装即生效-----EdgeSiri是一款为 iOS设计的越狱插件，它能够在 Siri 激活时在屏幕周围显示彩色边框。这个边框不仅增加了视觉吸引力，还能在 Siri 被使用时提供更加直观的反馈。
+Author: tangerine
+Name: EdgeSiri-rootless
 
 Package: com.ginsu.comet
 Version: 1.0.5
@@ -571,6 +747,22 @@ Author: MTAC
 Icon: https://mtac.app/repo/assets/com.mtac.launchlogo/icon-rounded.png
 Name: LaunchLogo
 Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.launchlogo.json
+
+Package: com.nahtedetihw.airpodscompanion
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 10668
+Depends: preferenceloader
+Filename: ./debs/系统增强/com.nahtedetihw.airpodscompanion_1.4_iphoneos-arm64.deb
+Size: 10258972
+MD5sum: a79c43a3f2f938f9a91bf6b54a6c050b
+SHA1: 14e7bf72d7a943f4713da1ec0229e60e2ca6e3ac
+SHA256: a1620f86d66a694f6d94efce706c86439226f33d09c58da26114da38a3691838
+Section: 系统增强
+Description: AirPods音量滑块旁边的浮动噪音消除控制
+Author: Ethan Whited
+Name: AirpodsCompanion
 
 Package: com.nan.deb-filza-script-b
 Version: 0.1.0
@@ -1272,6 +1464,37 @@ Description: chatgpt文字转语音
 Author: Lin
 Name: WXHelper-rootless
 
+Package: com.niming
+Version: 0.1-1+debug
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: ./debs/微信插件/com.niming_0.1-1+debug_iphoneos-arm64.deb
+Size: 5472
+MD5sum: 4cfe3c90804b04b80780011e3f1af9a4
+SHA1: 3236e4392e0b728d52074e478a912589a163fdb8
+SHA256: 21bfb0358abf2f5db355be5e896403168fd1c799d3120954c35298a2ad865114
+Description: misaka去除匿名艾特3次限制，注入即生效，没有任何设置。
+Author: x
+Name: 匿名艾特Carck
+
+Package: com.nygard.class-dump-ios
+Version: 0.0.1-7
+Architecture: iphoneos-arm64
+Maintainer: DreamDevLost
+Installed-Size: 1592
+Filename: ./debs/开发&工具/com.nygard.class-dump-ios_0.0.1-7_iphoneos-arm64.deb
+Size: 347960
+MD5sum: bb5e9b270945ce46b0d61c69369213a8
+SHA1: d5a114f260e15f90f2f7f0490245ee9b840123b9
+SHA256: 6b5601130330249ec9a2161f18305953b382bd389f054c59891050c9cc79f2ec
+Section: 终端&开发
+Description: ClassDump适配ios版本头文件命令classdumpios -H /path/ -o /path) -H 后面是Math-O文件路径，-o后面是提取头文件的路径
+Tag: role::hacker
+Author: DreamDevLost
+Name: class-dump-ios-rootless
+
 Package: com.opa334.choicy
 Version: 1.4.9-3
 Architecture: iphoneos-arm64
@@ -1395,14 +1618,14 @@ Maintainer: Spark
 Installed-Size: 440
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
 Filename: ./debs/SnowBoard滑雪板/com.spark.snowboard.dock_1.1.3~Beta4-rootless_iphoneos-arm64.deb
-Size: 31864
-MD5sum: 66932b92ba5e5a695aaf27334dc9c67e
-SHA1: 017329c53f431d074a32f60bccd8bbb11e6c3650
-SHA256: 78b94d653b4802017301d89513e5e4dcb16cff7b5cf4157e0ad1c090609975ea
+Size: 32016
+MD5sum: 702e9b447d146b6cba9d8e59b5e3ed47
+SHA1: 75bf655e593f7df052c833d78bc99e01ecfd8916
+SHA256: 340e089d5a0f75d675dfe47a0346139988d1bd5ffddecb4f00bb743468c4acd3
 Section: SnowBoard滑雪板
 Description: Dock for SnowBoard
 Author: Spark
-Name: SnowBoard Dock Extension滑雪板dock扩展
+Name: SnowBoard滑雪板dock扩展
 
 Package: com.spark.snowboard.effects
 Version: 1.2.2-Beta2-rootless
@@ -1583,6 +1806,39 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
+
+Package: com.tigisoftware.appdatamanager
+Version: 1.8.2-4
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 5236
+Recommends: ldid
+Filename: ./debs/Tools/com.tigisoftware.appdatamanager_1.8.2-4_iphoneos-arm64.deb
+Size: 1448868
+MD5sum: f11902bc8cec6d1168a1c9e6f4b27ecc
+SHA1: cde3ae045238ceccdfc11ea6bc3c5fa7ca96da99
+SHA256: a90b551cb82ca6d88442fcddd8f895238b383a3f0abea87b4600328abe68aa2e
+Section: Tools
+Description: 此工具为已安装的应用程序提供了清除、备份、恢复app数据的方法
+Author: TIGI Software
+Name: Apps Manager
+
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 23200
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/Tools/com.tigisoftware.filza64bit_4.0.1-4_iphoneos-arm64.deb
+Size: 6972480
+MD5sum: 7dfd27ab820e96aa39acbc41c19daa3f
+SHA1: f2b15e5b40d77b9fe43ca6f13ea97ddbcd995f7d
+SHA256: bff9d47a9fc29e6feffb2335bb60f3c1bf58ae59d3c0feaa2a3ae512d4df463e
+Section: Tools
+Description: iPhone、iPad、iPod Touch的文件管理器。支持iOS 11+。此版本仅支持64位设备
+Author: TIGI Software
+Name: Filza 文件管理器 64-bit
 
 Package: com.x.deb
 Version: 0.2.9
@@ -2290,6 +2546,42 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
 Name: LastLook
 
+Package: lz4
+Version: 1.9.4
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 236
+Depends: libiosexec1 (>= 1.3.1), liblz4-1 (= 1.9.4)
+Filename: ./debs/开发&工具/lz4_1.9.4_iphoneos-arm64.deb
+Size: 70864
+MD5sum: 1870b61c989128b76801521876d2974b
+SHA1: 6cd0b7d8aa5a32b445360443c317057e9b5ac16c
+SHA256: 4818e1750bce15277d18ed442d64aacf603805de6d4fbf32fbc9d43408eea0ca
+Section: 终端&开发
+Priority: important
+Multi-Arch: foreign
+Homepage: http://tukaani.org/lzma/
+Description: 快速LZ压缩算法库-工具
+
+Package: netskao.wcpureextension-rootless
+Version: 4.2-6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 19660
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: netskao.wechatpurification-rootless
+Replaces: netskao.wechatpurification-rootless
+Provides: netskao.wechatpurification-rootless
+Filename: ./debs/微信插件/netskao.wcpureextension-rootless_4.2-6_iphoneos-arm64.deb
+Size: 7322044
+MD5sum: 857a4afa9d8cd412bfc53abd3e1d95c3
+SHA1: 44d9c4d039e30821a4a938d643e3bc6ce64d9b8b
+SHA256: d1f8267a047b5297a17a914797220f3baf2089876d1b446ed0e06ae5cf9eeaea
+Section: 微信插件
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Author: Netskao
+Name: 微信净化-Rootless
+
 Package: python3
 Version: 3.9.9-1
 Architecture: iphoneos-arm64
@@ -2371,6 +2663,42 @@ Author: NoisyFlake
 Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
 Name: Velvet 2
 
+Package: wiki.qaq.chromatic.rootless
+Version: 3.0-rootless-release-1724982255.ec2e0f1
+Architecture: iphoneos-arm64
+Maintainer: Saily Team <support.0xa1@qaq.wiki>
+Pre-Depends: firmware (>= 13.0), dpkg, uikittools
+Conflicts: wiki.qaq.chromatic
+Filename: ./debs/Tweaks/wiki.qaq.chromatic.rootless_3.0-rootless-release-1724982255.ec2e0f1_iphoneos-arm64.deb
+Size: 3400268
+MD5sum: bd6cf584b960d9204ce0e045101f6e5f
+SHA1: db5b69b5f2429ce27c74bbde782d33daa40dface
+SHA256: 64a0820d80aa04566415823d0e8dfdf2089162d6e47d819f073c9e4fb68e2ede
+Section: 附加
+Homepage: https://sailyteam.github.io/Saily/index.html
+Description: Saily越狱包管理器
+Author: Saily Team <support.0xa1@qaq.wiki>
+Depiction: https://sailyteam.github.io/Saily/index.html
+Icon: https://sailyteam.github.io/Saily/Resources/icon.png
+Name: Saily (Rootless)
+Website: https://sailyteam.github.io/Saily/index.html
+
+Package: wiki.qaq.colorfulwallpaperx
+Version: 2.8
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 3980
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Tweaks/wiki.qaq.colorfulwallpaperx_2.8_iphoneos-arm64.deb
+Size: 1049792
+MD5sum: f32cc65302e15eebb9fd77d27d02e88c
+SHA1: c4ab6f1fa8e710d421425a8eab1bb756764f348b
+SHA256: 9200e76c4c20369146de53b38ed39c9608ef6be30235afaf371ff05509f20356
+Section: 插件
+Description: 具有彩色效果的动态壁纸。需要购买
+Author: Lessica <82flex@gmail.com>
+Name: ColorfulWallpaperX
+
 Package: wiki.qaq.writenow
 Version: 1.4
 Architecture: iphoneos-arm64
@@ -2384,6 +2712,22 @@ SHA1: 8df7ab6085ca8e19c97cbf0744861a150d413cd7
 SHA256: 569f76bb0fca999c2798619ade01dc781364eccac7b81066eb5406c23b61766e
 Section: 软件增强
 Description: AI写作工具
+Author: Lessica <82flex@gmail.com>
+Name: Write Now妙写
+
+Package: wiki.qaq.writenow
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 14644
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Tweaks/wiki.qaq.writenow_1.9_iphoneos-arm64.deb
+Size: 3197388
+MD5sum: ec828ce4af56ddf050de33ee122f3952
+SHA1: 10f5a215e6d35c57e118bc709e7768f3d4bade70
+SHA256: c90aaf2ae0e165548bfb598c3bc6f18eb58862d279debd89a9e0e9dfb731f0ff
+Section: 插件
+Description: AI工具在你手中.
 Author: Lessica <82flex@gmail.com>
 Name: Write Now妙写
 
@@ -2705,24 +3049,6 @@ Description: 修改视频壁纸插件
 Author: Traurige
 Icon: https://
 Name: Eneko视频壁纸-Rootless
-Sponsor: xy
-
-Package: x.ersatz
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: xy
-Installed-Size: 504
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/系统增强/x.ersatz_1.0.deb
-Size: 49088
-MD5sum: 4c59236701f15ae4e2087b1fa37381de
-SHA1: 109c0dd4cecb40990065ba65953c3e697e59de43
-SHA256: ac475be44c288fa9bdf9a559c4a9c976eba9ec6783db619b85cd44e169b78266
-Section: 系统增强
-Description: 全局替换文字,可以用来汉化插件，也可以改自己想要显示的文字
-Author: Skitty
-Icon: https://
-Name: Ersatz替换文字-Rootless
 Sponsor: xy
 
 Package: x.iapstorefugu-rootless
@@ -3216,23 +3542,37 @@ Author: HAHALOSAH
 Name: Zomigle手表配对-Rootless
 Sponsor: x
 
-Package: xiyan.choicy.zh-hans
-Version: 0.1.1
+Package: xyz.cypwn.theos
+Version: 2.5
 Architecture: iphoneos-arm64
-Maintainer: 夕颜
-Depends: com.opa334.choicy
-Replaces: com.opa334.choicy
-Filename: ./debs/系统增强/xiyan.choicy.zh-hans_0.1.1_iphoneos-arm64.deb
-Size: 3720
-MD5sum: 9730304f1029263fa2218d9e0e549293
-SHA1: 35ffceeb0e3fa298a389dfe1a27085348e04a6a0
-SHA256: 8cdd4d568a09c543430a542b47278dae9819a4c9a5365fa8afa68fc9e445a64d
-Section: 系统增强
-Description: 为Choicy插件提供简体中文，基本上各个版本的choicy都可汉化、无法更新choicy请先更新完插件之后再安装汉化插件！
-Author: zhaonan
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/CydiaIcon.png
-Name: Choicy屏蔽越狱汉化插件-Rootless
-Sponsor: 夕颜
+Maintainer: tangerine
+Depends: firmware (>= 15.0), xinaa15 | cy+cpu.arm64e, odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil, make, clang, curl, git, grep, perl, rsync, unzip, gzip, make, ldid
+Filename: ./debs/开发&工具/xyz.cypwn.theos_2.5_iphoneos-arm64.deb
+Size: 14239624
+MD5sum: 8ea9707f29dc1d7336c6fa89e8e08a96
+SHA1: ef956f14cff41f6f77c18826c560ff9e12d03446
+SHA256: 9c470c38ed09ef8ebbb8bfb87a6cf231f09136045cac722442df435203629b5c
+Section: 终端&开发
+Description: 用于创建iOS、macOS、Linux和Windows程序的跨平台构建系统。
+Author: Theos
+Icon: https://orig.iosios.lat/CydiaIcon.png
+Name: Theos开发插件
+
+Package: zlw.wechat
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: z
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/微信插件/zlw.wechat_1.8_iphoneos-arm64.deb
+Size: 14852
+MD5sum: 7686e5595aa9f7e6d54e666c7e49a0f4
+SHA1: e6db7a6df3b6815f552e3ec6cc489580385c1bf9
+SHA256: 1054ce321e174c59e7bbf21f6f8efba4c5d6ddeba5b5c5a382e26b67b02edf5a
+Section: 微信插件
+Description: 更新去除订阅列表广告，去除订阅列表视频广告，去除朋友圈广告，公众号文章广告。小程序提示要升级微信的，可修改微信版本号为8.0.49，长期修改微信会有问题。用完改回来。路口在我的页面，点击退出微信生效。
+Author: z
+Name: WeChatHookLite-rootless
 
 Package: zp.stopautolaunchapps
 Version: 1.0.2
