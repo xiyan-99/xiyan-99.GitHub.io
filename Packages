@@ -1470,14 +1470,17 @@ Architecture: iphoneos-arm64
 Maintainer: x
 Installed-Size: 76
 Depends: mobilesubstrate
-Filename: ./debs/微信插件/com.niming_0.1-1+debug_iphoneos-arm64.deb
-Size: 5472
-MD5sum: 4cfe3c90804b04b80780011e3f1af9a4
-SHA1: 3236e4392e0b728d52074e478a912589a163fdb8
-SHA256: 21bfb0358abf2f5db355be5e896403168fd1c799d3120954c35298a2ad865114
+Filename: ./debs/微信插件/
+com.niming_0.1-1+debug_iphoneos-arm64.deb
+Size: 5492
+MD5sum: 89f187921efae745fef850b043cabc6b
+SHA1: e2615490162dd40031e674ca2ff6b5542360f032
+SHA256: 7b99a7bd0e1223b7c4c9a585e8b91e6826befa8ecc19aac7bac924088352326a
+Section: 微信插件
 Description: misaka去除匿名艾特3次限制，注入即生效，没有任何设置。
 Author: x
-Name: 匿名艾特Carck
+Name: misaka匿名艾特Carck
+
 
 Package: com.nygard.class-dump-ios
 Version: 0.0.1-7
