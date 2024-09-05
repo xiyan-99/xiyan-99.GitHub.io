@@ -1,0 +1,12 @@
+Package: xiyan.choicy.zh-hans
+Version: 0.1.1
+Section: Tools
+Maintainer: 夕颜
+Depends: com.opa334.choicy
+Replaces: com.opa334.choicy
+Architecture: iphoneos-arm64
+Name: Choicy屏蔽越狱汉化插件-Rootless
+Author: zhaonan
+Sponsor: 夕颜
+Icon: 
+Description: 为Choicy插件提供简体中文，基本上各个版本的choicy都可汉化、无法更新choicy请先更新完插件之后再安装汉化插件！

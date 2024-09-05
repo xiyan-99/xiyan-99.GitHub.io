@@ -1,0 +1,12 @@
+Package: x.ersatz
+Version: 1.0.1
+Section: Tools
+Description: 全局替换文字,可以用来汉化插件，也可以改自己想要显示的文字
+Maintainer: xy
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Installed-Size: 504
+Name: Ersatz替换文字-Rootless
+Author: Skitty
+Sponsor: xy
+Icon: https://
