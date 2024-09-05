@@ -1,8 +1,26 @@
-Origin: Xiyan Repo 
+Date: Thu, 05 Sep 2024 14:52:30 +0000
+MD5Sum:
+ 1ffa43d01252e6a9fb22b4ff6bbfb524               38 Release
+ 7f4f56df696ae262351fba019f5fe527           130789 binary-iphoneos-arm64/Packages
+ 4325f2825b085d88493d5b870f761fca            35846 binary-iphoneos-arm64/Packages.bz2
+SHA1:
+ 886c34af6e210255f9c6abdfa4cc8e6a35333dcb               38 Release
+ 5ea8e83c79e84196f8779512e494659204475bbf           130789 binary-iphoneos-arm64/Packages
+ a83687b467901394bc3ed59a2430711ea334bfda            35846 binary-iphoneos-arm64/Packages.bz2
+SHA256:
+ ac4fcff7d9b71faf1c96f85df9063c064b8a7db2d77f19e75c02d141c1396223               38 Release
+ b350ce98e08e4830a069008c943030fbd1cc1b8087af9810cce5757d34185095           130789 binary-iphoneos-arm64/Packages
+ c3e0a7acdcd598a4c3adc7f3934bde82b67eadc95ab7dff7d1fe056fd3bcf776            35846 binary-iphoneos-arm64/Packages.bz2
+SHA512:
+ dd4ebda25f3bbd73d823fa77cf799fe62869f3fbdd12baaae405f67c1522289a8ddf2929f6944f1ceee337fb2de3ecc3d138ed0f8560c0b39aab63ef12f4c39c               38 Release
+ d6c9d6ce2f04157c6afd9719245d8a6af7fbf945901818f0ffb0f4a98b1792c2961bd888d1c6a696d433934e6c4ea857af5281e13d000c869d0273a4ec22a7f0           130789 binary-iphoneos-arm64/Packages
+ 5e992391c93ab4743c8e8720f2ebe2fb60d79087f1d39b328f833c73e78ec520de5890005d30aadad337760b5528c60f6f4c058449d000a9e0de20dc67596cc4            35846 binary-iphoneos-arm64/Packages.bz2
+
+Origin: Xiyan Repo
 Label: Xiyan Repo
 Suite: stable
 Version: 1.0
-Codename: Xiyan Repo
+Codename: xiyan
 Architectures: iphoneos-arm64
 Components: main
-Description: 夕颜自用备份源
+Description: 夕颜自用备份插件仓库
