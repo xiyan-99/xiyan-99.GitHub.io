@@ -1,7 +1,7 @@
 Origin: Xiyan Repo 
 Label: Xiyan Repo
 Suite: stable
-Version: 2.0
+Version: 1.0
 Codename: Xiyan Repo
 Architectures: iphoneos-arm64
 Components: main
