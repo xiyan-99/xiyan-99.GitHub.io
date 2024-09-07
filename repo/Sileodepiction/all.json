@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/Love.png",
+    "headerImage": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/img/Love.png",
     "tintColor": "#FF4455",
     "minVersion": "0.3",
     "tabs": [
@@ -16,7 +16,7 @@
                 }, 
                {
                     "text":"Wechat",
-                    "action":"https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/weixin.JPG",
+                    "action":"https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/img/weixin.JPG",
                     "openExternal": 1,
                     "class":"DepictionButtonView"
                 },      
@@ -32,7 +32,7 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/jietu.jpg"
+                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/img/jietu.jpg"
                         },
                         {
                             "accessibilityText": "Screenshot",
@@ -73,7 +73,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 9 月 3 日",
+                    "text": "2024 年 9 月 6 日",
                     "title": "Update time"
                 },
                 {
