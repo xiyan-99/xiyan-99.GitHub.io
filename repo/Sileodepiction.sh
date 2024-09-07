@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 定义通用 Sileodepiction 文件的 URL
-sileodepiction_url="https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/all.json"
+sileodepiction_url="https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json"
 
 # 处理 Packages 文件，在每个包的 Description 行后添加 Sileodepiction 字段
 awk -v sileodepiction="$sileodepiction_url" '

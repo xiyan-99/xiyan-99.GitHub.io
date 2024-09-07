@@ -1,0 +1,114 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/Love.png",
+    "tintColor": "#FF4455",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text":"Telegram",
+                    "action":"https://t.me/+-fME6fmmuZQyZmI1",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                }, 
+               {
+                    "text":"Wechat",
+                    "action":"https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/weixin.JPG",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                },      
+               {
+                    "class": "DepictionMarkdownView",
+                    "markdown": " ",
+                    "useRawFormat": true,
+                },      
+               {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{150, 346}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/jietu.jpg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": " "
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "夕颜",
+                    "title": "Maintainer"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "zviolety-",
+                    "title": "Wechat"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 9 月 3 日",
+                    "title": "Update time"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+               {
+                    "class": "DepictionSubheaderView",
+                    "title": "",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": " ",
+                    "useRawFormat": true
+                },
+               {
+                    "class": "DepictionSubheaderView",
+                    "title": "",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": " ",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ],
+}
