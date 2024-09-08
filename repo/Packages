@@ -20,6 +20,27 @@ Author: x
 Name: Apibug微信文字转语音
 
 Package: MisakaHelper
+Version: 2.0-8
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: Misaka
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Provides: MisakaHelper
+Filename: ./debs/微信插件/MisakaHelper_Rootless.deb
+Size: 12906448
+MD5sum: 7e508c3c3e06f29d9cd40acb45ac8604
+SHA1: 682f62b986ed438809d2a05c2ba9e5de4da0c5db
+SHA256: ef1f58ad59159b7b92d6853442ae70e89d4f4e4aa0f5ddcda495476527739f73
+Section: 微信插件
+Priority: optional
+Description: MisakaHelper
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Misaka
+Name: MisakaHelper-Rootless
+
+Package: MisakaHelper
 Version: 2.1-0
 Architecture: iphoneos-arm64
 Essential: no
@@ -39,6 +60,48 @@ Description: MisakaHelper
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: Misaka
 Name: MisakaHelper_END-rootless
+
+Package: MisakaHelper
+Version: 2.1-0
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: Misaka
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Provides: MisakaHelper
+Filename: ./debs/微信插件/MisakaHelper_2.1-0_iphoneos-arm64.deb
+Size: 13147360
+MD5sum: 886423c790d1474006b3a913ee279e5c
+SHA1: 0690b4faf3d3599815694a079b02baf6f12afd34
+SHA256: 7c92821ee7f792646f21ad7149ce8174d0cc55413bcd5c12b2cd5b6b9b6b62de
+Section: 微信插件
+Priority: optional
+Description: MisakaHelper
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Misaka
+Name: MisakaHelper-rootless
+
+Package: ThemePro
+Version: 2.9.3
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: tp
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Provides: ThemePro
+Filename: ./debs/微信插件/ThemePro_2.9.3_iphoneos-arm64.deb
+Size: 6215576
+MD5sum: 6d04b7f82e0deb7ce3fdaa953a0c18f5
+SHA1: b5cb9657acf2f3450f4150565aba255a4b0b4d7f
+SHA256: cb55817036062d762b157db3274be17b24658bbfda0ad39acb71d64e5cdb064e
+Section: 微信插件
+Priority: optional
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: MustangYM
+Name: ThemePro-2.9.3-rootless
 
 Package: ThemePro
 Version: 3.0.8
@@ -96,6 +159,25 @@ Icon: https://img.chariz.cloud/icon/bluefinder/icon@3x.png
 Name: BlueFinder
 
 Package: cn.llld.kbtool
+Version: 1.3.0-1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 8016
+Depends: mobilesubstrate
+Filename: ./debs/Tweaks/cn.llld.kbtool_1.3.0-1_iphoneos-arm64.deb
+Size: 3434452
+MD5sum: 43cb49b6d70e80d06bb66d9ac2811df5
+SHA1: df121c27af422be5deb325798e96114f68af5bba
+SHA256: 07ab862f41d347b2328a0f03d07c27d6e4644778e4b5b8e3769710d6895e697e
+Section: Tweaks
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: Panel-Tools-rootless
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.kbtool
 Version: 1.6.1-1
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟
@@ -112,6 +194,25 @@ Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/ma
 Author: 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
 Name: Panel-Tools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.kbtool
+Version: 2.4.0-2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 11144
+Depends: mobilesubstrate
+Filename: ./debs/Tweaks/cn.llld.kbtool_2.4.0-2_iphoneos-arm64.deb
+Size: 3369256
+MD5sum: d571178df67f0c346d6e0d544bd8ec4d
+SHA1: a69dea84f47ab00d97e7ddd54486279997dfbe4c
+SHA256: c3131ee117213416967541a8c06d4ea8ab85cba52c1e94cc01cea4d1a32955f8
+Section: rootless应用插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: PTools(keyboard)
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
 
 Package: cn.llld.pts
@@ -151,6 +252,41 @@ Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyx
 Name: FT悬浮文本增强替换翻译汉化
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qsyy/fy.json
 
+Package: cn.llld.smarthh
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/汉化/cn.llld.smarthh_0.0.2_iphoneos-arm64.deb
+Size: 10768
+MD5sum: 36193dd233998c3c0a8b7c9179def603
+SHA1: 67719aee70bdf05ace75bb15edc6dee4257720e9
+SHA256: fc50d3aa42f7ae22a8652db7ea1a9bcb66c3971620d9f08c5393fe05d0b33043
+Section: 汉化
+Description: SmartNotifications和SmartNotifications2汉化(已处理任何汉化冲突的问题)，0325新增几个单词-中文语言包-rootless
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 来了老弟 X：h_h_x_t
+Name: SmartNotifications汉化-rootless
+
+Package: cn.llld.snapshottool
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 1580
+Depends: mobilesubstrate
+Filename: ./debs/Tweaks/cn.llld.snapshottool_1.0_iphoneos-arm64.deb
+Size: 1251276
+MD5sum: 389123a34906cc0bfd09ca4ea40c2de4
+SHA1: 5748fbbe39d5a13153d9652084fa8af184735326
+SHA256: a150b1164041682e9ef4c8228ce3da4b294ceacffb29bdaeabfbc5ccaa784fd4
+Section: Tweaks
+Description: Snapshot sharing and copying, simplified version(Usage: Touch the image with both fingers)---对于图片的共享和复制到剪切板功能，简化版(免费版)。***使用方法：双指触摸图片即可(非100%应用或场景)***
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
+Name: STTool-rootless
+
 Package: cn.llld.snapshottool
 Version: 1.0.0-2
 Architecture: iphoneos-arm64
@@ -169,6 +305,25 @@ Author: 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
 Name: STTool
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
+Package: cn.octoforce.squidgesturepro
+Version: 2.5.2+8
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 7224
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/Tweaks/cn.octoforce.squidgesturepro_2.5.2+8_iphoneos-arm64.deb
+Size: 2128160
+MD5sum: 0be7bf18e0520622e12e0c82da905174
+SHA1: 65a2794fc91962b1cc53fa1c230c2c803de3262e
+SHA256: 0712439bdef3a6562c0ca81b2c0e90788b9a0cde7782a34c1db8d1126ce8576a
+Section: Tweaks
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
 Package: cn.zqbb.disupdateapp
 Version: 1.0-2
@@ -291,6 +446,26 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hellospeed
 Name: Hello Speed
 
 Package: cn.zqbb.holdcpu
+Version: 2.0.0-22
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 2272
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: ./debs/Hello插件/cn.zqbb.holdcpu_2.0.0-22_iphoneos-arm64.deb
+Size: 569586
+MD5sum: 5b8597baa4381d46fac932a5fb167e67
+SHA1: 30721663a78c366b81abb0b8188bf2f15aefecbf
+SHA256: c8fb6be72796ff3fe67e6ddf5a03f1932ff5a994a43395b35bbc297ba5ee77be
+Section: Tweaks
+Description: (解除温控) (锁定低电量CPU频率)
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+Name: Hello CPU
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: cn.zqbb.holdcpu
 Version: 2.1.0-6
 Architecture: iphoneos-arm64
 Maintainer: zqbb
@@ -303,6 +478,26 @@ MD5sum: 72b7b114fb7c65f5e085b36562dddb1f
 SHA1: 42caf5f5287212dc9679800723a940d4eb1116ec
 SHA256: d36d8a60201d4b5acc612ae9b7967eab1f5b7dba6ee38ff4eb6ed34ac536db87
 Section: 插件
+Description: (解除温控) (锁定低电量CPU频率)
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+Name: Hello CPU
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: cn.zqbb.holdcpu
+Version: 2.2.0-3
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 2336
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: ./debs/Tweaks/cn.zqbb.holdcpu_2.2.0-3_iphoneos-arm64.deb
+Size: 568960
+MD5sum: 21e53f0a9db94dfa7c69af376884e6df
+SHA1: 1a92455ad5d5de387af768fe54d7384960923403
+SHA256: 726266660086902106cc269cd884fd8cf900328a103a65a6aa6ed4a298b1bba2
+Section: Tweaks
 Description: (解除温控) (锁定低电量CPU频率)
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: zqbb
@@ -437,6 +632,41 @@ Author: Mao
 Name: 微信小程序助手-Rootless
 Sponsor: mao
 
+Package: com.25mao.wxurlexpand.rootless
+Version: 0.2-0
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件/com.25mao.wxurlexpand.rootless_0.2-0_iphoneos-arm64.deb
+Size: 34000
+MD5sum: 3fe99b47dd9957c5a8863a25a315ccdd
+SHA1: dc64e651e6368cd4fb2f9aceb39957dcfa48e868
+SHA256: b00b3e191e5515e76571c9638253d3647a1617271893e05da90329b2f0fbeea0
+Section: 微信插件
+Priority: optional
+Description: 扩展微信URLScheme接口，方便从外部调用
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Mao
+Name: 微信URL扩展-Rootless
+Sponsor: admin@25mao.com
+
+Package: com.82flex.iconrestore
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 444
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/系统增强/com.82flex.iconrestore_1.7_iphoneos-arm64.deb
+Size: 31992
+MD5sum: de1c3072af3c7c7803d03a801645fde0
+SHA1: 47f0a7a246eb3b4288ebb166a02f12a43bdc2c65
+SHA256: 7553044b11277cec8b45dc8861ccaedc49fac7b8c574e1d0937e63507c8f1ddd
+Section: 系统增强
+Description: 保存并恢复图标的布局。
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Lessica <82flex@gmail.com>
+Name: 图标恢复
+
 Package: com.82flex.removewidgetbg
 Version: 0.0.4
 Architecture: iphoneos-arm64
@@ -455,6 +685,22 @@ Author: Lessica <82flex@gmail.com>
 Name: 移除小组件背景
 
 Package: com.HBWechatHelper.ailun
+Version: 1.7.3
+Architecture: iphoneos-arm64
+Maintainer: 黄白
+Depends: mobilesubstrate
+Filename: ./debs/微信插件/com.HBWechatHelper.ailun_1.7.3_iphoneos-arm64.deb
+Size: 9204264
+MD5sum: 0eab25cd5077c14c5bc0c837b6d11951
+SHA1: 2827cf90230e784165053e678fb763b59444f629
+SHA256: 95fe5542ebda3322688654950e297169315348e356d8f21303c5dfd14b12a529
+Section: 微信插件
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 黄白
+Name: 黄白助手-rootless
+
+Package: com.HBWechatHelper.ailun
 Version: 1.7.4
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
@@ -469,6 +715,45 @@ Description: 黄白助手-微信插件                                          
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手-Rootless
+
+Package: com.curtin.pkc.rootless
+Version: 0.5-5
+Architecture: iphoneos-arm64
+Maintainer: Curtin <curtinlv@126.com>
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件/com.curtin.pkc.rootless_0.5-5_iphoneos-arm64.deb
+Size: 520100
+MD5sum: 1fcceed2a31c3c34f455ad9752f7ecd8
+SHA1: e2ac64ce885398c4f3f5d241b046ff497e6e5920
+SHA256: ce11e4e9ddbbb47b10a8a07c569c20cd591d74757625e2abc11585e888672a6c
+Section: 微信插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Curtin <curtinlv@126.com>
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_rootless
+Sponsor: Curtin
+
+Package: com.curtin.pkc.rootless
+Version: 0.5-6
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件/com.curtin.pkc.rootless_0.5-6_iphoneos-arm64.deb
+Size: 536344
+MD5sum: 627d378d26ebe02131708c817f0d7106
+SHA1: 201006567a80aa1d7b0646b7dbea9168583787d7
+SHA256: e60102800bb5af3ed30caaf6a1eb50f7dbdf931f16e4c9be5cfadb296711667b
+Section: 微信插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_rootless
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-8
@@ -560,6 +845,23 @@ Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/ma
 Author: 小果子
 Name: 通用去广告-FuckAds
 
+Package: com.injectipa
+Version: 1.4-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Depends: firmware (>= 15.0)
+Conflicts: netskao.injectipa-rootless
+Filename: ./debs/开发&工具/com.injectipa_1.4-4_iphoneos-arm64.deb
+Size: 962288
+MD5sum: 4d53e13ed801207f4f89cb03f60a7593
+SHA1: 9435a47f1755681a00046f0c4c6fe05537420718
+SHA256: a7b068e2f969f629ba779a7e3f2ae36e2b9194593d7e5ce8c2dbb7586c7edb1f
+Section: 终端&开发
+Description: injectipa是一款命令行一键注入dylib到ipa工具；用法: injectipa ipa路径 dylib路径 (如有多个dylib依次填写在末尾即可), 其它参数执行injectipa查看即可, 注入完成后的IPA需要签名使用。上架备用。
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Netskao
+Name: injectipa(rootless)
+
 Package: com.lclrc.hammerit
 Version: 1.7.0
 Architecture: iphoneos-arm64
@@ -631,6 +933,25 @@ Description: AirPods音量滑块旁边的浮动噪音消除控制
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: Ethan Whited
 Name: AirpodsCompanion
+
+Package: com.nan.bindfs
+Version: 0.5.5-1
+Architecture: iphoneos-arm64
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/开发&工具/com.nan.bindfs_0.5.5-1_iphoneos-arm64.deb
+Size: 13152
+MD5sum: 58ea8b3a68bae31b1b1186a235277a45
+SHA1: 49eb3a17387b068690ebb415f869e34f0e2e163e
+SHA256: ee0ea939b3a09a8aa6a9e33111961c3649c4bb1e88dc3c8354e5339a5e4c58c0
+Section: 终端&开发
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: mount_bindfs (Dopamine)
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 
 Package: com.nan.deb-filza-script-b
 Version: 0.1.0
@@ -999,6 +1320,24 @@ Author: niceios
 Name: nice真灵动岛【Rootless】
 Sponsor: niceios
 
+Package: com.niceios.aperture-rootless
+Version: 1.0.0.8-4
+Architecture: iphoneos-arm64
+Maintainer: niceios
+Installed-Size: 6580
+Depends: mobilesubstrate,com.niceios.nicehelper-rootless(>=6.1),preferenceloader
+Filename: ./debs/Tweaks/com.niceios.aperture-rootless_1.0.0.8-4_iphoneos-arm64.deb
+Size: 1924984
+MD5sum: d16703387f4203d6e6d1fb455ef50827
+SHA1: 87e4b4fcd5b7b8f64ef55f64745284944c3b6e70
+SHA256: a4c2ac0aa500a01a208b732970e1086c2416683797a230dc3718e8635622f993
+Section: Tweaks
+Description: 一款真正的灵动岛插件,不止通知上岛.
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: niceios
+Name: nice真灵动岛【Rootless】
+Sponsor: niceios
+
 Package: com.niceios.nicebarx15
 Version: 1.0.2.8-2
 Architecture: iphoneos-arm
@@ -1285,6 +1624,42 @@ Author: niceios
 Name: NiceHelper【Rootless】
 Sponsor: niceios
 
+Package: com.niceios.nicehelper-rootless
+Version: 6.5-2
+Architecture: iphoneos-arm64
+Maintainer: niceios
+Installed-Size: 2612
+Conflicts: com.niceios.nicehelper
+Filename: ./debs/Tweaks/com.niceios.nicehelper-rootless_6.5-2_iphoneos-arm64.deb
+Size: 728752
+MD5sum: d0ed5fce01df10fcbb9088aead346d59
+SHA1: 594ba32ca2047a9760c179cc88d1bf52f1ee5806
+SHA256: 6b2ae2559c011edec8c90864a251dd7eff8d41b515a2f282a85a26a4866ef747
+Section: Addons
+Description: nice插件依赖组件.
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: niceios
+Name: NiceHelper【Rootless】
+Sponsor: niceios
+
+Package: com.niceios.nicehelper-rootless
+Version: 6.6-4
+Architecture: iphoneos-arm64
+Maintainer: niceios
+Installed-Size: 2648
+Conflicts: com.niceios.nicehelper
+Filename: ./debs/Tweaks/com.niceios.nicehelper-rootless_6.6-4_iphoneos-arm64.deb
+Size: 732840
+MD5sum: 3c9c1d4c87cc8d97465da5a7fb1691e9
+SHA1: 5abf56de27b1494594020860d0e7791a0f26aa1d
+SHA256: 1090fda92afef5230c557cd4e36a2424cd35013e99bad99f1184af0c3f5efdf9
+Section: Addons
+Description: nice插件依赖组件.
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: niceios
+Name: NiceHelper【Rootless】
+Sponsor: niceios
+
 Package: com.niceios.nicelogx13
 Version: 1.0.1.3-1
 Architecture: iphoneos-arm
@@ -1357,6 +1732,43 @@ Author: niceios
 Name: NiceLogX【Rootless】
 Sponsor: niceios
 
+Package: com.niceios.nicelogx13-rootless
+Version: 1.0.2.0-1
+Architecture: iphoneos-arm64
+Maintainer: niceios
+Installed-Size: 6044
+Depends: com.niceios.nicehelper-rootless(>=6.6),preferenceloader
+Filename: ./debs/Tweaks/com.niceios.nicelogx13-rootless_1.0.2.0-1_iphoneos-arm64.deb
+Size: 1467192
+MD5sum: 96ff358de66b60de30d9493a877a252c
+SHA1: 2907cbd5b3eeee1a34181174523c48dd6593bc30
+SHA256: 93606a4c9aaceae3ab8a29a086e6a6945792567cf557b470ba3d2824296b40b1
+Section: Tweaks
+Description: 常用语分类保存,快捷输入,剪贴板内容记录,文本翻译等功能.
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: niceios
+Name: NiceLogX【Rootless】
+Sponsor: niceios
+
+Package: com.niceios.nicerecorder
+Version: 1.0.0.0-9
+Architecture: iphoneos-arm64
+Maintainer: NiceiOS
+Installed-Size: 12256
+Filename: ./debs/Tweaks/com.niceios.nicerecorder_1.0.0.0-9_iphoneos-arm64.deb
+Size: 3550784
+MD5sum: db2f7e68867174973a44555da2cf9174
+SHA1: fe32a8918f995322e5ad79d4680fce3678b79dd2
+SHA256: 2df9b49a69eaedad8dc4ee68cdf850ea399330052320a5b484efc6bfb1735ea9
+Section: Localization
+Description: Nice录音机越狱版,无需后台守护进程,更加稳定,Nice录音机是iOS首款在纯巨魔环境下实际通话录音的软件,使用AudioTap引擎录音效果更好,越狱版和巨魔版使用同一个授权,无需重复购买,巨魔版下载地址为niceios.com
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Tag: role:: NiceiOS
+Author: NiceiOS
+Icon: https://repo.niceios.com/icons/niceios.png
+Name: NiceRecorder(iOS15-16)【Rootless】
+Sponsor: NiceiOS
+
 Package: com.nil.WXHelper
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -1390,6 +1802,27 @@ Description: misaka去除匿名艾特3次限制，注入即生效，没有任何
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: x
 Name: misaka匿名艾特Carck
+
+Package: com.noisyflake.velvet2
+Version: 2.1.2-3
+Architecture: iphoneos-arm64
+Maintainer: NoisyFlake <support@noisyflake.com>
+Installed-Size: 629
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: ./debs/Tweaks/com.noisyflake.velvet2_2.1.2-3_iphoneos-arm64.deb
+Size: 95692
+MD5sum: 0dd7f97075684e018b7955340089f841
+SHA1: 952292d74bc7d012a101d7835713f2879e2db954
+SHA256: ba86085a41e2ad67a1f0d05324e7d48c7bfb4c09b2c5a0611f1210c5ff26d122
+Section: Tweaks
+Description: A fully customizable notification experience
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Tag: compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://chariz.com/get/velvet-2
+Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
+Name: Velvet 2
 
 Package: com.nygard.class-dump-ios
 Version: 0.0.1-7
@@ -1427,6 +1860,24 @@ Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy-插件调整
 
 Package: com.pingfan.wechat
+Version: 2.1-9
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/微信插件/com.pingfan.wechat_2.deb
+Size: 1684952
+MD5sum: 2141acdb0bb91db097ff131f0fe3a8e2
+SHA1: dfa31453f6e716c01d95baf3281180f9ab51dc01
+SHA256: 6bc57559833143a6a68ac5c0a78d9c01e2c4103d128d9e027230476df580e133
+Section: 微信插件
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，右滑快速备注，全局长按导航栏快捷功能,证书有效期查询,语音包，一键已读消息等。木笛默认密码113113。不显示请缷载微信插件收纳！
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: pingfan
+Icon: https
+Name: 微信虚拟视频-Rootless
+Sponsor: 搬运工
+
+Package: com.pingfan.wechat
 Version: 2.2-1
 Architecture: iphoneos-arm64
 Maintainer: 平凡
@@ -1436,6 +1887,22 @@ Size: 1664152
 MD5sum: 84e93075d35e32e600fda2ec7762ee10
 SHA1: 15303e618495b3f7e60753ae54951c40f378a209
 SHA256: 4d97844a1d26e79868026ba646b1c935f53a7abe7d9cd30f0320fff2aa875c5f
+Section: 微信插件
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 平凡
+Name: 虚拟视频-rootless
+
+Package: com.pingfan.wechat
+Version: 2.2-1
+Architecture: iphoneos-arm64
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/微信插件/com.pingfan.wechat_2.2-1_iphoneos-arm64.deb
+Size: 1664152
+MD5sum: c19ba0b61d426db26b0f046f2b368b42
+SHA1: c71132ee4a403306884b5acf0942ae424bdc13ba
+SHA256: df080a3e1d0cee7d4db3a23b419a37ea4f90913bbac8b50b549f564019e806e8
 Section: 微信插件
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
@@ -1783,13 +2250,13 @@ Maintainer: 夕颜
 Installed-Size: 1744
 Depends: dev.theos.orion (>= 1.0.0), com.opa334.ccsupport, mobilesubstrate, firmware (>= 13.0)
 Filename: ./debs/系统增强/com.xiyan.siriplus_1.3_iphoneos-arm64.deb
-Size: 272268
-MD5sum: d327a38b35b48d151bf91008967b951a
-SHA1: 18a6e75c0f58bfd59787f2d53a95448491b27ca5
-SHA256: 1f590f40a3189267dd3af0bd3c6e271e6f852679b02eb987621c99e3da17863d
+Size: 272172
+MD5sum: a4de4143a470558d632e619bc1bc3dce
+SHA1: 15bc0e0500a3b0a55841da4f616850e837b34506
+SHA256: 8e47547bca8f03c41cf67556bb423700685a09f994caf514f7d986e29920c9e7
 Section: 系统增强
 Author: 夕颜
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/img/icon/xy.png
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/img/icon/xy.png
 Name: SiriPlus-rootless
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/siri.json
 
@@ -2301,6 +2768,25 @@ Depiction: https://apt.htv123.com/view/139
 Name: 魔术师(iOS16)
 Sileodepiction: https://apt.htv123.com/sileo/139
 
+Package: com.xybp888.magiciannojailbreak.dopamine
+Version: 0.0.1-192
+Architecture: iphoneos-arm64
+Maintainer: xybp888 <8657156@qq.com>
+Installed-Size: 496
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Tweaks/com.xybp888.magiciannojailbreak.dopamine_0.0.1-192_iphoneos-arm64 2.deb
+Size: 88180
+MD5sum: efc68d4a87c8e67fa1a88218683171a8
+SHA1: a8e02802948bf5d406178e02a1d1230beda09016
+SHA256: 2e92a5b693c340f88f0343e1515d1b17f6e622676a5a72c7a7b9adce02d7ba15
+Section: Tweaks
+Description: 本插件仅供学习测试之用,请于24小时内卸载,一切法律责任与本插件和作者无关
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: xybp888 <8657156@qq.com>
+Depiction: https://apt.htv123.com/view/139
+Name: 魔术师(iOS16)
+Sileodepiction: https://apt.htv123.com/sileo/139
+
 Package: com.xybp888.magiciannojailbreak.fugu15
 Version: 0.0.1-4258
 Architecture: iphoneos-arm64
@@ -2308,6 +2794,26 @@ Maintainer: xybp888 <8657156@qq.com>
 Installed-Size: 432
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/Tweaks/com.xybp888.magiciannojailbreak.fugu15_0.0.1-4258_iphoneos-arm64.deb
+Size: 67580
+MD5sum: 0f7f2febfb977099190e6c67495dae3f
+SHA1: 706ebbb4545e4a2fe1dda221684fb0d827e7cb3a
+SHA256: 7955df340b7d63322a9821fa8398b20f73d4ef4dd2d5ddaeaeea6409a1cb757b
+Section: Tweaks
+Description: 本插件仅供学习测试之用,请于24小时内卸载,一切法律责任与本插件和作者无关
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: xybp888 <8657156@qq.com>
+Depiction: https://apt.htv123.com/view/14
+Name: 魔术师(iOS15)
+Sileodepiction: https://apt.htv123.com/sileo/14
+Sponsor: xybp888
+
+Package: com.xybp888.magiciannojailbreak.fugu15
+Version: 0.0.1-4258
+Architecture: iphoneos-arm64
+Maintainer: xybp888 <8657156@qq.com>
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Tweaks/com.xybp888.magiciannojailbreak.fugu15_0.0.1-4258_iphoneos-arm64 2.deb
 Size: 67580
 MD5sum: 0f7f2febfb977099190e6c67495dae3f
 SHA1: 706ebbb4545e4a2fe1dda221684fb0d827e7cb3a
@@ -2360,6 +2866,23 @@ Author: zqbb
 Name: Hello Snapper
 Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
 
+Package: curl
+Version: 8.7.1
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 364
+Depends: libiosexec1 (>= 1.3.1), libcurl4 (= 8.7.1), libc-ares2, libnghttp2-14, libidn2-0, librtmp1, libgmp10, libgnutls30, libhogweed6, libnettle8, libssh2-1, libssl3, libzstd1, libbrotli1
+Filename: ./debs/开发&工具/curl_8.7.1_iphoneos-arm64.deb
+Size: 192300
+MD5sum: 92888a88ced70a6f1dd469259b7fb3b7
+SHA1: 83656560393e4e074eb788f7e40ceb4be4ce11b8
+SHA256: 1fbbb040b32a7519bd37e47d23ac18a3425e2dbe4ce99b2eb9621ae60b02bf22
+Section: 终端&开发
+Priority: standard
+Homepage: http://curl.haxx.se/
+Description: 使用URL语法传输数据的命令行工具curl是一个命令行工具，（基本、摘要、NTLM、协商、kerberos…）文件传输恢复、代理隧道和其他有用技巧的总线加载。
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+
 Package: dumpapp.wechat
 Version: 2.0.1
 Architecture: iphoneos-arm64
@@ -2377,6 +2900,28 @@ Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/ma
 Author: DumpApp
 Name: 锤子助手-Rootless
 Sponsor: 夕颜
+
+Package: fun.asmo.analyticswechat
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 5124
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/微信插件/fun.asmo.analyticswechat_1.0.0_iphoneos-arm64.deb
+Size: 1476672
+MD5sum: 4bef9deaefcd043a68f81023cfe02ee1
+SHA1: c1acd147bf6e7b8bf7f7b27be04f2d038c280380
+SHA256: d612cd9fc014539503834a0856c9ba70582c9ea94d72d09a1769c4e3f6c129fb
+Section: 微信插件
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=analyticswechatDp
+Description: 分析微信朋友圈、好友和聊天数据。可统计好友数量、性别数量和占比、好友添加方式、省份分布，统计个人和群聊消息量以及排行。统计朋友圈谁发的多、发的时间、有什么类型以及朋友圈词云展示等。支持导出统计页面为PDF。个人消息和群聊自动回复，大模型智能聊天。检测好友状态：对方删除、对方拉黑、限制登陆。
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Tag: purpose::extension
+Author: Asmo <asmofun@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=analyticswechatDp
+Dev: asmo
+Name: 微信分析 (AnalyticsWeChat)
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: git
 Version: 2.39.1
@@ -2610,6 +3155,23 @@ Author: Lessica <82flex@gmail.com>
 Name: ColorfulWallpaperX
 
 Package: wiki.qaq.writenow
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 14244
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/系统增强/wiki.qaq.writenow_1.4_iphoneos-arm64.deb
+Size: 3108608
+MD5sum: 05babb4ceca8a3c6e94b542d1697f55a
+SHA1: 8df7ab6085ca8e19c97cbf0744861a150d413cd7
+SHA256: 569f76bb0fca999c2798619ade01dc781364eccac7b81066eb5406c23b61766e
+Section: 软件增强
+Description: AI写作工具
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Lessica <82flex@gmail.com>
+Name: Write Now妙写
+
+Package: wiki.qaq.writenow
 Version: 1.9
 Architecture: iphoneos-arm64
 Maintainer: Lessica <82flex@gmail.com>
@@ -2670,11 +3232,13 @@ Maintainer: xy
 Installed-Size: 1828
 Depends: x.laetus
 Filename: ./debs/键盘美化/x.Bebopkeys_1.1_iphoneos-arm64.deb
-Size: 835484
-MD5sum: 0817fdb972b58ab40fcf16edddda6387
-SHA1: 4a906346dca3391cf359403e4bd336e7813bac73
-SHA256: dd185161ec0ee3091576cf19b35dd3f2d17f6fdc2ddebe7d90edfce04bf643ce
+Size: 835512
+MD5sum: ff5380cbcffd825440f2d61c12a23edd
+SHA1: eb6b1c184e0a698c0966ffc0dc39e1803f9c231a
+SHA256: fe3dd98c2f29695ec88d49bf20e88fdae78f8cfbf2fe5f5bce0491925ae41705
 Section: 键盘美化
+Description: Laetus加载的键盘主题
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: xy
 Icon: https://chinesebuilding.club/pic/jp.png
 Name: Bebopkeys键盘主题
@@ -2687,16 +3251,18 @@ Architecture: iphoneos-arm64
 Maintainer: xy
 Depends: x.laetus
 Filename: ./debs/键盘美化/x.BigsurRootless_1.0_iphoneos-arm64.deb
-Size: 86416
-MD5sum: fe5f31ef44a4f5dd738ac2a03c003af8
-SHA1: 5594ad51e4374a8f69b66ca8c386e5eee08bd7e1
-SHA256: 14c4b41fbb1bd40ff091f79bf4919b3fd65259c6290bafc1e259e335c66e3460
+Size: 86440
+MD5sum: 51a35cd942f9fc863655be2b944722b7
+SHA1: 92ef013d7af73ac1c29189d147700df2dea0ac20
+SHA256: 33ae2b18fd0622daa517bd6815aa6b19b207881ed7a9b2f1518c8e4a2e18cd9c
 Section: 键盘美化
+Description: Laetus加载的键盘主题
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: xy
 Icon: https://chinesebuilding.club/pic/jp.png
 Name: Bigsur键盘主题
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/Bigsur.json
-Sponsor: x
+Sponsor: xy
 
 Package: x.ButterflyThemeRootless
 Version: 1.0
@@ -2704,11 +3270,13 @@ Architecture: iphoneos-arm64
 Maintainer: xy
 Depends: x.laetus
 Filename: ./debs/键盘美化/x.ButterflyThemeRootless_1.0_iphoneos-arm64.deb
-Size: 259780
-MD5sum: 066f76aa4808d0de51d3b7c6b94837a2
-SHA1: 439212740ad9baff8f9041612130739d6d61db8a
-SHA256: 55819b5d1b0fe88627c36b1b0b6b3959e38dc053ee1e533677d5e964fb9d1191
+Size: 259808
+MD5sum: 2e0ae97f9344c05e38c0a2b1a962a609
+SHA1: ab7d8a169d52d80f489220e634a2e667e7cfacac
+SHA256: c66f85bbdbf930a664891751c11c0e50ee2672ddf52017e6f330a6cb529561c1
 Section: 键盘美化
+Description: Laetus加载的键盘主题
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: x
 Icon: https://chinesebuilding.club/pic/jp.png
 Name: Butterfly键盘主题
@@ -2721,11 +3289,13 @@ Architecture: iphoneos-arm64
 Maintainer: xy
 Depends: x.laetus
 Filename: ./debs/键盘美化/x.SNESKEYBOARDRootless_1.1_iphoneos-arm64.deb
-Size: 18643548
-MD5sum: 4553853703f9211db300a005a665cb92
-SHA1: 89cc7b9f674eccae605748f22cc4910ce8c52905
-SHA256: 4a90677ec317c41cf306dfc6f2f308a2c25b2dabd5582f3fdbb3904698c7b608
+Size: 18643576
+MD5sum: cb525688f0667269289c91fc4bc375f8
+SHA1: 768327b1acd3cbac48e7391d768094e2aea2111d
+SHA256: 396bcede7f9e1780c280d5892621743ba058bca01cab6d72bf7c3ef7a05e4bc1
 Section: 键盘美化
+Description: Laetus加载的键盘主题
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: x
 Icon: https://chinesebuilding.club/pic/jp.png
 Name: SNESKEYBOARD键盘主题
@@ -2738,11 +3308,13 @@ Architecture: iphoneos-arm64
 Maintainer: xy
 Depends: x.laetus
 Filename: ./debs/键盘美化/x.StarfallThemeRootless_1.0_iphoneos-arm64.deb
-Size: 17878424
-MD5sum: ed4b0c63ee88be95d014ace4540659e3
-SHA1: eca5abc4200af1d43539f66b2b52c485f1091237
-SHA256: 4358cbfe59195c9afb7e46c87269021e7bfd38380aecbb331cdae80f2aa92eda
+Size: 17878452
+MD5sum: d9d5cc644308c352b24ebd51fd4f172b
+SHA1: 19663763f99b69dbd2d1ad50dc0cc2b4bb5eaf34
+SHA256: b4e04ffb09ca317a6cc1051235bb3d80ee0fe7004f41f7eb4cf9c37dacdd846b
 Section: 键盘美化
+Description: Laetus加载的键盘主题
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: x
 Icon: https://chinesebuilding.club/pic/jp.png
 Name: Starfall键盘主题
@@ -3057,15 +3629,17 @@ Maintainer: xy
 Installed-Size: 1828
 Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
 Filename: ./debs/键盘美化/x.laetus_3.5.1_iphoneos-arm64.deb
-Size: 835104
-MD5sum: e9bb6d1da98d9206d25d8fb0bd71a3b1
-SHA1: f0b1e0f982b24bdd65becc602e2d5dc7040ca7b5
-SHA256: e52782d759d34cf91b7a721d8c6dc98acf2fd25b58bab532990eb7691bb34749
+Size: 835132
+MD5sum: 366508afb62b3ace259ea97f6a40de1c
+SHA1: 80fbc62b2ad4a9e0ff6f7e39bceb14c48ac57dd3
+SHA256: fcc84850980382df15bf43337895deaa47363ad000aaec8dfb353f3cf3312504
 Section: 键盘美化
+Description: Laetus加载的键盘主题
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: Spark
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/CydiaIcon.png
 Name: Laetus键盘美化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/des/Laetus.json
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/Laetus.json
 Sponsor: xy
 
 Package: x.lynxtwo
@@ -3131,11 +3705,13 @@ Architecture: iphoneos-arm64
 Maintainer: x
 Depends: x.laetus
 Filename: ./debs/键盘美化/x.qinxinjianpan_1.0_iphoneos-arm64.deb
-Size: 417356
-MD5sum: 6691e51693deae7c9a689811b673bd1e
-SHA1: 8ac250ef7dc348ed3523f9d3ec3bb91e02a0691a
-SHA256: 4496a44eecba2c218253452be9df69f47737df2897c112895f9b6f5af8b30eed
+Size: 417380
+MD5sum: e35291b9f41c72c41b446b69ce576515
+SHA1: 204ae1749574bc2c9233bb7c1cadc64a1fad8f80
+SHA256: 15c14153bdfa125de8e3ec6be9d31df1b71414ceb1b4f0feb15c438fbf84d485
 Section: 键盘美化
+Description: Laetus加载的键盘主题
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: x
 Icon: https://chinesebuilding.club/pic/jp.png
 Name: Qingxin键盘主题
