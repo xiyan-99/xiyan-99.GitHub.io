@@ -196,25 +196,6 @@ Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbT
 Name: Panel-Tools(keyboard)
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
 
-Package: cn.llld.kbtool
-Version: 2.4.0-2
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 11144
-Depends: mobilesubstrate
-Filename: ./debs/Tweaks/cn.llld.kbtool_2.4.0-2_iphoneos-arm64.deb
-Size: 3369256
-MD5sum: d571178df67f0c346d6e0d544bd8ec4d
-SHA1: a69dea84f47ab00d97e7ddd54486279997dfbe4c
-SHA256: c3131ee117213416967541a8c06d4ea8ab85cba52c1e94cc01cea4d1a32955f8
-Section: rootless应用插件
-Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
-Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
-Author: 来了老弟
-Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
-Name: PTools(keyboard)
-Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
-
 Package: cn.llld.pts
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -318,6 +299,25 @@ Size: 2128160
 MD5sum: 0be7bf18e0520622e12e0c82da905174
 SHA1: 65a2794fc91962b1cc53fa1c230c2c803de3262e
 SHA256: 0712439bdef3a6562c0ca81b2c0e90788b9a0cde7782a34c1db8d1126ce8576a
+Section: Tweaks
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
+Package: cn.octoforce.squidgesturepro
+Version: 2.5.3
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 7308
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/Tweaks/cn.octoforce.squidgesturepro_2.5.3_iphoneos-arm64.deb
+Size: 2145732
+MD5sum: 38e87556ec44293aaacd3b66c2a4367e
+SHA1: 5dd2a98d2c6429874804aa251c16eec8a337d33f
+SHA256: a599d8e46f85662a8264f7518a08abd6bcf2680de96e947ad131ffc2cdfc5f3d
 Section: Tweaks
 Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
@@ -505,6 +505,26 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 Name: Hello CPU
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
 
+Package: cn.zqbb.holdcpu
+Version: 2.2.0-6
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 2288
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: ./debs/Tweaks/cn.zqbb.holdcpu_2.2.0-6_iphoneos-arm64.deb
+Size: 559036
+MD5sum: 577550b281a0375ce0a692ee49bc0d6c
+SHA1: aa7583243e0fb4daa5b09ebeab375c505ba80b68
+SHA256: 12578ea78da44a6d300ec388c63085b2d91d5509a6f560bdade4a3a69c3ce6e0
+Section: Tweaks
+Description: (解除温控) (锁定低电量CPU频率)
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+Name: Hello CPU
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
 Package: cn.zqbb.orzfolder
 Version: 1.1.5-29
 Architecture: iphoneos-arm64
@@ -541,6 +561,73 @@ Description: 保存BackgroundAction15真后台切换的操作状态，选择app�
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: 0xkuj
 Name: BackgrounderAction15自动真后台
+
+Package: com.0xkuj.bubbleapps
+Version: 3.1.2
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 824
+Depends: com.opa334.altlist
+Filename: ./debs/Tweaks/com.0xkuj.bubbleapps_3.1.2_iphoneos-arm64.deb
+Size: 259984
+MD5sum: 84ef4816e8a25b7e9f4361ad459208af
+SHA1: a52276967a906d3f0bbe24a3b71d11726bbc0054
+SHA256: 53d0009920aefc6508edecab8aa9daf21a651e58a7f8a6bfccf00dbd6d04f18f
+Section: Tweaks
+Description: Floating app buttons anywhere you want
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 0xkuj
+Name: Bubble Apps
+
+Package: com.0xkuj.filzadirprobe
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 240
+Filename: ./debs/Tweaks/com.0xkuj.filzadirprobe_1.3.1_iphoneos-arm64.deb
+Size: 34468
+MD5sum: f0485024b0079aecf182196c2d48a5e1
+SHA1: f6799e3f186a5cba9ef62176ae57edf936deb40f
+SHA256: 0d1f337e14064035c5eaad143531a6fa5b8970ca9d2aec15fecbad567f3a0102
+Section: Tweaks
+Description: Filza Extension To Calculate Folders Inside Your Filesystem
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 0xkuj
+Name: FilzaDirProbe
+
+Package: com.0xkuj.safarix
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 744
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/Tweaks/com.0xkuj.safarix_1.3.0_iphoneos-arm64.deb
+Size: 272344
+MD5sum: a5fc45fd57a5ef338759684b5a1bb6dd
+SHA1: a5592ad9d38fc9b4d596eca8b20c973e83718983
+SHA256: 5f2066a0eb17e84b475f9802ca03f91bc39364baebd886982e88d32841d73d29
+Section: Tweaks
+Description: Safari Essential Features
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 0xkuj
+Name: SafariX
+
+Package: com.0xkuj.safarix
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 744
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/Tweaks/com.0xkuj.safarix_1.4.0_iphoneos-arm64.deb
+Size: 273880
+MD5sum: 580d32554a548bb4b0b247fc72d879b8
+SHA1: 8ac47e3eb404ee993009ea049d4c98367b528b29
+SHA256: 7e9d53b32bc8edf3174ce29137bce0098760fc0ea2680a2722380fc199589bfd
+Section: Tweaks
+Description: Safari Essential Features
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 0xkuj
+Name: SafariX
 
 Package: com.25mao.doutu.rootless
 Version: 3.1-5
@@ -684,6 +771,56 @@ Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/ma
 Author: Lessica <82flex@gmail.com>
 Name: 移除小组件背景
 
+Package: com.82flex.removewidgetbg
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 436
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/Tweaks/com.82flex.removewidgetbg_1.6_iphoneos-arm64.deb
+Size: 30144
+MD5sum: 3c0bd60ad27212c06b3576c556f4760c
+SHA1: 6aa75eae5cf738d97d062197a3ee8a0414206834
+SHA256: 82eeb4090108324c7fba18f76bd2db62bb2d75a673def2a329203c8355885f4a
+Section: Tweaks
+Description: Remove the background of the widgets on the home screen.
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Lessica <82flex@gmail.com>
+Name: Remove Widget Background
+
+Package: com.82flex.touchvis
+Version: 3.10
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 3132
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Tweaks/com.82flex.touchvis_3.10_iphoneos-arm64.deb
+Size: 715372
+MD5sum: 68a7ee9c502096fbd4ac9f3d223b04ac
+SHA1: 3f17717743399e57ffb9d71d256be25867e93b2b
+SHA256: a3951f8e6ac15b75b330eda6c737a858fa44189c9c6a39d0a1f3aa1ab1162208
+Section: Tweaks
+Description: Display your touch interactions!
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Lessica <82flex@gmail.com>
+Name: Touch-Viz
+
+Package: com.Bloom.zh-hans
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: 萧箫c
+Depends: firmware (>= 15.0)
+Filename: ./debs/Tweaks/com.Bloom.zh-hans_0.0.2_iphoneos-arm64.deb
+Size: 1984
+MD5sum: d61d8993537d59cd4364cae32e3ad72e
+SHA1: 02ca9693ae324b25f8b1406627842ae56b84a795
+SHA256: 6a030b4955cc6f2913edf7cfd84ba7a61ba54423e5815244454dad9a5ac90ef5
+Section: 嗨-汉化
+Description: 为Bloom提供简体中文，萧箫帅比倾情汉化。
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 萧箫c
+Name: Bloom 简体中文包(rootless)
+
 Package: com.HBWechatHelper.ailun
 Version: 1.7.3
 Architecture: iphoneos-arm64
@@ -715,6 +852,27 @@ Description: 黄白助手-微信插件                                          
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手-Rootless
+
+Package: com.anthopak.addtofolder-rootless
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=13.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0)
+Filename: ./debs/系统增强/com.anthopak.addtofolder-rootless_1.4_iphoneos-arm64.deb
+Size: 112448
+MD5sum: 284a657fe79a6c1de16e69b236f587ff
+SHA1: caa1c0b2b7e1bb6b304148c71e3bdfd6240b764f
+SHA256: 211410b936506b1954fc0267dcf68d33da43c840e42940caa7bfc64e39be586b
+Section: 系统增强
+Homepage: https://repo.anthopak.dev
+Description: 轻松将应用程序移动到文件夹
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.addtofolder-rootless.php
+Icon: https://repo.anthopak.dev/assets/com.anthopak.addtofolder-rootless/icon.png
+Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.addtofolder-rootless.json
+Name: AddToFolder (Rootless)
+Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.addtofolder-rootless.json
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-5
@@ -791,6 +949,23 @@ Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/ma
 Author: Jonathan Winger-lang
 Name: BigShot 长截图(rootless)
 
+Package: com.dao.plamyuipro
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Phuc Do & 妖刀
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Conflicts: com.phucdo.plampyuipro
+Filename: ./debs/系统增强/com.dao.plamyuipro_1.0_iphoneos-arm64.deb
+Size: 727928
+MD5sum: e6341cab5e8804aae68c2fb0630541a5
+SHA1: b8de40f2a1f628793866a516e57f449c9c9a9bc2
+SHA256: 77b6ebab6f1a8c9f0148877437539b2698fc6d1f6e7d15e61d97dcd0f5915e53
+Section: 系统增强
+Description: 支持 iOS15/16 的控制中心美化工具，可修改原生模块的图标/效果，修改控制中心背景壁纸等。
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Phuc Do
+Name: PlampyUIPro(rootless)
+
 Package: com.edge.siri
 Version: 3.1.1-9
 Architecture: iphoneos-arm64
@@ -828,6 +1003,26 @@ Depiction: https://chariz.com/get/comet
 Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
 Name: Comet
 
+Package: com.ginsu.comet
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: Ginsu <njl02@outlook.com>
+Installed-Size: 2211
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/Tools/com.ginsu.comet_1.0.5_iphoneos-arm64.deb
+Size: 228696
+MD5sum: d185ad06891df807bdc72fee4789ae0b
+SHA1: a8a6e9a4f376c432ccd766b3e245ca8719f8d569
+SHA256: d3cf9680966451e48144617d57b774b1f559fd8749eab234a47800063cd93a23
+Section: Tools
+Description: SwiftUI Prefs框架
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Tag: compatible_min::ios14.0
+Author: Ginsu <njl02@outlook.com>
+Depiction: https://chariz.com/get/comet
+Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
+Name: Comet
+
 Package: com.guozi.fuckads
 Version: 5.2.0
 Architecture: iphoneos-arm64
@@ -845,6 +1040,22 @@ Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/ma
 Author: 小果子
 Name: 通用去广告-FuckAds
 
+Package: com.hk.onesettings.cn.rl
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Tweaks/com.hk.onesettings.cn.rl_2.1.1_iphoneos-arm64.deb
+Size: 12204
+MD5sum: 8757738b1db5d21eda453b23d2545fb9
+SHA1: d5959bb6902e8e22faa8758e0a00130092146718
+SHA256: 71240fe19f4e2c22e4917cdcdc6576925cbb0ac2106c8b2698c01947067149d0
+Section: 汉化
+Description: OneSettings 简体中文包(rootless)。
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 妖刀
+Name: OneSettings 简体中文包(rootless)
+
 Package: com.injectipa
 Version: 1.4-4
 Architecture: iphoneos-arm64
@@ -861,6 +1072,23 @@ Description: injectipa是一款命令行一键注入dylib到ipa工具；用法: 
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: Netskao
 Name: injectipa(rootless)
+
+Package: com.joshua.truefocus
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: Joshua Wheeler
+Installed-Size: 884
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17), com.opa334.altlist
+Filename: ./debs/Tweaks/com.joshua.truefocus_0.0.3_iphoneos-arm64.deb
+Size: 232376
+MD5sum: b3596c09a18b58ba6700c1a9863526f4
+SHA1: 59c30daf8a002bbca14929bd99c48da8425eaed2
+SHA256: 98bd6947958628842dec3724adfd182e1ad48a78ba9634949f43c9c47377f276
+Section: Tweaks
+Description: Modern PureFocus remake.
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Joshua Wheeler
+Name: TrueFocus
 
 Package: com.lclrc.hammerit
 Version: 1.7.0
@@ -916,6 +1144,24 @@ Author: MTAC
 Icon: https://mtac.app/repo/assets/com.mtac.launchlogo/icon-rounded.png
 Name: LaunchLogo
 Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.launchlogo.json
+
+Package: com.mystery.afsoon
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: Mysteryexe
+Installed-Size: 1908
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, ws.hbang.common
+Filename: ./debs/Tweaks/com.mystery.afsoon_1.1.2_iphoneos-arm64.deb
+Size: 1421272
+MD5sum: b75def023869db342db0285b47066b20
+SHA1: c03b12578c6ebe4291e6dfc1d761ebf0af80f2b2
+SHA256: 3c33999f5d604540e6553efad7fc2756f4c30c6236e011ae08822152f45d67e7
+Section: Tweaks
+Description: kaleidoscope for all devices
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Mysteryexe
+Icon: https://mysteryexe.xyz/repo/afsoonIcon.png
+Name: Afsoon
 
 Package: com.nahtedetihw.airpodscompanion
 Version: 1.4
@@ -1554,6 +1800,24 @@ Author: NiceiOS
 Name: NiceCaller(iOS16)【Rootless】
 Sponsor: NiceiOS
 
+Package: com.niceios.nicecaller16-rootless
+Version: 1.0.1.2-4
+Architecture: iphoneos-arm64
+Maintainer: NiceiOS
+Installed-Size: 14904
+Depends: mobilesubstrate,com.niceios.nicehelper-rootless(>=6.6),preferenceloader
+Filename: ./debs/Tweaks/com.niceios.nicecaller16-rootless_1.0.1.2-4_iphoneos-arm64.deb
+Size: 3997592
+MD5sum: f2b17fd961f88933a70855bb5adc314e
+SHA1: 9ed7efa004c7adb47bec9202d588e39245932f6c
+SHA256: 589310f7f231dc1a3a377999c9199175b1257705af50c6ffe3694bffda10f1e6
+Section: Tweaks
+Description: 通话录音,变声器,背景声音,自动应答,安卓样式拨号键盘,骚扰拦截,窗口电话(Callbar),归属地显示
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: NiceiOS
+Name: NiceCaller(iOS16)【Rootless】
+Sponsor: NiceiOS
+
 Package: com.niceios.nicehelper
 Version: 5.7-1
 Architecture: iphoneos-arm
@@ -1750,17 +2014,17 @@ Author: niceios
 Name: NiceLogX【Rootless】
 Sponsor: niceios
 
-Package: com.niceios.nicerecorder
-Version: 1.0.0.0-9
+Package: com.niceios.nicerecorder-rootless
+Version: 1.0.0.2-1
 Architecture: iphoneos-arm64
 Maintainer: NiceiOS
-Installed-Size: 12256
-Filename: ./debs/Tweaks/com.niceios.nicerecorder_1.0.0.0-9_iphoneos-arm64.deb
-Size: 3550784
-MD5sum: db2f7e68867174973a44555da2cf9174
-SHA1: fe32a8918f995322e5ad79d4680fce3678b79dd2
-SHA256: 2df9b49a69eaedad8dc4ee68cdf850ea399330052320a5b484efc6bfb1735ea9
-Section: Localization
+Installed-Size: 12192
+Filename: ./debs/Tweaks/com.niceios.nicerecorder-rootless_1.0.0.2-1_iphoneos-arm64.deb
+Size: 3547896
+MD5sum: 84f142940427171092b02ed3f1661523
+SHA1: 999b183e968e98979038c1ffc52ca30caf9a1d3a
+SHA256: 06942ad0c815eac6eccd65072606096c5dac2833f0726bcd366c98648a87f1e2
+Section: 插件
 Description: Nice录音机越狱版,无需后台守护进程,更加稳定,Nice录音机是iOS首款在纯巨魔环境下实际通话录音的软件,使用AudioTap引擎录音效果更好,越狱版和巨魔版使用同一个授权,无需重复购买,巨魔版下载地址为niceios.com
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Tag: role:: NiceiOS
@@ -1768,6 +2032,28 @@ Author: NiceiOS
 Icon: https://repo.niceios.com/icons/niceios.png
 Name: NiceRecorder(iOS15-16)【Rootless】
 Sponsor: NiceiOS
+
+Package: com.nightwind.onesettings
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: Nightwind <nightwinddev@gmail.com>
+Installed-Size: 1117
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.creaturecoding.shuffle
+Replaces: com.twickd.nightwind.onesettings
+Filename: ./debs/Tweaks/com.nightwind.onesettings_2.1.1_iphoneos-arm64.deb
+Size: 220424
+MD5sum: b29b75b21bfbe9f65b8a55589bae2353
+SHA1: f004cf387a8dbbcb60b663a9ad87917c2343d4d0
+SHA256: 957c8a34348c53f02d76b05e191637cee335731ab19c4ed1cb528081d7069762
+Section: Tweaks
+Description: 您的设置应用程序得到了极大的增强！
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Tag: cydia::commercial, compatible_min::ios14.0
+Author: Nightwind <nightwinddev@gmail.com>
+Depiction: https://chariz.com/buy/onesettings
+Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
+Name: OneSettings
 
 Package: com.nil.WXHelper
 Version: 0.1
@@ -1859,6 +2145,42 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy-插件调整
 
+Package: com.opa334.crane
+Version: 1.3.15-2
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 3200
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/Tweaks/com.opa334.crane_1.3.15-2_iphoneos-arm64.deb
+Size: 597864
+MD5sum: a23e8c53fd9256c89931f2e560331417
+SHA1: 4d47264ff37a9dd56088abc444ed20936d77a194
+SHA256: ccc068ca5a8c52459c64816767b44029d1df71acacfbd97e47abb42215f47e66
+Section: Tweaks
+Description: Multiple containers for your applications!
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: opa334
+Name: Crane
+
+Package: com.p2kdev.tinge
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 436
+Depends: firmware (>= 15.0),mobilesubstrate,preferenceloader,org.thebigboss.libcolorpicker
+Filename: ./debs/Tweaks/com.p2kdev.tinge_1.2.2_iphoneos-arm64.deb
+Size: 41044
+MD5sum: b8195bab7714afee9eaa84489fdb2083
+SHA1: 71d4da01f5636a1157f9f066fa69a02ac15c59e0
+SHA256: a7d98bd698166b67f9b683ee107cadf384d720c592875463e854899acc22125b
+Section: Tweaks
+Description: Color your badges with Perfection!
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: P2KDev <p2kdev@gmail.com>
+Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
+Name: Tinge
+
 Package: com.pingfan.wechat
 Version: 2.1-9
 Architecture: iphoneos-arm64
@@ -1943,6 +2265,40 @@ Description: 为应用程序提供多个容器，账号多开神器，支持推�
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: opa334
 Name: Crane(rootless)
+
+Package: com.sini.flexlist
+Version: 1.4-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 5020
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Netskao-插件/com.sini.flexlist_1.4-2_iphoneos-arm64.deb
+Size: 1331116
+MD5sum: b1e26ac08f02101a13819ba85ba00416
+SHA1: 01462e40a446dd9c07828fed21b3aeb47e8003e4
+SHA256: 441dae0adccf03c8bc61bfedfe3f850f12ef4d1565cda3bf60a761483cd4369b
+Section: Netskao-插件
+Description: FLEX调试工具，由李开心提供完整汉化
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Netskao
+Name: FLEXList
+
+Package: com.sini.qqhook
+Version: 1.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 2280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/图层插件/com.sini.qqhook_1.1.1-2_iphoneos-arm64.deb
+Size: 785632
+MD5sum: 6d4ee8226c770850f5a70e7f2426c094
+SHA1: 0e9490108a6c7d537b7a95ef4a4059ee79908d48
+SHA256: 886ca6329b0efaff49638a2529cbc66dc70e11b52e15a7b283658875086facc7
+Section: 图层插件
+Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: x✨
+Name: QQ图层
 
 Package: com.spark.snowboard
 Version: 1.5.37-Beta4-rootless
@@ -2311,6 +2667,23 @@ Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/ma
 Author: x✨
 Name: 抖音图层
 Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
+
+Package: com.xx.dyhook
+Version: 2.0.3-8
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 9560
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/图层插件/com.xx.dyhook_2.0.3-8_iphoneos-arm64.deb
+Size: 3031824
+MD5sum: 08de54979b62daa0690ddc971f34adc4
+SHA1: 436d921fac2909e02715952e0c79d5e3a5773e08
+SHA256: cd27eb64e438554c54831ecbf2902e2473aa485c8fbdce4175155d4d0863a9b8
+Section: 图层插件
+Description: 自用 越狱食用
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: x✨
+Name: 抖音图层
 
 Package: com.xx.ecnyhook
 Version: 1.0.2
@@ -2827,6 +3200,41 @@ Name: 魔术师(iOS15)
 Sileodepiction: https://apt.htv123.com/sileo/14
 Sponsor: xybp888
 
+Package: com.yan.bloom
+Version: 1.1.8
+Architecture: iphoneos-arm64
+Maintainer: yan
+Installed-Size: 2720
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.comet, com.yan.lottie
+Filename: ./debs/Tweaks/com.yan.bloom_1.1.8_iphoneos-arm64.deb
+Size: 382036
+MD5sum: f09db753387900ca64b8aa7a0f6561dc
+SHA1: 62239939059c6838077ab564dd021421ec1fc646
+SHA256: ffb80e391b133261d9e3c94b4ad44aaf1b3d3a9d4f3964d3a739ca998ae24aed
+Section: Tweaks
+Description: Beautiful animated notifications.
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: yan
+Icon: https://yandevelop.github.io/assets/icons/bloom/icon.png
+Name: Bloom
+
+Package: com.yan.lottie
+Version: 4.5.0
+Architecture: iphoneos-arm64
+Maintainer: yan
+Installed-Size: 11484
+Filename: ./debs/Tools/com.yan.lottie_4.5.0_iphoneos-arm64.deb
+Size: 1516368
+MD5sum: 28da2e57b30513dee51c86f09f0938d5
+SHA1: ab0594579f2dae73496d6fc7d777e1114fc2cc91
+SHA256: e0a74c8b5af243c9de8430ff2e130ba8ce06f3a263fb06bc7cecd8636fb36eb5
+Section: Tools
+Description: 原生渲染After Effects矢量动画的iOS库
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Tag: role::developer
+Author: yan
+Name: Lottie
+
 Package: com.zqbb.limitcharging
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -2865,6 +3273,22 @@ Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/ma
 Author: zqbb
 Name: Hello Snapper
 Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
+
+Package: cpm.dao.tinge.cn
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: ./debs/汉化/cpm.dao.tinge.cn_1.2.2_iphoneos-arm64.deb
+Size: 1352
+MD5sum: a35ab754de457b112d72244070473f10
+SHA1: 55c1ba61ddc11c04785744d3e327c508c8adf063
+SHA256: 4aa12e07c73a12debe549ae283b9004b0b06f961cfd893ac9cb9c67f221cd75b
+Section: 汉化
+Description: Tinge 简体中文包(rootless)
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: 妖刀
+Name: Tinge 简体中文包(rootless)
 
 Package: curl
 Version: 8.7.1
@@ -3030,6 +3454,26 @@ Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/ma
 Author: Netskao
 Name: 微信净化-Rootless
 
+Package: org.thebigboss.libcolorpicker
+Version: 1.6.9
+Architecture: iphoneos-arm64
+Maintainer: Bailey Seymour
+Installed-Size: 392
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: ./debs/Tweaks/org.thebigboss.libcolorpicker_1.6.9_iphoneos-arm64.deb
+Size: 71104
+MD5sum: 7736421da855fc1fc6f361836619964f
+SHA1: 17caf5713eb55b7b480475e99058f776d38018d4
+SHA256: 6c057d39160cb674aea9cac4bb172e9dcfee46f766b39d89a79047ab71cb1bd7
+Section: 系统增强
+Description: 一个很棒的图书馆！！
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Tag: role::developer
+Author: Bailey Seymour
+Name: libcolorpicker
+
 Package: python3
 Version: 3.9.9-1
 Architecture: iphoneos-arm64
@@ -3154,6 +3598,23 @@ Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/ma
 Author: Lessica <82flex@gmail.com>
 Name: ColorfulWallpaperX
 
+Package: wiki.qaq.colorfulwallpaperx
+Version: 3.7
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 4412
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Tweaks/wiki.qaq.colorfulwallpaperx_3.7_iphoneos-arm64.deb
+Size: 1147144
+MD5sum: f92bd0b66b8081c81325b0d171c6aad6
+SHA1: a07e3d1f048bbf189a819226bdeff00449835628
+SHA256: ffe14b85d5c4eed094aeb6de4292dcf04ea3d16f3586d8094890c3e736b14735
+Section: Tweaks
+Description: Dynamic wallpaper with colorful effects.
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Lessica <82flex@gmail.com>
+Name: ColorfulWallpaperX
+
 Package: wiki.qaq.writenow
 Version: 1.4
 Architecture: iphoneos-arm64
@@ -3187,6 +3648,23 @@ Description: AI工具在你手中.
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: Lessica <82flex@gmail.com>
 Name: Write Now妙写
+
+Package: wiki.qaq.writenow
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 18076
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Tweaks/wiki.qaq.writenow_2.0_iphoneos-arm64.deb
+Size: 3765236
+MD5sum: e433469b56a6ea691f0398d295a9377e
+SHA1: 2dc31b5926414666ea71396cb86754fb493deed7
+SHA256: 6c53782c0bd96694564d5fd3fcb45d56609187705ae27bf56fec50416f9976fe
+Section: Tweaks
+Description: AI tool within your hands.
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: Lessica <82flex@gmail.com>
+Name: Write Now
 
 Package: ws.xy.lizinewterm
 Version: 3.0
@@ -3938,6 +4416,25 @@ Author: Snail
 Icon: https://
 Name: 修改向上轻扫以解锁文字-Rootless
 Sponsor: xy
+
+Package: x.trollpad
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Conflicts: com.dao.trollpad.cn
+Filename: ./debs/系统增强/x.trollpad_1.3_iphoneos-arm64.deb
+Size: 29344
+MD5sum: 6110a3498b86c9e364d3f910968f08f6
+SHA1: 34d09c4b9f6c76dc06ad1d1a63202c963f6f1728
+SHA256: dffa2639f95bb9224b552e597f086500678c1211728a456dcf2429e105992160
+Section: 系统增强
+Description: 仿iPad后台样式，iPad的dock栏，也可以分屏
+Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
+Author: khanhduytran0
+Name: TrollPad后台分屏-Rootless
+Sponsor: x
 
 Package: x.watched
 Version: 1.1-9+debug
