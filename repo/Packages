@@ -359,9 +359,9 @@ SHA256: 7b441cbf6dc2559138e97f02232dd84c658c1f97512088f0a7b888bc2da58deb
 Section: Tweaks
 Description:
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
- - Unlock dynamic refresh rate from 80hz to 120hz
- - .
- - 解锁动态刷新率80hz到120hz.
+- Unlock dynamic refresh rate from 80hz to 120hz
+- .
+- 解锁动态刷新率80hz到120hz.
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 Name: Hello 120Hz
@@ -381,9 +381,9 @@ SHA256: b98557f0d0050c9edf6fce2f65b9fa3d6f3a3231bead165b4d82e0a0f3b4ce8d
 Section: Tweaks
 Description:
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
- - Unlock dynamic refresh rate from 80hz to 120hz
- - .
- - 解锁动态刷新率80hz到120hz.
+- Unlock dynamic refresh rate from 80hz to 120hz
+- .
+- 解锁动态刷新率80hz到120hz.
 Author: zqbb
 Icon: https://rootless.zq666.eu.org/web/icon/com.zqbb.fix120hz
 Name: 120Hz Fix (iOS15) 免费版
@@ -539,7 +539,7 @@ SHA256: e277e77e10533819243498511f067ac0fa51763c3e66b6d4939506542fbf581c
 Section: Tweaks
 Description: Folder Layout Customization Tool
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
- - 文件夹颜值 ? 美 : 丑
+- 文件夹颜值 ? 美 : 丑
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.orzfolder
 Name: Hello Folder
@@ -804,22 +804,6 @@ Description: Display your touch interactions!
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
 Author: Lessica <82flex@gmail.com>
 Name: Touch-Viz
-
-Package: com.Bloom.zh-hans
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: 萧箫c
-Depends: firmware (>= 15.0)
-Filename: ./debs/Tweaks/com.Bloom.zh-hans_0.0.2_iphoneos-arm64.deb
-Size: 1984
-MD5sum: d61d8993537d59cd4364cae32e3ad72e
-SHA1: 02ca9693ae324b25f8b1406627842ae56b84a795
-SHA256: 6a030b4955cc6f2913edf7cfd84ba7a61ba54423e5815244454dad9a5ac90ef5
-Section: 嗨-汉化
-Description: 为Bloom提供简体中文，萧箫帅比倾情汉化。
-Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
-Author: 萧箫c
-Name: Bloom 简体中文包(rootless)
 
 Package: com.HBWechatHelper.ailun
 Version: 1.7.3
@@ -3061,24 +3045,24 @@ Section: Tweaks
 Priority: optional
 Description: 半越狱 版本：
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
- 提示：需要激活后才可以使用，没有换设备的直接管
- 理配置中找回授权或者使用你的激活码激活
- 1.T9键盘搜索，双卡选卡拨打等.锁屏来电显示拒接
- 按钮
- 2.来去电接通振动，挂断振动，来去电归属地显示
- 3.支持骚扰拦截，自定义黑名单，区域骚扰拦截操作，
- 还可使用360管家类数据库识别骚扰
- 4.短信归属地，短信双卡选卡等.
- 5.通话记录合并（破条数限制除外-需越狱），通讯录显
- 示头像，号码等
- • 重要提示：
- 状态栏美化部分，通话录音，及桌面相关功能还需要你用 Serotonin 引导成功后才行!
- 请在 Bootstarp中应用列表 并启用以下进程注入：
- com.apple.InCallService
- com.apple.mobilephone
- com.apple.MobileSMS
- com.apple.MobileAddressBook
- com.apple.Preferences
+提示：需要激活后才可以使用，没有换设备的直接管
+理配置中找回授权或者使用你的激活码激活
+1.T9键盘搜索，双卡选卡拨打等.锁屏来电显示拒接
+按钮
+2.来去电接通振动，挂断振动，来去电归属地显示
+3.支持骚扰拦截，自定义黑名单，区域骚扰拦截操作，
+还可使用360管家类数据库识别骚扰
+4.短信归属地，短信双卡选卡等.
+5.通话记录合并（破条数限制除外-需越狱），通讯录显
+示头像，号码等
+• 重要提示：
+状态栏美化部分，通话录音，及桌面相关功能还需要你用 Serotonin 引导成功后才行!
+请在 Bootstarp中应用列表 并启用以下进程注入：
+com.apple.InCallService
+com.apple.mobilephone
+com.apple.MobileSMS
+com.apple.MobileAddressBook
+com.apple.Preferences
 Author: xybp888 <8657156@qq.com>
 Depiction: https://apt.htv123.com/view/138
 Name: 电话助手iOS16-正式版(半越狱)
@@ -3250,8 +3234,8 @@ SHA256: 223008a2f54e8559581b64ea3a2c58f8c6e5a16b740eadb2d3fa86e6b941548d
 Section: Tweaks
 Description: Hello Charging (限制充电)
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
- - Wi-Fi Not Disconnected on Lock Screen (Standby consumes 5% more power)
- - 锁屏不断Wi-Fi(待机多费电5%)
+- Wi-Fi Not Disconnected on Lock Screen (Standby consumes 5% more power)
+- 锁屏不断Wi-Fi(待机多费电5%)
 Author: zqbb
 Name: Hello Charging
 Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.limitcharging
@@ -4597,8 +4581,8 @@ SHA256: df815a9003673a5096be2e958cc647388fe06f035a53b56e838b844fd8666b0f
 Section: Tweaks
 Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯!
 Sileodepiction: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/repo/Sileodepiction/all.json
- - 优点:节约内存,少杀后台.
- - 玄学:减少重启概率
+- 优点:节约内存,少杀后台.
+- 玄学:减少重启概率
 Author: zqbb
 Name: Hello 3Q
 Sileodepiction: https://rootless.002599.xyz/web/zp.stopautolaunchapps
