@@ -27,16 +27,16 @@ Depends: mobilesubstrate
 Conflicts: MisakaHelper
 Replaces: MisakaHelper
 Provides: MisakaHelper
-Filename: ./debs/微信插件/MisakaHelper_2.1-0_iphoneos-arm64 (1).deb
-Size: 13178040
-MD5sum: f27425b638b85b92453d59910ebe64ff
-SHA1: 032945e2ffa8ed6abcea7d04580a1060ce64a194
-SHA256: fe127d60bb8045a93a7bd636476efee1a0340bc93de53f962574a5e7325b7e0c
+Filename: ./debs/微信插件/MisakaHelper_2.1-0_iphoneos-arm64.deb
+Size: 13147360
+MD5sum: 886423c790d1474006b3a913ee279e5c
+SHA1: 0690b4faf3d3599815694a079b02baf6f12afd34
+SHA256: 7c92821ee7f792646f21ad7149ce8174d0cc55413bcd5c12b2cd5b6b9b6b62de
 Section: 微信插件
 Priority: optional
 Description: MisakaHelper
 Author: Misaka
-Name: MisakaHelper_END-rootless
+Name: MisakaHelper-rootless
 
 Package: Shengmingkongbao
 Version: 9.9
@@ -228,24 +228,6 @@ Author: SquidForce, Backup
 Name: SquidGesturePro(激活码)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
-Package: cn.zqbb.disupdateapp
-Version: 1.0-2
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 740
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: ./debs/Hello插件/cn.zqbb.disupdateapp_1.0-2_iphoneos-arm64_.deb
-Size: 125778
-MD5sum: b8344c3a041da2b6f332cebb3fa93010
-SHA1: e4757f043d2aa17793eddb3c965eb9283a0252ee
-SHA256: 9eb46ad1edb3dabc20a7490bb52a9acae61f8c4dd865025f5229431d58f1c1db
-Section: Tweaks
-Description: 屏蔽App Store更新提示(Block App Store Updates)!
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
-Name: Hello App
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
-
 Package: cn.zqbb.fix120hz
 Version: 1.2.0-55
 Architecture: iphoneos-arm64
@@ -267,80 +249,6 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 Name: Hello 120Hz
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
-
-Package: cn.zqbb.fix120hz15
-Version: 1.1.0-1
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0) , firmware (<< 16.0)
-Filename: ./debs/Hello插件/cn.zqbb.fix120hz15_1.1.0-1_iphoneos-arm64.deb
-Size: 9480
-MD5sum: 77aa302bca741d139e682131e0b4420d
-SHA1: 60bcdd9605bb0030b2807f7794943feba9e9ea4b
-SHA256: b98557f0d0050c9edf6fce2f65b9fa3d6f3a3231bead165b4d82e0a0f3b4ce8d
-Section: Tweaks
-Description:
- - Unlock dynamic refresh rate from 80hz to 120hz
- - .
- - 解锁动态刷新率80hz到120hz.
-Author: zqbb
-Icon: https://rootless.zq666.eu.org/web/icon/com.zqbb.fix120hz
-Name: 120Hz Fix (iOS15) 免费版
-Sileodepiction: https://rootless.zq666.eu.org/web/com.zqbb.fix120hz
-
-Package: cn.zqbb.helloarea
-Version: 0.0.3
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 304
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Hello插件/cn.zqbb.helloarea_0.0.3_iphoneos-arm64.deb
-Size: 55548
-MD5sum: ce1f6622e0a6961bd2cea6a77163b1fb
-SHA1: 7436c44b3674136a798308f3a4349dae9c81ccc1
-SHA256: 6983e14639097ef8f4d5d264fa8b4656b101a0aec9d01222d99b177107c78690
-Section: Tweaks
-Description: 设置底栏高度!
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.helloarea
-Name: Hello Area
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.helloarea
-
-Package: cn.zqbb.hellojoker
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 624
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
-Filename: ./debs/Hello插件/cn.zqbb.hellojoker_1.0.3_iphoneos-arm64.deb
-Size: 96740
-MD5sum: f690260441174d8809ef13a8fedf1fd6
-SHA1: f3cca6d2a9ae767974f4ca9e17323e86b7ef1f85
-SHA256: 07f438644798b3f0a7c74999fc32ebd922d2c5ff5a61c248837fd42dcb580d75
-Section: Tweaks
-Description: 禁止检测越狱App
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hellojoker
-Name: Hello Joker
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hellojoker
-
-Package: cn.zqbb.hellospeed
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 536
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Hello插件/cn.zqbb.hellospeed_1.1.3_iphoneos-arm64.deb
-Size: 96842
-MD5sum: c1727c35e1430f9f4a613c385311b573
-SHA1: f50a25bdf5d5289c3cd2b9b04fcf5280ba891a1e
-SHA256: b4501424629130bfb640ecda47f20ddb7c2338124b41493b6871944993751c01
-Section: Tweaks
-Description: SpringBoard动画加速!
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hellospeed
-Name: Hello Speed
 
 Package: cn.zqbb.holdcpu
 Version: 2.2.0-8
@@ -736,13 +644,13 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu <njl02@outlook.com>
 Installed-Size: 2211
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: ./debs/系统增强/com.ginsu.comet_1.0.5_iphoneos-arm64.deb
-Size: 228708
-MD5sum: 2fbac2acbaf83a54ab67b5e0f5831e83
-SHA1: 36ace39b596d7f1b3f53a4b849e4a286117743ff
-SHA256: 9d9d50264e5a47bf8a607e14ff8c9ba1f04f89f757b6f0d342c4dfbe11c097b7
-Section: 系统增强
-Description: A SwiftUI Prefs Framework
+Filename: ./debs/Tools/com.ginsu.comet_1.0.5_iphoneos-arm64.deb
+Size: 228696
+MD5sum: d185ad06891df807bdc72fee4789ae0b
+SHA1: a8a6e9a4f376c432ccd766b3e245ca8719f8d569
+SHA256: d3cf9680966451e48144617d57b774b1f559fd8749eab234a47800063cd93a23
+Section: Tools
+Description: SwiftUI Prefs框架
 Tag: compatible_min::ios14.0
 Author: Ginsu <njl02@outlook.com>
 Depiction: https://chariz.com/get/comet
@@ -1860,11 +1768,11 @@ Version: 2.2-1
 Architecture: iphoneos-arm64
 Maintainer: 平凡
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/微信插件/com.pingfan.wechat_2.2-1_iphoneos-arm64 (1).deb
+Filename: ./debs/微信插件/com.pingfan.wechat_2.2-1_iphoneos-arm64.deb
 Size: 1664152
-MD5sum: 84e93075d35e32e600fda2ec7762ee10
-SHA1: 15303e618495b3f7e60753ae54951c40f378a209
-SHA256: 4d97844a1d26e79868026ba646b1c935f53a7abe7d9cd30f0320fff2aa875c5f
+MD5sum: c19ba0b61d426db26b0f046f2b368b42
+SHA1: c71132ee4a403306884b5acf0942ae424bdc13ba
+SHA256: df080a3e1d0cee7d4db3a23b419a37ea4f90913bbac8b50b549f564019e806e8
 Section: 微信插件
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
 Author: 平凡
@@ -2319,15 +2227,15 @@ Package: com.xx.dyhook
 Version: 2.0.6+8
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 11056
+Installed-Size: 11316
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/软件增强/com.xx.dyhook_2.0.6+8_iphoneos-arm64.deb
-Size: 3903488
-MD5sum: c7a57612fc62850d1f774ba938fcfa47
-SHA1: 90eefac5e998337b0f3b8ef15a9c9d85f65f5f0c
-SHA256: e6124a5e22f6034208789f7b9d8f5a2a27daca6d77432c6345d6b04aba491318
-Section: 软件增强
-Description: 仅越狱食用
+Filename: ./debs/图层插件/com.xx.dyhook_2.0.6+8_iphoneos-arm64.deb
+Size: 3993480
+MD5sum: 344d4a0fa1b743df638b9eff09331abc
+SHA1: 834035ab888f8a00b3a1888d7a7a0108e6add54c
+SHA256: f57ae12298926379b3d1784f78461ac9deb757801fd881bce8abdbd4784dd7da
+Section: 图层插件
+Description: 自用 越狱食用
 Author: x✨
 Name: 抖音图层
 
@@ -2750,7 +2658,7 @@ Architecture: iphoneos-arm64
 Maintainer: xybp888 <8657156@qq.com>
 Installed-Size: 496
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Tweaks/com.xybp888.magiciannojailbreak.dopamine_0.0.1-192_iphoneos-arm64.deb
+Filename: ./debs/Tweaks/com.xybp888.magiciannojailbreak.dopamine_0.0.1-192_iphoneos-arm64 2.deb
 Size: 88180
 MD5sum: efc68d4a87c8e67fa1a88218683171a8
 SHA1: a8e02802948bf5d406178e02a1d1230beda09016
@@ -2768,7 +2676,7 @@ Architecture: iphoneos-arm64
 Maintainer: xybp888 <8657156@qq.com>
 Installed-Size: 432
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Tweaks/com.xybp888.magiciannojailbreak.fugu15_0.0.1-4258_iphoneos-arm64.deb
+Filename: ./debs/Tweaks/com.xybp888.magiciannojailbreak.fugu15_0.0.1-4258_iphoneos-arm64 2.deb
 Size: 67580
 MD5sum: 0f7f2febfb977099190e6c67495dae3f
 SHA1: 706ebbb4545e4a2fe1dda221684fb0d827e7cb3a
@@ -2813,43 +2721,6 @@ Description: 原生渲染After Effects矢量动画的iOS库
 Tag: role::developer
 Author: yan
 Name: Lottie
-
-Package: com.zqbb.limitcharging
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 524
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
-Conflicts: zp.limitcharging.rootless
-Filename: ./debs/Hello插件/com.zqbb.limitcharging_1.0.1_iphoneos-arm64.deb
-Size: 18776
-MD5sum: 15753acc68a2c29b6cbc7bc6b19c51d5
-SHA1: 9141015b5d3a9d3dba1575f53be83fb846180094
-SHA256: 223008a2f54e8559581b64ea3a2c58f8c6e5a16b740eadb2d3fa86e6b941548d
-Section: Tweaks
-Description: Hello Charging (限制充电)
- - Wi-Fi Not Disconnected on Lock Screen (Standby consumes 5% more power)
- - 锁屏不断Wi-Fi(待机多费电5%)
-Author: zqbb
-Name: Hello Charging
-Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.limitcharging
-
-Package: com.zqbb.savephotos
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 72
-Depends: mobilesubstrate
-Filename: ./debs/Hello插件/com.zqbb.savephotos_1.1_iphoneos-arm64.deb
-Size: 4424
-MD5sum: e4683961afaae9dc20e4522e1353b441
-SHA1: 31a49568a84e3318f8f4ccf73e85e4ad3caa03f6
-SHA256: 82d9daaf5ec6e593ac484f52fd1213592422a9f3115017d24198ad5ac9ee2c07
-Section: Tweaks
-Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
-Author: zqbb
-Name: Hello Snapper
-Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
 
 Package: cpm.dao.tinge.cn
 Version: 1.2.2
@@ -3950,42 +3821,6 @@ Author: Pay NE
 Name: Surge破解-Rootless
 Sponsor: x
 
-Package: x.swipeunlocktext.rootless
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: xy
-Installed-Size: 436
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
-Filename: ./debs/系统增强/x.swipeunlocktext.rootless_1.0.deb
-Size: 44852
-MD5sum: 19689ee2422a87e7a0f2ffeebc1f8935
-SHA1: 9527ec1c5bd6b28f020081fdd33dbf92f59137c3
-SHA256: 4f50c1c0b6221f8a358e4abc9ad267905a3dd479c8a4295029e95e5b809016f5
-Section: 系统增强
-Description: 修改系统锁屏界面”向上轻扫以解锁”文字
-Author: Snail
-Icon: https://
-Name: 修改向上轻扫以解锁文字-Rootless
-Sponsor: xy
-
-Package: x.trollpad
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: x
-Installed-Size: 536
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
-Conflicts: com.dao.trollpad.cn
-Filename: ./debs/系统增强/x.trollpad_1.3_iphoneos-arm64.deb
-Size: 29344
-MD5sum: 6110a3498b86c9e364d3f910968f08f6
-SHA1: 34d09c4b9f6c76dc06ad1d1a63202c963f6f1728
-SHA256: dffa2639f95bb9224b552e597f086500678c1211728a456dcf2429e105992160
-Section: 系统增强
-Description: 仿iPad后台样式，iPad的dock栏，也可以分屏
-Author: khanhduytran0
-Name: TrollPad后台分屏-Rootless
-Sponsor: x
-
 Package: x.watched
 Version: 1.1-9+debug
 Architecture: iphoneos-arm64
@@ -4124,23 +3959,4 @@ Section: 微信插件
 Description: 更新去除订阅列表广告，去除订阅列表视频广告，去除朋友圈广告，公众号文章广告。小程序提示要升级微信的，可修改微信版本号为8.0.49，长期修改微信会有问题。用完改回来。路口在我的页面，点击退出微信生效。
 Author: z
 Name: WeChatHookLite-rootless
-
-Package: zp.stopautolaunchapps
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
-Filename: ./debs/Hello插件/zp.stopautolaunchapps_1.0.2_iphoneos-arm64.deb
-Size: 3128
-MD5sum: d70363781be194dbc56b87a209a13f24
-SHA1: b0fc76652012edd3a27ce9b1da633e4fd0fb1fd9
-SHA256: df815a9003673a5096be2e958cc647388fe06f035a53b56e838b844fd8666b0f
-Section: Tweaks
-Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯!
- - 优点:节约内存,少杀后台.
- - 玄学:减少重启概率
-Author: zqbb
-Name: Hello 3Q
-Sileodepiction: https://rootless.002599.xyz/web/zp.stopautolaunchapps
 
