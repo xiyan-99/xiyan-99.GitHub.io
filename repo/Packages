@@ -3847,4 +3847,116 @@ Installed-Size: 204
 Depends: mobilesubstrate
 Filename: ./debs/软件增强/x.wbb_0.4-1_iphoneos-arm64.deb
 Size: 18232
-MD5sum: f1ce24f8e79c
+MD5sum: f1ce24f8e79c489eb40f3c246b747985
+SHA1: 1911080c8c92d054ee627399ce01659ad4e5bad0
+SHA256: 7b705f4f1cc2cb4af055ccd45f9856eeecfc069a050bfa525e8256b2c0882954
+Section: 软件增强
+Description: 给微博加点小功能，去广告啥的，可注入 可越狱版，随意写的，设置排版要加的东西多*长按'我'页面的（创作中心）或者（浏览记录）（我的访问记录）的文字，弹出设置。。。来了老弟出品，必属精品。
+Author: 来了老弟
+Name: 微博优化-Rootless
+Sponsor: x
+
+Package: x.wechatnotiavatar
+Version: 1.2-5
+Architecture: iphoneos-arm64
+Maintainer: 夕颜
+Installed-Size: 2336
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Conflicts: netskao.smallbanners-rootless, netskao.smallbanners
+Filename: ./debs/微信插件/x.wechatnotiavatar_1.deb
+Size: 523236
+MD5sum: d43cf477d74ee7ef37f25f90420a22ea
+SHA1: 1c416463c4dffebf3087d1f4bf47c61bbb6863a5
+SHA256: 13c1107002ea7dc74de5ac72349e976f1cacd694fd55149b40fd7033595d9bd9
+Section: 微信插件
+Description: Display Notification Avatars for WeChat App using iOS15 APIs微信来消息通知显示好友头像，仅越狱Rootless可用
+Author: Netskao
+Icon: https://
+Name: 微信头像-Rootless
+Sponsor: 夕颜
+
+Package: x.youtubereborn
+Version: 4.1.5
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 24784
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, com.yourepo.jpet26.youtubetools1, com.justinpetkovic.youtubetools, com.johnzaro.perfectyoutube, com.ichitaso.youtubepatcher, com.yourepo.ikghd.youtubekiller, com.yourepo.ikghd.youtubekillers, com.sinfool.youtopia, com.google.ios.ytadblock, prasa.youtubeplus, com.unlimapps.ytpp, com.twickd.laki.raspberry, com.laki.raspberry, com.twickd.lazar.raspberry, 0xcc.woodfairy.noytads, weeb.lillie.enhancerforyoutubepremium, weeb.lillie.youtubepremiu
+Replaces: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, weeb.lillie.enhancerforyoutubepremium
+Provides: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, weeb.lillie.enhancerforyoutubepremium
+Filename: ./debs/软件增强/x.youtubereborn_4.1.5_iphoneos-arm64.deb
+Size: 9031620
+MD5sum: 6c2370fc12911d320d33131a2357802f
+SHA1: 6c3e6c319b889f117bed9c91c135c6ee4135003c
+SHA256: c5f5fb808ca2d8822d1f85da67875ebde98c0d8e5d3b65330b314c9af81a6409
+Section: 软件增强
+Description: YouTube Reborn 中文版，根据开源，刀刀直接编译的中文版。油管高级自定义插件，可去广告、下载、画中画、改布局等。
+Author: Lillie
+Name: YouTube增强-Rootless
+Sponsor: x
+
+Package: x.zfbb
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/软件增强/x.zfbb_1.2_iphoneos-arm64.deb
+Size: 18248
+MD5sum: 75634293b8c065b8edad80fcacb6e93c
+SHA1: 4e63a81fd5006955ee78f20b305a50a68e2881d1
+SHA256: 40cea1f48ce076a38ef4e9cb2c0094904da3b7584b2707c9cb5e134384287edf
+Section: 软件增强
+Description: 可注入可越狱使用。自定义步数，屏蔽越狱检测，移除理财，精简主页显示内容.***长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置***,支持任意版本。支付宝设置里冠梁视频，底部就居中了！
+Author: 来了老弟 X：h_h_x_t
+Name: 支付宝步数修改-Rootless
+Sponsor: x
+
+Package: x.zomigle
+Version: 0.1.0-beta1
+Architecture: iphoneos-arm64
+Maintainer: x
+Depends: firmware (>= 14.0)
+Filename: ./debs/系统增强/x.zomigle_0.1.0-beta1_iphoneos-arm64.deb
+Size: 16940
+MD5sum: b40ecad5cc5e55520945ae4a989b0b1d
+SHA1: ce470e979027cfff8746be7467b5e325ae5d71c5
+SHA256: 64ca3f87c0a2f701572f4f68039d9e54fdd426a204fac1409a8a884a7620ab0f
+Section: 系统增强
+Description: ZomigleApple Watch 配对神器。无需升级系统，低版本系统设备也可以配对高版本系统的手表。
+Author: HAHALOSAH
+Name: Zomigle手表配对-Rootless
+Sponsor: x
+
+Package: xyz.cypwn.theos
+Version: 2.5
+Architecture: iphoneos-arm64
+Maintainer: tangerine
+Depends: firmware (>= 15.0), xinaa15 | cy+cpu.arm64e, odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil, make, clang, curl, git, grep, perl, rsync, unzip, gzip, make, ldid
+Filename: ./debs/开发&工具/xyz.cypwn.theos_2.5_iphoneos-arm64.deb
+Size: 14239624
+MD5sum: 8ea9707f29dc1d7336c6fa89e8e08a96
+SHA1: ef956f14cff41f6f77c18826c560ff9e12d03446
+SHA256: 9c470c38ed09ef8ebbb8bfb87a6cf231f09136045cac722442df435203629b5c
+Section: 终端&开发
+Description: 用于创建iOS、macOS、Linux和Windows程序的跨平台构建系统。
+Author: Theos
+Icon: https://orig.iosios.lat/CydiaIcon.png
+Name: Theos开发插件
+
+Package: zlw.wechat
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: z
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/微信插件/zlw.wechat_1.8_iphoneos-arm64.deb
+Size: 14852
+MD5sum: 7686e5595aa9f7e6d54e666c7e49a0f4
+SHA1: e6db7a6df3b6815f552e3ec6cc489580385c1bf9
+SHA256: 1054ce321e174c59e7bbf21f6f8efba4c5d6ddeba5b5c5a382e26b67b02edf5a
+Section: 微信插件
+Description: 更新去除订阅列表广告，去除订阅列表视频广告，去除朋友圈广告，公众号文章广告。小程序提示要升级微信的，可修改微信版本号为8.0.49，长期修改微信会有问题。用完改回来。路口在我的页面，点击退出微信生效。
+Author: z
+Name: WeChatHookLite-rootless
+
