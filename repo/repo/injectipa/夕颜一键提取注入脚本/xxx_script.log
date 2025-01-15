@@ -1,4 +1,0 @@
-当前目录下未找到任何 .deb 文件。无需处理已跳过
-请输入需要注入的资源，可注入bundle,图标库,图片这些仅支持注入一个 (回车跳过): 请输入新的icon路径png格式 (回车跳过): 请输入新的应用名称 (回车跳过): 请输入新的BundleID (回车跳过): Constructed injectipa command: injectipa b /var/mobile/Documents/夕颜一键提取注入脚本/已解压插件/*.dylib -s -p
-/var/mobile/Documents/夕颜一键提取注入脚本/remote_script.sh: line 191: injectipa: command not found
-执行 injectipa 命令时出错：injectipa b /var/mobile/Documents/夕颜一键提取注入脚本/已解压插件/*.dylib -s -p
