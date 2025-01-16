@@ -34,6 +34,24 @@ Priority: optional
 Description: 本源插件均来自互联网，安装后请于 24 小时内删除！如有冒犯，请联系我下架！
 Name: A本源声明空包A
 
+Package: app.catscript.lite
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: 0x530c<0x530c@gmail.com>
+Installed-Size: 7752
+Depends: mobilesubstrate
+Conflicts: app.catscript.pro
+Filename: ./debs/Applications/app.catscript.lite_1.2.0_iphoneos-arm64.deb
+Size: 16097804
+MD5sum: ced6a26e461c41ca00a81e37de41e231
+SHA1: cdc3cf1cd17fdc45744ce1d294c5068371805dae
+SHA256: d889c6d0cf5fff165e24cd9572dbf1c40c000f5c917d89209976763241e0624b
+Section: Applications
+Description: 为iOS平台设计的自动化框架
+Author: 0x530c<0x530c@gmail.com>
+Icon: https://img.xiyan.pro/i/u/2025/01/16/211737.png
+Name: CatScript Lite
+
 Package: autoscroll
 Version: 1.0
 Architecture: iphoneos-arm64
