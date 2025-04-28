@@ -1,0 +1,47 @@
+#!name= 微信点歌自定义脚本 by 夕颜
+#!desc= 微信点歌卡片自定义by夕颜-loon插件\n快捷指令替换音频链接\nhttps://www.icloud.com/shortcuts/eb29cfe932c34fa08e369005d762b699
+#!author= 夕颜微信 1418581664
+#!homepage= https://cert.xiyan.store
+#!icon= https://img.xiyan.pro/i/u/2025/04/14/IMG_7887.png
+#!input = Music
+#!system = iOS
+#!system_version = 16.0
+#!loon_version = 3.3.0(850)
+#!tag= 音乐，卡片，自定义
+
+[Argument]
+music_url = input, "https://sf5-hl-cdn-tos.douyinstatic.com/obj/ies-music/7388961729335560997.mp3", tag=自定义音频链接, desc=默认音频链接，仅在未自动捕获时使用
+
+song_name = input, "自定义歌名", tag=自定义歌曲名, desc=将显示在卡片上的歌曲标题
+
+song_singer = input, "夕颜电台", tag=自定义歌手名, desc=将显示在卡片上的歌手名
+
+cover = input, "http://fmc-75014.picgzc.qpic.cn/consult_viewer_pic__2bbe7547-2ab9-4803-b831-20a865904c79_1744135487999.jpg", tag=自定义封面链接, desc=用于显示在卡片上的封面
+
+lyric = input, "[00:00.00] 这是一首纯音乐", tag=自定义歌词, desc=支持替换默认歌词
+
+[script]
+# 捕获抖音解析音频作为卡片音频链接
+http-request ^https:\/\/.*\.douyinstatic\.com\/.* script-path=https://img.xiyan.pro/xy-mkyp.js, requires-body=false, timeout=10, tag=捕获抖音解析音频链接
+
+
+
+# 修改 mikoto 点歌qq接口为聚合接口
+http-response ^https:\/\/api\.dragonlongzhu\.cn\/api\/dg_shenmiMusic_SQ\.php* script-path=https://img.xiyan.pro/xy-mkdgjb.js, requires-body = true, timeout=20, tag=mk点歌修改为聚合接口, argument=[{use_captured_music_url},{music_url},{song_name},{use_custom_song_name},{song_singer},{use_custom_singer},{cover},{use_custom_cover},{lyric},{use_custom_lyric}]
+
+
+# 修改 mikoto 点歌网易接口为聚合接口
+http-response ^https:\/\/api\.dragonlongzhu\.cn\/api\/dg_wyymusic\.php* script-path=https://img.xiyan.pro/xy-mkwyy.js, requires-body = true, timeout=20, tag=mk点歌网易云修改为聚合接口, argument=[{use_captured_music_url},{music_url},{song_name},{use_custom_song_name},{song_singer},{use_custom_singer},{cover},{use_custom_cover},{lyric},{use_custom_lyric}]
+
+# 修改 黄白 点歌qq接口
+http-response ^https:\/\/www\.hhlqilongzhu\.cn\/api\/dg_shenmiMusic_SQ\.php* script-path=https://img.xiyan.pro/xy-mkdgjb.js, requires-body = true, timeout=20, tag=黄白点歌自定义, argument=[{use_captured_music_url},{music_url},{song_name},{use_custom_song_name},{song_singer},{use_custom_singer},{cover},{use_custom_cover},{lyric},{use_custom_lyric}]
+
+
+# 夕颜文件音乐快捷指令上传
+http-response ^https?:\/\/img\.xiyan\.store/api/index\.php$ script-path=https://img.xiyan.pro/xy-mkdgxy.js, requires-body = true, timeout=20, tag=mk点歌音乐链接快捷指令获取
+
+
+
+
+[mitm]
+hostname = api.dragonlongzhu.cn, *.douyinstatic.com, *.xiyan.store, www.hhlqilongzhu.cn
