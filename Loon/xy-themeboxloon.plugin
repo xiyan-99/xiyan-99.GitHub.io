@@ -1,0 +1,47 @@
+#!name= 微信主题盒子兑换 by 夕颜
+#!desc= 支持输入多个兑换码和自定义 wxid，配合快捷指令，多线程并发兑换,支持bark推送通知\n快捷指令https://www.icloud.com/shortcuts/91f0a734fd1c4684a4c6e12882ff03f4
+#!author= 夕颜
+#!homepage= https://cert.xiyan.store
+#!icon= https://img.xiyan.pro/i/u/2025/04/14/IMG_7887.png
+#!input = wxidList
+#!system = iOS
+#!system_version = 16.0
+#!loon_version = 3.2.1(372)
+#!tag = 主题,盒子,兑换
+
+[Argument]
+title = input,"来自夕颜的专属空投盒子主题",tag=可填写通知的通用标题,desc=定制推送的标题
+
+wxiddh = switch,false,tag=多并发兑换配合快捷指令,desc=兑换开关
+wxidList = input,"wxid_1,wxid_2,wxid_3",tag=填写多并发兑换多个wxid,desc=多个wxid请用英文逗号分隔
+
+
+push = switch,false,tag=推送通知仅配合微信插件使用,desc=单独的通知配合插件使用
+barkKey = input,"可填写bark key一行一个",tag=填写barkkey可推送
+
+
+push_open = switch, false, tag=开启盒子定时空投指定wxid
+pushcron = input, "0 9 * * *", tag=空投盒子主题cron定时, desc=自行修改时间
+pushcode = input, "wxid_hgqmipseiwn422，TBKFCVWO50", tag=输入wxid，TB兑换码一组一行
+
+
+
+
+
+
+
+
+
+[script]
+http-request ^https:\/\/theme\.25mao\.com\/index\/redeem script-path=https://img.xiyan.pro/xytbkjzlloon.js, requires-body=true, timeout=20, tag=快捷指令兑换主题, enable={wxiddh}, argument=[{wxidList},{title}]
+
+
+http-request ^https:\/\/theme\.25mao\.com\/index\/redeem script-path=https://img.xiyan.pro/xytbtzloon.js, requires-body=true, timeout=20, tag=兑换主题通知, enable={push}, argument=[{barkKey},{title}]
+
+
+cron {pushcron} script-path=https://img.xiyan.pro/xytbktloon.js, requires-body=false, timeout=20, tag=定时空投主题, enable={push_open}, argument=[{pushcode},{title},{barkKey}]
+
+
+
+[mitm]
+hostname = theme.25mao.com

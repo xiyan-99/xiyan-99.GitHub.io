@@ -1,0 +1,49 @@
+#!name= 微信斗图接口 by 夕颜
+#!desc= 微信斗图接口by夕颜-loon插件\nkongxu接口：https://i.kongxu.de/\nlanmao接口：https://apt.25mao.com/dtapi/index.php\naqkj接口：https://doutu2.aqkj77.com\nppy接口：https://dutu.iospaopaoyu.cn/\nxzy接口：https://dt.zyxzy.cn
+#!author= 夕颜微信 1418581664
+#!homepage= https://cert.xiyan.store
+#!icon= https://img.xiyan.pro/i/u/2025/04/14/IMG_7887.png
+#!input = 夕颜
+#!system = iOS
+#!system_version = 16.0
+#!loon_version = 3.3.0(850)
+#!tag= 微信，斗图，
+
+[Argument]
+wxidkx = input, "wxid_tiaq73nnpz6v41", tag=kongxu有授权wxid, desc=填写kongxu有授权wxid
+wxidmao = input, "wxid_tiaq73nnpz6v41", tag=lanmao有授权wxid, desc=填写lanmao有授权wxid
+
+wxidaqkj = input, "wxid_5t4ypj00k66j22", tag=aqkj有授权wxid, desc=填写aqkj有授权wxid
+
+wxidppy = input, "wxid_mhbjxdsoyiqf12", tag=ppy有授权wxid, desc=填写ppy有授权wxid
+
+wxidxzy = input, "wxid_i91bwhtip3pj12", tag=xzy有授权wxid, desc=填写xzy有授权wxid
+
+[script]
+# kongxu
+http-request ^https?:\/\/i\.kongxu\.de/\?ac=search&wxid=.* script-path=https://img.xiyan.pro/xy-dt.js, requires-body=false, timeout=10, tag=kongxu, argument=[{wxidkx}]
+
+
+
+[script]
+# lanmao
+http-request ^https:\/\/apt\.25mao\.com\/dtapi\/index\.php\?ac=search&wxid=.* script-path=https://img.xiyan.pro/xy-dt.js, requires-body=false, timeout=10, tag=lanmao, argument=[{wxidmao}]
+
+[script]
+# aqkj
+http-request ^https?:\/\/doutu2\.aqkj77\.com\/\?ac=search&wxid=.* script-path=https://img.xiyan.pro/xy-dt.js, requires-body=false, timeout=10, tag=aqkj, argument=[{wxidaqkj}]
+
+
+[script]
+# ppy
+http-request ^https?:\/\/dutu\.iospaopaoyu\.cn\/\?ac=search&wxid=.* script-path=https://img.xiyan.pro/xy-dt.js, requires-body=false, timeout=10, tag=ppy, argument=[{wxidppy}]
+
+[script]
+# xzy
+http-request ^https?:\/\/dt\.zyxzy\.cn\/\?ac=search&wxid=.* script-path=https://img.xiyan.pro/xy-dt.js, requires-body=false, timeout=10, tag=xzy, argument=[{wxidxzy}]
+
+
+
+
+[mitm]
+hostname = i.kongxu.de, apt.25mao.com, doutu2.aqkj77.com, dutu.iospaopaoyu.cn, dt.zyxzy.cn

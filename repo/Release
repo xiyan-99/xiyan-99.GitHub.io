@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Origin: xiyan Repo
 Label: xiyan Repo
 Suite: stable
@@ -10,3 +11,13 @@ Description: 插件备份库
 SHA256:
  0dfa52d7225b9ebe5722e532a174e99272651895dc1e29a034a2ea6302dafdf4 621 Packages.bz2
  99690292aafb58ab1fab516ee4fb582f4519505765132a5a38dee34099d59594 616 Packages.xz
+=======
+Origin: Xiyan Repo
+Label: Xiyan Repo
+Suite: stable
+Version: 2.0
+Codename: xiyan
+Architectures: iphoneos-arm64
+Components: main
+Description: 夕颜自用备份插件仓库
+>>>>>>> 634a9efdf8cc237771598e88727e2ce9acaae235

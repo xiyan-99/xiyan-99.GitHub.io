@@ -1,0 +1,67 @@
+#!name= api接口余额定时查询，定时签到 by 夕颜
+#!desc= api接口余额定时查询by夕颜-loon插件
+#!author= 夕颜微信 1418581664
+#!homepage= https://cert.xiyan.store
+#!icon= https://img.xiyan.pro/i/u/2025/04/14/IMG_7887.png
+#!input = 夕颜
+#!system = iOS
+#!system_version = 16.0
+#!loon_version = 3.3.0(850)
+#!tag= api，余额，查询
+
+[Argument]
+
+
+fineshare_sign_cron = input, "0 9 * * *", tag=Fineshare签到定时, desc=每天早上9点执行
+fineshare_sign_token = input, "你的FV Token", tag=Fineshare签到Token
+fineshare_sign_open = switch, true, tag=是否开启Fineshare签到
+
+
+
+fineshare_redeem_cron = input, "0 9 * * *", tag=Fineshare兑换定时, desc=每天早上9点执行
+fineshare_redeem_token = input, "你的FV Token", tag=Fineshare兑换Token
+fineshare_redeem_open = switch, true, tag=是否开启Fineshare兑换
+
+fineshare_cron = input, "0 9 * * 0", tag=Fineshare查询字符定时, desc=每个星期天早上9点执行
+fineshare_yue = input, "你的FV token", tag=Fineshare Token
+fineshare_open = switch, true, tag=是否开启查询Fineshare字符
+
+fineshare_cron = input, "0 9 * * 0", tag=Fineshare查询积分定时, desc=每个星期天早上9点执行
+fineshare_token = input, "你的FV token", tag=Fineshare Token
+fineshare_open = switch, true, tag=是否开启查询Fineshare积分
+
+fish_cron = input, "0 9 * * 0", tag=Fish查询余额定时, desc=每个星期天早上9点执行
+fish_token = input, "你的fish token", tag=Fish Token
+fish_open = switch, true, tag=是否开启Fish查询
+
+deepseek_cron = input, "0 9 * * 0", tag=DeepSeek查询余额定时, desc=每个星期天9点执行
+deepseek_token = input, "你的deepseek token", tag=DeepSeek Token
+deepseek_open = switch, true, tag=是否开启DeepSeek查询
+
+silicon_cron = input, "0 9 * * 0", tag=Silicon查询余额定时, desc=每个星期天9点执行
+silicon_token = input, "你的silicon token", tag=Silicon Token
+silicon_open = switch, true, tag=是否开启Silicon查询
+
+[Script]
+# FishAudio 余额定时查询
+cron {fish_cron} script-path=https://img.xiyan.pro/xy-apifish.js, timeout=60, tag=Fish余额查询, enable={fish_open}, argument=[{fish_token}]
+
+# Fineshare 签到
+cron {fineshare_sign_cron} script-path=https://img.xiyan.pro/xy-apifvqd.js, timeout=60, tag=Fineshare签到, enable={fineshare_sign_open}, argument=[{fineshare_sign_token}]
+
+
+# Fineshare 积分兑换字符余额
+cron {fineshare_redeem_cron} script-path=https://img.xiyan.pro/xy-apifvdh.js, timeout=60, tag=Fineshare兑换字符, enable={fineshare_redeem_open}, argument=[{fineshare_redeem_token}]
+
+
+# Fineshare字符查询
+cron {fineshare_cron} script-path=https://img.xiyan.pro/xy-apifvyue.js, timeout=60, tag=Fineshare字符查询, enable={fineshare_open}, argument=[{fineshare_yue}]
+
+# Fineshare积分查询
+cron {fineshare_cron} script-path=https://img.xiyan.pro/xy-apifv.js, timeout=60, tag=Fineshare积分查询, enable={fineshare_open}, argument=[{fineshare_token}]
+
+# DeepSeek 余额定时查询
+cron {deepseek_cron} script-path=https://img.xiyan.pro/xy-apids.js, timeout=60, tag=DeepSeek余额查询, enable={deepseek_open}, argument=[{deepseek_token}]
+
+# SiliconFlow 余额定时查询
+cron {silicon_cron} script-path=https://img.xiyan.pro/xy-apigjld.js, timeout=60, tag=Silicon余额查询, enable={silicon_open}, argument=[{silicon_token}]

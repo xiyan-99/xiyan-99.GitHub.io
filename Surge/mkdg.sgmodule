@@ -1,0 +1,8 @@
+#!name= mk点歌封面修改
+#!desc= mk点歌修改封面
+
+[Script]
+http-response ^https:\/\/api\.dragonlongzhu\.cn\/api\/dg_shenmiMusic_SQ\.php\?msg=[^&]+&n=1&type=json$ requires-body=1,script-path=https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/main/Surge/mkdg.js
+
+[MITM]
+hostname = api.dragonlongzhu.cn
