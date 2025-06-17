@@ -19,6 +19,6 @@
     ],
     "automatic_git": "true",
     "subfolder": "repo",
-    "footer": "{{repo_name}} Powered by xiyan {{silica_version}}",
+    "footer": "{{repo_name}} Powered by iOS-夕颜 {{silica_version}}",
     "enable_gpg": "false"
 }

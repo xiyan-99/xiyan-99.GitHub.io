@@ -3,9 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+    
+    <!-- 网页标题：显示为仓库名 -->
     <title>xiyan Repo</title>
+
+    <!-- 引入外部 CSS 样式 -->
     <link rel="stylesheet" type="text/css" href="web/index.css">
-    <style>a, .tint {color: #2da9f3} .active {color: #2da9f3}</style>
+
+    <!-- 设置全局主色调（比如链接和按钮） -->
+    <style>
+        a, .tint { color: #2da9f3; }
+        .active { color: #2da9f3; }
+    </style>
+
+    <!-- 网页 meta 信息：描述、社交分享卡片 -->
     <meta name="description" content="插件备份库">
     <meta property="og:title" content="xiyan Repo">
     <meta property="og:description" content="插件备份库">
@@ -18,8 +29,13 @@
 </head>
 <body>
     <div class="body">
+        <!-- 仓库标题 -->
         <h1 class="header left_float">xiyan Repo</h1>
-        <a class="header right_float add_sileo tint" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://iOS-夕颜/repo">+</a>
+
+        <!-- 添加源按钮：改为 Sileo 跳转格式 -->
+        <a class="header right_float add_sileo tint" href="sileo://source/iOS-夕颜/repo">+</a>
+
+        <!-- 精选轮播区域 -->
         <div class="scroll_view">
             <a href="depiction/web/co.shuga.elementary-lite.html" style="background-image: url(assets/co.shuga.elementary-lite/banner.png)" class="card">
                 <p>Elementary Lite</p>
@@ -27,7 +43,11 @@
                 <p>Elementary Lite</p>
             </a>
         </div>
+
+        <!-- 插件列表标题 -->
         <h2 class="header">Packages</h2>
+
+        <!-- 插件列表区域 -->
         <div class="packageList">
                 <a class="subtle_link" href="depiction/web/co.shuga.elementary-lite.html">
                     <div class="package">
@@ -48,8 +68,12 @@
                     </div>
                 </a>
         </div>
-        <div class="caption center footer">xiyan Repo Powered by xiyan 1.2.2</div>
+
+        <!-- 页脚显示内容 -->
+        <div class="caption center footer">xiyan Repo Powered by iOS-夕颜 1.2.2</div>
     </div>
-</body>
+
+    <!-- 引入 JavaScript 功能脚本 -->
     <script src="web/index.js"></script>
+</body>
 </html>

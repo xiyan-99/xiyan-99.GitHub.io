@@ -3,9 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+    
+    <!-- 网页标题：显示为仓库名 -->
     <title>{{repo_name}}</title>
+
+    <!-- 引入外部 CSS 样式 -->
     <link rel="stylesheet" type="text/css" href="web/index.css">
-    <style>a, .tint {color: {{tint_color}}} .active {color: {{tint_color}}}</style>
+
+    <!-- 设置全局主色调（比如链接和按钮） -->
+    <style>
+        a, .tint { color: {{tint_color}}; }
+        .active { color: {{tint_color}}; }
+    </style>
+
+    <!-- 网页 meta 信息：描述、社交分享卡片 -->
     <meta name="description" content="{{repo_desc}}">
     <meta property="og:title" content="{{repo_name}}">
     <meta property="og:description" content="{{repo_desc}}">
@@ -18,12 +29,21 @@
 </head>
 <body>
     <div class="body">
+        <!-- 仓库标题 -->
         <h1 class="header left_float">{{repo_name}}</h1>
-        <a class="header right_float add_sileo tint" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://{{repo_url}}">+</a>
+
+        <!-- 添加源按钮：改为 Sileo 跳转格式 -->
+        <a class="header right_float add_sileo tint" href="sileo://source/{{repo_url}}">+</a>
+
+        <!-- 精选轮播区域 -->
         <div class="scroll_view">
             {{{repo_carousel}}}
         </div>
+
+        <!-- 插件列表标题 -->
         <h2 class="header">Packages</h2>
+
+        <!-- 插件列表区域 -->
         <div class="packageList">
             {{#tweak_release}}
                 <a class="subtle_link" href="depiction/web/{{bundle_id}}.html">
@@ -37,8 +57,12 @@
                 </a>
             {{/tweak_release}}
         </div>
+
+        <!-- 页脚显示内容 -->
         <div class="caption center footer">{{footer}}</div>
     </div>
-</body>
+
+    <!-- 引入 JavaScript 功能脚本 -->
     <script src="web/index.js"></script>
+</body>
 </html>

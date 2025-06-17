@@ -3,23 +3,42 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+
+    <!-- 页面标题：插件名称 -->
     <title>{{tweak_name}}</title>
+
+    <!-- 引入公共样式 -->
     <link rel="stylesheet" type="text/css" href="../../web/index.css">
-    <style>a, .tint, .table-btn:after {color: {{tint_color}}} .active {color: {{tint_color}};border-bottom: 2px solid {{tint_color}};}</style>
+
+    <!-- 全局主色调样式 -->
+    <style>
+        a, .tint, .table-btn:after { color: {{tint_color}}; }
+        .active {
+            color: {{tint_color}};
+            border-bottom: 2px solid {{tint_color}};
+        }
+    </style>
+
+    <!-- 引入交互脚本 -->
     <script src="../../web/index.js"></script>
-    <meta name="description" content="A package by {{tweak_developer}} for {{tweak_compatibility}}.">
+
+    <!-- 页面 Meta 信息，用于搜索引擎与社交卡片 -->
+    <meta name="description" content="由 {{tweak_developer}} 开发，适用于 {{tweak_compatibility}} 的插件。">
     <meta property="og:title" content="{{tweak_name}}">
-    <meta property="og:description" content="A package by {{tweak_developer}} for {{tweak_compatibility}}.">
+    <meta property="og:description" content="由 {{tweak_developer}} 开发，适用于 {{tweak_compatibility}} 的插件。">
     <meta property="og:image" content="../../assets/{{tweak_bundle_id}}/banner.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{tweak_name}}">
-    <meta name="twitter:description" content="A package by {{tweak_developer}} for {{tweak_compatibility}}.">
+    <meta name="twitter:description" content="由 {{tweak_developer}} 开发，适用于 {{tweak_compatibility}} 的插件。">
     <meta name="twitter:image" content="https://{{repo_url}}/assets/{{tweak_bundle_id}}/banner.png">
     <meta name="theme-color" content="{{tint_color}}">
 </head>
 <body>
     <div class="body">
+        <!-- 顶部横幅背景 -->
         <div style="background-image: url(../../assets/{{tweak_bundle_id}}/banner.png)" class="banner_underlay"></div>
+
+        <!-- 插件头部信息（图标、名称、开发者） -->
         <div class="package package_head">
             <img src="../../assets/{{tweak_bundle_id}}/icon.png">
             <div class="package_info">
@@ -27,50 +46,72 @@
                 <p class="package_caption">{{tweak_developer}}</p>
             </div>
         </div>
+
+        <!-- Tab 切换导航栏（详情/更新日志） -->
         <div class="nav">
-            <div class="nav_btn active tweak_info_btn" onclick="swap('.changelog','.tweak_info');">Details</div>
-            <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">Changelog</div>
+            <div class="nav_btn active tweak_info_btn" onclick="swap('.changelog','.tweak_info');">详情</div>
+            <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">更新日志</div>
         </div>
+
+        <!-- 插件详情页内容 -->
         <div class="tweak_info">
-            <p class="compatibility"><b>Compatibility:</b> This package is compatible with iOS {{tweak_compatibility}}.</p>
+            <!-- 系统兼容提示（由 JS 动态渲染颜色） -->
+            <p class="compatibility"><b>兼容性：</b> 本插件兼容 iOS {{tweak_compatibility}}。</p>
+
+            <!-- 插件截图轮播区（可嵌入 HTML 图集） -->
             {{{tweak_carousel}}}
+
+            <!-- 插件详细说明（Markdown 渲染后 HTML） -->
             <div class="md_view">
                 <p>{{{tweak_description}}}</p>
             </div>
-            <h3>Information</h3>
+
+            <!-- 插件基本信息表 -->
+            <h3>插件信息</h3>
             <div class="table">
                 <div class="cell">
-                    <div class="title">Developer</div>
+                    <div class="title">开发者</div>
                     <div class="text">{{tweak_developer}}</div>
                     <br><br>
                 </div>
                 <div class="cell">
-                    <div class="title">Version</div>
+                    <div class="title">版本</div>
                     <div class="text">{{tweak_version}}</div>
                     <br><br>
                 </div>
                 <div class="cell">
-                    <div class="title">Compatibility</div>
+                    <div class="title">兼容性</div>
                     <div class="text">{{tweak_compatibility}}</div>
                     <br><br>
                 </div>
                 <div class="cell">
-                    <div class="title">Section</div>
+                    <div class="title">分类</div>
                     <div class="text">{{tweak_section}}</div>
                     <br><br>
                 </div>
             </div>
+
+            <!-- 可选：查看源代码按钮 -->
             {{#source}}
             <a href="{{source}}" class="table-btn">
-                <div>View Source Code</div>
+                <div>查看源代码</div>
             </a>
             {{/source}}
         </div>
+
+        <!-- 更新日志（切换页） -->
         <div class="changelog">
             {{{tweak_changelog}}}
         </div>
+
+        <!-- 页脚 -->
         <div class="caption center footer">{{footer}}</div>
     </div>
 </body>
-<script>compatible("{{works_min}}","{{works_max}}","{{tweak_compatibility}}");externalize()</script>
+
+<!-- 启动脚本：检查系统兼容性并转换外链 -->
+<script>
+    compatible("{{works_min}}", "{{works_max}}", "{{tweak_compatibility}}");
+    externalize();
+</script>
 </html>
