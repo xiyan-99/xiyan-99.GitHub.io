@@ -1,0 +1,24 @@
+{
+    "name": "xiyan Repo",
+    "description": "插件备份库",
+    "tint": "#2da9f3",
+    "cname": "iOS-夕颜",
+    "maintainer": {
+        "name": "iOS-夕颜",
+        "email": "1418581664@qq.com"
+    },
+    "social": [
+        {
+            "name": "Twitter",
+            "url": "https://apt.xiyan.store/repo/"
+        },
+        {
+            "name": "Website",
+            "url": "https://apt.xiyan.store/repo/"
+        }
+    ],
+    "automatic_git": "true",
+    "subfolder": "repo",
+    "footer": "{{repo_name}} Powered by xiyan {{silica_version}}",
+    "enable_gpg": "false"
+}
