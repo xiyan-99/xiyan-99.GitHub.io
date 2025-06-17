@@ -1,0 +1,12 @@
+Origin: xiyan Repo
+Label: xiyan Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: 插件备份库
+
+SHA256:
+ 0dfa52d7225b9ebe5722e532a174e99272651895dc1e29a034a2ea6302dafdf4 621 Packages.bz2
+ 99690292aafb58ab1fab516ee4fb582f4519505765132a5a38dee34099d59594 616 Packages.xz

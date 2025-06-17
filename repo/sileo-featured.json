@@ -1,0 +1,11 @@
+{
+    "class": "FeaturedBannersView",
+    "itemSize": "{263, 148}",
+    "itemCornerRadius": 10,
+    "banners": [{
+        "url": "https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/634a9efdf8cc237771598e88727e2ce9acaae235/Love.png",
+        "title": "夕颜微信zviolety-",
+        "package": "Shengmingkongbao",
+        "hideShadow": false
+    }]
+}
