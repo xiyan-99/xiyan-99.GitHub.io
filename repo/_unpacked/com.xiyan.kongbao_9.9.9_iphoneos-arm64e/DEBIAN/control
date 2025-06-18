@@ -1,0 +1,10 @@
+Package: com.xiyan.kongbao
+Name: A空包说明
+Description: 本插件源为互联网资源，仅作为备用
+Maintainer: x
+Author: xiyan
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 9.9.9
+Architecture: iphoneos-arm64e
+Section: 微信插件
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg

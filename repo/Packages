@@ -497,6 +497,22 @@ Author: 愫 茶
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: WeChatEnhance
 
+Package: com.xiyan.kongbao
+Version: 9.9.9
+Architecture: iphoneos-arm64e
+Maintainer: x
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xiyan.kongbao_9.9.9_iphoneos-arm64e.deb
+Size: 856
+MD5sum: ab7459e0aa971991375b0e00a7e62773
+SHA1: 1d162ef47cfaccdae4c379c962e1386b3053d377
+SHA256: 37ae40e72beef18a9165201ea397880659304c81f407c029ee8631eaa9b7881e
+Section: 微信插件
+Description: 本插件源为互联网资源，仅作为备用
+Author: xiyan
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: A空包说明
+
 Package: netskao.wechatpurification
 Version: 4.2-6-END
 Architecture: iphoneos-arm64
