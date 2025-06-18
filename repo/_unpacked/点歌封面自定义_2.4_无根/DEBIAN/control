@@ -1,0 +1,10 @@
+Package: com.hl.wcdgdiy
+Name: 点歌封面自定义
+Version: 2.4
+Architecture: iphoneos-arm64
+Description: 点歌封面自定义
+Maintainer: WCDGDIY
+Author: WCDGDIY
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Section: 微信插件
+icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg

@@ -1,0 +1,15 @@
+Package: ThemePro
+Version: 3.9.1
+Priority: optional
+Architecture: iphoneos-arm
+Replaces: ThemePro
+Provides: ThemePro
+Conflicts: ThemePro
+Essential: no
+Maintainer: MustangYM <MustangYM@yeah.net>
+Depends: mobilesubstrate
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Name: ThemePro-3.9.1
+Author: MustangYM
+Section: 微信插件
+icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg

@@ -1,0 +1,16 @@
+Package: com.25mao.MiYou
+Name: 微信助手
+Version: 3.8-5
+Description: 微信助手
+Depends: firmware (>= 5.0)
+Conflicts: 
+Replaces: 
+Priority: optional
+Author: Mao
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: admin@25mao.com
+Architecture: iphoneos-arm
+Section: 微信插件
+icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg

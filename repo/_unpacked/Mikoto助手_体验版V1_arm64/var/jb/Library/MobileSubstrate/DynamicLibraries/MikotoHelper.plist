@@ -1,0 +1,15 @@
+{
+    Filter = {
+        Executables = (
+            WeChat
+        );
+        Bundles = (
+            "com.tencent.xin.sharetimeline",
+            "com.tencent.xin"
+        );
+        copyright = (
+            misakamikoto
+        );
+    };
+}
+
