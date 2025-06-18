@@ -48,13 +48,14 @@ bzip2 -kf Packages
 gzip -c Packages > Packages.gz
 xz -kf Packages
 
+
+rm -rf "$UNPACK_DIR"
+
 # 3. 推送到GitHub
 git add .
 git commit -m "自动更新插件 $(date '+%Y-%m-%d %H:%M:%S')" || echo "无变更，无需提交"
-git push
+git push origin main
 
 
-# 4. 清理
-rm -rf "$UNPACK_DIR"
 
 echo "全部完成！"

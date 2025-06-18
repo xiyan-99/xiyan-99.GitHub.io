@@ -1,0 +1,16 @@
+Package: com.25mao.doutu
+Name: 斗图助手
+Version: 3.1-6
+Description: 斗图助手
+Depends: firmware (>= 5.0)
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Mao
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: admin@25mao.com
+Section: 微信插件
+icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg

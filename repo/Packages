@@ -1,5 +1,26 @@
 Package: ThemePro
 Version: 3.9.1
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: MustangYM <MustangYM@yeah.net>
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Provides: ThemePro
+Filename: ./debs/ThemePro-iphoneos-arm64_Rootless_extracted.deb
+Size: 5765596
+MD5sum: 748ec473a951fd18ca2c1dacb335b051
+SHA1: cfe344635324fd2efcd9476d77f7f6505fda90aa
+SHA256: 68d2e4ba3b793b96184aac6864c428c3fc5a08c8ad5fba7be6b94057dc5b1bd0
+Section: 微信插件
+Priority: optional
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Author: MustangYM
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: ThemePro-3.9.1
+
+Package: ThemePro
+Version: 3.9.1
 Architecture: iphoneos-arm64e
 Essential: no
 Maintainer: MustangYM <MustangYM@yeah.net>
@@ -22,6 +43,27 @@ Name: ThemePro-3.9.1-roothide
 
 Package: ThemePro
 Version: 3.9.1
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: MustangYM <MustangYM@yeah.net>
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Provides: ThemePro
+Filename: ./debs/ThemePro_3.9.1_iphoneos-arm64e_extracted.deb
+Size: 11531616
+MD5sum: 5d91e801d70cf545c4672afaa71bfbb9
+SHA1: 4aaa5223bad25a9315b1e0478a33d89fe6331ce3
+SHA256: 7fb249c54fcb455c729a20b055a3e732ad41a5e6e694b189e067a672a79eba4c
+Section: 微信插件
+Priority: optional
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Author: MustangYM
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: ThemePro-3.9.1
+
+Package: ThemePro
+Version: 3.9.1
 Architecture: iphoneos-arm64
 Essential: no
 Maintainer: MustangYM <MustangYM@yeah.net>
@@ -40,6 +82,40 @@ Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成
 Author: MustangYM
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: ThemePro-3.9.1-Rootless
+
+Package: com.25mao.doutu
+Version: 3.1-6
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/斗图助手_3.1-6_无根_extracted.deb
+Size: 1051120
+MD5sum: 3ba030db9af0745e3cb218d4fb7e8f6e
+SHA1: 916604a75a022015d446295e0e77aa5f59bf8667
+SHA256: 2dc7dfda7a9e65b5330b9fdd711eed40e216726d0af96a127b1bf81c1f39a863
+Section: 微信插件
+Priority: optional
+Description: 斗图助手
+Author: Mao
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 斗图助手
+
+Package: com.25mao.doutu
+Version: 3.1-6
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.25mao.doutu.roothide_3.1-6_iphoneos-arm64e_extracted.deb
+Size: 1052704
+MD5sum: f866e94771497d0b37eecb15ffb951ff
+SHA1: 61bdd0f2888fa45be18cd5c39a43b9308dc1fec2
+SHA256: 9d98d51edade2a76a05906321ed287a092dddc5150d7930b1813d8161ecd2458
+Section: 微信插件
+Priority: optional
+Description: 斗图助手
+Author: Mao
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 斗图助手
 
 Package: com.25mao.doutu.roothide
 Version: 3.1-6
@@ -131,18 +207,17 @@ Package: com.HBWechatHelper.ailun
 Version: 1.8.8
 Architecture: iphoneos-arm64e
 Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/com.HBWechatHelper.ailun_1.8.8_iphoneos-arm64e.deb
-Size: 23111020
-MD5sum: 8b072860139cd740bb8336722eec245a
-SHA1: 441be071f0b5bd5122ddff2b9fc343c83b48e196
-SHA256: c2efc09a3de656ed04a89c52f49c209b6062f6dbab1f511d555c6cc9be66f0c6
+Size: 23115604
+MD5sum: 8e766c21afa5a8fd4557cb5b938e4869
+SHA1: 07d6f78542986799ebac66214428501abef87591
+SHA256: 0124f6a39baeb20739b811b1ce357ad80e1c8f3e2561741859fedfd340a4771a
 Section: 微信插件
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Author: HuangBai <QQ:1343309363@qq.com>
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: 黄白助手-roothide
+Name: 黄白助手
 
 Package: com.be-huge.wechat-push-msg-page
 Version: 0.0.4
@@ -181,6 +256,42 @@ Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47
 Name: WechatPushMsgPage-roothide
 Sileodepiction: https://be-huge.github.io/repo/ChangeLog/Wechat/WechatMsg.json
 
+Package: com.curtin.pkc
+Version: 0.7-8
+Architecture: iphoneos-arm64e
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.curtin.pkc.roothide_0.7-8_iphoneos-arm64e_extracted.deb
+Size: 920900
+MD5sum: 72cde48785f5211c0b08ae5afaa044c6
+SHA1: afd8bc4cf4d442a42563e4b425e887bf0620ef10
+SHA256: 850c1b6f526bf9b22bd7a31a6e5d8b4fd51291b63c68cf1fce5361f8f987eab6
+Section: 微信插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: PKC助手
+
+Package: com.curtin.pkc
+Version: 0.7-8
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根_0.7-8_extracted.deb
+Size: 919316
+MD5sum: e2fa1df67f1e968ed4127c1d4a48c293
+SHA1: 047100392f0e63a97bbbcbdc237083e0e8a4c1b5
+SHA256: 3b8ac79b8f11ad7643a90e2efc4dbb76030a6308efddaff106db7f6eb1935add
+Section: 微信插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: PKC助手
+
 Package: com.curtin.pkc.roothide
 Version: 0.7-8
 Architecture: iphoneos-arm64e
@@ -217,6 +328,40 @@ Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI
 Author: Curtin
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: PKC_无根
+
+Package: com.dumpapp.wechat
+Version: 2.0.6
+Architecture: iphoneos-arm64e
+Maintainer: WeChat
+Installed-Size: 28608
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/com.dumpapp.wechat-roothide_2.0.6_iphoneos-arm64e_extracted.deb
+Size: 21029588
+MD5sum: 0040cf4ee3371de9dd7ec5e5b7a32119
+SHA1: a4608959506d5093fd1f80a59eddf8a001ef0917
+SHA256: d0f43ab844bd7c2cb40d0df9be1ee183db5bb240000ea412c93a2a833f60490f
+Section: 微信插件
+Description: 锤子助手插件
+Author: DumpApp
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 锤子助手
+
+Package: com.dumpapp.wechat
+Version: 2.0.6
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Installed-Size: 28608
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/锤子助手2.0.7_extracted.deb
+Size: 10510312
+MD5sum: dd57aa163760dfcd48876bcc3e5fdec1
+SHA1: de2f7ea600224e92210239a83fafd8b4fa25e992
+SHA256: 4c93dae5b8ffa9d757445beee155f27d81f7161dfc073fef065eeb79838580af
+Section: 微信插件
+Description: 锤子助手插件
+Author: DumpApp
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 锤子助手
 
 Package: com.dumpapp.wechat-roothide
 Version: 2.0.6
