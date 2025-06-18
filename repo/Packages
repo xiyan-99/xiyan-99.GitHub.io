@@ -1,5 +1,27 @@
 Package: ThemePro
 Version: 3.9.1
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: MustangYM <MustangYM@yeah.net>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Provides: ThemePro
+Filename: ./debs/ThemePro_3.9.1_iphoneos-arm64e.deb
+Size: 11538616
+MD5sum: dd04999278cc5b4f2a523553671d0106
+SHA1: 06b11db6ebb6f0bf83960a059f3dccb9d97b16e9
+SHA256: d8f69932f39cc5a60d1ec5d4b16ed1b2e69750866dce83e798f5e45be9717c54
+Section: 微信插件
+Priority: optional
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Author: MustangYM
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: ThemePro-3.9.1-roothide
+
+Package: ThemePro
+Version: 3.9.1
 Architecture: iphoneos-arm64
 Essential: no
 Maintainer: MustangYM <MustangYM@yeah.net>
@@ -8,10 +30,10 @@ Conflicts: ThemePro
 Replaces: ThemePro
 Provides: ThemePro
 Filename: ./debs/ThemePro-iphoneos-arm64_Rootless.deb
-Size: 5763868
-MD5sum: 0207b856a3b90d062b978aa747700909
-SHA1: 143806f049284bd25dc78436e001083d1ccde02c
-SHA256: 27bca8135a7a109bb963682a6db27470f3fff7a75b69e1d7044481002393f4e6
+Size: 5772244
+MD5sum: e72bd1f41736d47ec0bc3815a6b7e566
+SHA1: d5053be638cda2053edcf2a0060184b5cf9628ef
+SHA256: bedc4fa5ccd6e94132919d388628c82e7cf74cc059d082f94a4d12e599020134
 Section: 微信插件
 Priority: optional
 Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
@@ -19,60 +41,23 @@ Author: MustangYM
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: ThemePro-3.9.1-Rootless
 
-Package: ThemePro
-Version: 3.9.1
-Architecture: iphoneos-arm
-Essential: no
-Maintainer: MustangYM <MustangYM@yeah.net>
-Depends: mobilesubstrate
-Conflicts: ThemePro
-Replaces: ThemePro
-Provides: ThemePro
-Filename: ./debs/ThemePro-3.9.1-iphoneos-arm.deb
-Size: 5894554
-MD5sum: 1a596892c01158ba4a2284cf9792930e
-SHA1: c80a392fde18fb7da9688e276d1bc17e91334c34
-SHA256: 279f3b878ffe56acab427d70674d82910ebf9e0de7357924842e5c3e9651f689
-Section: 微信插件
-Priority: optional
-Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
-Author: MustangYM
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: ThemePro-3.9.1
-
-Package: com.25mao.DouTu
+Package: com.25mao.doutu.roothide
 Version: 3.1-6
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
-Filename: ./debs/斗图助手_3.1-6.deb
-Size: 1051812
-MD5sum: 27a91c2e2718f1834a31a7f4461add0e
-SHA1: 91cff225d9a8116ef2c824bc4b02a9b6f5e2bb77
-SHA256: dfbd3e46ebd56de38d349208fdc4044f96d5d72e6eec07af89377f2dc600a154
+Filename: ./debs/com.25mao.doutu.roothide_3.1-6_iphoneos-arm64e.deb
+Size: 1052732
+MD5sum: 632b9f79e08957b20b2b1ae69cfcca23
+SHA1: 1e3441035a4cacb0cf5453117581f3a735a1bf0f
+SHA256: 9e0e0e7bcef420c174891e049df60a4eb5d91d2a6348876f0d3ca755d7ae2979
 Section: 微信插件
 Priority: optional
-Description: 微信斗图助手
+Description: 斗图助手-roothide
 Author: Mao
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: 微信斗图助手
-
-Package: com.25mao.MiYou
-Version: 3.8-5
-Architecture: iphoneos-arm
-Maintainer: admin@25mao.com
-Depends: firmware (>= 5.0)
-Filename: ./debs/微信助手_3.8-5.deb
-Size: 8992300
-MD5sum: acedce40cd71a1e39b9cbcf0bc88ccbf
-SHA1: 6dd1303bce2c708ee32459ff0e20bcd78762c6d7
-SHA256: de6a26e434a3d1f195bf4b530ea38bfdd33e7180ed06666eba912a044c9edf4c
-Section: 微信插件
-Priority: optional
-Description: 微信助手
-Author: Mao
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: 微信助手
+Name: 斗图助手-roothide
 
 Package: com.25mao.doutu.rootless
 Version: 3.1-6
@@ -80,10 +65,10 @@ Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Filename: ./debs/斗图助手_3.1-6_无根.deb
-Size: 1051760
-MD5sum: 442f9aaff21a50f9e48c6a70950ce840
-SHA1: df52e5b1b14fccfcc842c1fcf37ed3d21ab7b054
-SHA256: 29c0d720f7f289c7314fd1a317ee187b753a42f214322e55e82767a03d5762f7
+Size: 1051696
+MD5sum: 957f27ca5958376e2c57820444503767
+SHA1: 9ad4cb0e66ef657113cc2e0fe9a686f89ac6228a
+SHA256: 4f88175757b8f5cf5fba970e9cda4c0a304ecb3c493131f3f416dcad50639f39
 Section: 微信插件
 Priority: optional
 Description: 斗图助手-Rootless
@@ -91,16 +76,34 @@ Author: Mao
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: 斗图助手-Rootless
 
+Package: com.25mao.miyou.roothide
+Version: 3.8-5
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.25mao.miyou.roothide_3.8-5_iphoneos-arm64e.deb
+Size: 17825516
+MD5sum: 7a6c6a903935f0d78ee840d0121553bc
+SHA1: fc9eda08088dc3502c67a5cb41b1c1726852b0d6
+SHA256: 33631dca74f8df13f11319b48446e3f11667565e5997695519c5de99b5eb5cea
+Section: 微信插件
+Priority: optional
+Description: 微信助手
+Author: Mao
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 微信助手-roothide
+
 Package: com.25mao.miyou.rootless
 Version: 3.8-5
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Filename: ./debs/微信助手_3.8-5_无根.deb
-Size: 8991404
-MD5sum: eba13a262511b36e14191628dfaa99c6
-SHA1: 3dc115710fc6b97695e2083842584e475224d8ae
-SHA256: 14a84c402bbea09a11eb8f7c02a1039cf5bce7456ac7b59eae39cdd0e9d0b534
+Size: 8991972
+MD5sum: 3d42860994c1c6e503a54ece4fea1118
+SHA1: 1a3ef8025d01574b81c6254b269d156be60f6e56
+SHA256: 6ed6154448bb07afc83952c59495080f178a2cb2e817ad7576cacd854785d5c5
 Section: 微信插件
 Priority: optional
 Description: 微信助手-Rootless版
@@ -114,10 +117,10 @@ Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Filename: ./debs/黄白助手 1.8.8 无根.deb
-Size: 11589832
-MD5sum: 3dea963f2e3157c4e5bdfd98aea4dc40
-SHA1: c30e03d0e5d6bb1451130f273c5fd73f2593b97c
-SHA256: 6262554b97c989ad111c5e78c962eeb7b84bf1eb1010b1a7c46bef9016c407c8
+Size: 11552268
+MD5sum: 22ab451e4c7112e70901fa93f81d3a40
+SHA1: 4a7a84fb1fcfc1d15b615bdc1aa3c70e37b95742
+SHA256: a6900051b87661b10848ac184d965e0d6ebcaeeb26c414d97eda112567917a04
 Section: 微信插件
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Author: HuangBai <QQ:1343309363@qq.com>
@@ -126,19 +129,20 @@ Name: 黄白助手(微信插件)-Rootless
 
 Package: com.HBWechatHelper.ailun
 Version: 1.8.8
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64e
 Maintainer: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: ./debs/黄白助手 1.8.8.deb
-Size: 11827162
-MD5sum: f98c9e65abc395ccd7696b126cc3fdb1
-SHA1: 7ec22f99c5923487cae3c74109f47403a4c3bd3a
-SHA256: 40d08e18785af1a99bcb543d74d1a453e247c62399b24c60d392ea1879a4bb13
+Filename: ./debs/com.HBWechatHelper.ailun_1.8.8_iphoneos-arm64e.deb
+Size: 23111020
+MD5sum: 8b072860139cd740bb8336722eec245a
+SHA1: 441be071f0b5bd5122ddff2b9fc343c83b48e196
+SHA256: c2efc09a3de656ed04a89c52f49c209b6062f6dbab1f511d555c6cc9be66f0c6
 Section: 微信插件
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Author: HuangBai <QQ:1343309363@qq.com>
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: 黄白助手(微信插件)
+Name: 黄白助手-roothide
 
 Package: com.be-huge.wechat-push-msg-page
 Version: 0.0.4
@@ -147,10 +151,10 @@ Maintainer: be-huge
 Installed-Size: 232
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Filename: ./debs/com.be-huge.wechat-push-msg-page_0.0.4_iphoneos-arm64.deb
-Size: 23490
-MD5sum: aee751c802f501c7742feb28d5682f58
-SHA1: 0a434eb4df942dd3e5ceba105f9b538028b08214
-SHA256: 7edecd25e861d9c79bc597a81e3a2a05fb98a390f54e59de5ee0a8642cdd83dd
+Size: 23468
+MD5sum: 7ca85a386cb84eb15234fc22f66432f1
+SHA1: 3415689ddaebb9c38910aa08c38040cd657fb99d
+SHA256: 89625ea9f61d7aa7610b93d1f8d06ac661e9b224884e6b2293267f5d30a04630
 Section: 微信插件
 Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
 Author: be-huge
@@ -158,34 +162,36 @@ Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47
 Name: WechatPushMsgPage-rootless
 Sileodepiction: https://be-huge.github.io/repo/ChangeLog/Wechat/WechatMsg.json
 
-Package: com.curtin.pkc
-Version: 0.7-8
-Architecture: iphoneos-arm
-Maintainer: curtinlv@126.com
-Depends: firmware (>= 5.0)
-Filename: ./debs/PKC_0.7-8.deb
-Size: 918960
-MD5sum: c3614ace61f971f9fafa10fccf3cc87f
-SHA1: 20d11036b23346024549efd0258c8b335178333e
-SHA256: fced46b8ee0baa35fd532ca634cf8a4f8f515126d16d20c6fcfb617ac6ec3727
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.4
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.wechat-push-msg-page_0.0.4_iphoneos-arm64e.deb
+Size: 24748
+MD5sum: fc000c0afcc4c0c75b604635a3edc0ea
+SHA1: a10b8e93801036247fee61eca1bf5268b131945e
+SHA256: 539b5f1b9b33b49f20a3547b651461fb54c0e42ecc8e45074ba52db62b3f0443
 Section: 微信插件
-Priority: optional
-Homepage: https://github.com/curtinlv
-Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
-Author: Curtin
+Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
+Author: be-huge
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: PKC
+Name: WechatPushMsgPage-roothide
+Sileodepiction: https://be-huge.github.io/repo/ChangeLog/Wechat/WechatMsg.json
 
-Package: com.curtin.pkc.rootless
+Package: com.curtin.pkc.roothide
 Version: 0.7-8
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: curtinlv@126.com
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
-Filename: ./debs/PKC_无根_0.7-8.deb
-Size: 919202
-MD5sum: a617d3f4f796ec8d546e5d679e5fe24e
-SHA1: ea180eb9fbac298004ed0d7d6096263cec6c618d
-SHA256: 937edd87d6000c0e0804fb836012b7f2553123cdd254e01dab4fb4e1c8daafc1
+Filename: ./debs/com.curtin.pkc.roothide_0.7-8_iphoneos-arm64e.deb
+Size: 921424
+MD5sum: 9c1e93d2e95f515e78eac4d7da8adcb0
+SHA1: 0d98c54c20cb8e15fd81c8b10074346f968918f5
+SHA256: 13d4e341589e7084d2a26b6f8b93120e982b60f9a440a0bd9a0f6da5d2474fd9
 Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
@@ -194,6 +200,77 @@ Author: Curtin
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: PKC_无根
 
+Package: com.curtin.pkc.rootless
+Version: 0.7-8
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根_0.7-8.deb
+Size: 919144
+MD5sum: 6ff24c83e5a3daf9e562b61c6a04a031
+SHA1: 60b05bb9303f9d70e9aa345ec4adfa235ce61c56
+SHA256: ab964858df9e42c4d0f4eccee7539d0dea4ef950bba5c97389021dc61fcded72
+Section: 微信插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: PKC_无根
+
+Package: com.dumpapp.wechat-roothide
+Version: 2.0.6
+Architecture: iphoneos-arm64e
+Maintainer: WeChat
+Installed-Size: 28608
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/com.dumpapp.wechat-roothide_2.0.6_iphoneos-arm64e.deb
+Size: 21033048
+MD5sum: 7009513a155d49adcbb343ef11638e89
+SHA1: 94a96ce01d885aac9b0176d77d3733c1ea6e914f
+SHA256: fc02f07a71cbfaaf5f21ef839946437e30a17f2b135c7da115ebdcec13bc37ba
+Section: 微信插件
+Description: 锤子助手插件
+Author: DumpApp
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 锤子助手-roothide
+
+Package: com.dumpapp.wechat-rootless
+Version: 2.0.6
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Installed-Size: 28608
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/锤子助手2.0.7.deb
+Size: 10519148
+MD5sum: 952caf0303c512c376c0413fbed2df05
+SHA1: f29de55ca4edacc5db778791111a503e79b34e19
+SHA256: 9264adb7920832606ae8b0a7008a521aa788e1db45d6badd73ee3fb337cf441c
+Section: 微信插件
+Description: 锤子助手插件
+Author: DumpApp
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 锤子助手-Rootless
+
+Package: com.end.wechat
+Version: 1.3.3
+Architecture: iphoneos-arm64e
+Maintainer: END
+Installed-Size: 300
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.end.wechat_1.3.3_iphoneos-arm64e.deb
+Size: 36552
+MD5sum: 14293959b48074fe26c629ad55aacb7c
+SHA1: d5729c01b8af380026fb345968abb87d8b941975
+SHA256: 9d5b09e23883ce1c0cbebba43e1c300d820ba2e8a609d4d519de5ef8d13dba89
+Section: 微信插件
+Description: 微信通知横幅美化
+Author: END
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 微信通知横幅美化
+
 Package: com.end.wechat
 Version: 1.3.3
 Architecture: iphoneos-arm64
@@ -201,10 +278,10 @@ Maintainer: END
 Installed-Size: 300
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.end.wechat_1.3.3_iphoneos-arm64.deb
-Size: 35538
-MD5sum: 6a761eeee4a21c74d66d35470078fae3
-SHA1: 4623f68af2a3eb33c3925002f8112e1c9e367e9a
-SHA256: bcc0406866175fe3dd0e1264c887e7358803a7fc77103bf34a4e9ac2f4b68fc8
+Size: 35580
+MD5sum: 6c1191c700e5bd3705615fdde1c3a5e9
+SHA1: 152c7084170ec2667e74ccfb889389c974aa95e9
+SHA256: 72e3fc7b14b860828a1426fd12898fa0e4316a4ff169a3d62bfbc9115730f4bb
 Section: 微信插件
 Description: 微信通知横幅美化
 Author: END
@@ -213,30 +290,14 @@ Name: 微信通知横幅美化
 
 Package: com.hl.wcdgdiy
 Version: 2.4
-Architecture: iphoneos-arm
-Maintainer: WCDGDIY
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), preferenceloader (>= 2.2.3)
-Filename: ./debs/点歌封面自定义_2.4_有根.deb
-Size: 55254
-MD5sum: eae32f1177f85f84fb5366ee2e801574
-SHA1: 8d6bde8366cc16d31c05ec78326e5437429bbccb
-SHA256: 4b2ba1dbded17064fa551819e775e620c7a24ea53434ed822d39bc6bf2fa2a93
-Section: 微信插件
-Description: 点歌封面自定义
-Author: WCDGDIY
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: 点歌封面自定义
-
-Package: com.hl.wcdgdiy
-Version: 2.4
 Architecture: iphoneos-arm64e
 Maintainer: WCDGDIY
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/点歌封面自定义2.4+隐根.deb
-Size: 53554
-MD5sum: af1da45e3dbc83e890c31a4a06494139
-SHA1: e2f5e69193e672d33d500317f6475ccd423305c4
-SHA256: 11da8c749c4270c0c157b1e1a05825ae6dcda463e82efaf2129a4b4b5423217d
+Size: 53376
+MD5sum: a3804493584dd09a393926a3c4a93c96
+SHA1: 2f3bc46d5c13e6f8b51a6bd0e488d312af029d3e
+SHA256: d90b97b92834ccb9cccb73f8a03773cbaae9a3539c0596edfb85eb4dc3d4bf6b
 Section: 微信插件
 Description: 点歌封面自定义
 Author: WCDGDIY
@@ -249,10 +310,10 @@ Architecture: iphoneos-arm64
 Maintainer: WCDGDIY
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
 Filename: ./debs/点歌封面自定义_2.4_无根.deb
-Size: 53996
-MD5sum: f84d1cf5c38a3aa7bfe8bdcea6a268ae
-SHA1: 95ab7ec3a8aae7ad7b26437f79272c31e389ae32
-SHA256: 5d67b812a81510ca014061d9618afa12adbec9b0b089a9d24ddb4837e300be03
+Size: 54040
+MD5sum: 83487d2b402ce29e32355e73f8e2bc18
+SHA1: cadc8733ca461f7cd18b73fbb14795341d82a5d5
+SHA256: 844a8ce48329ce96ce5b050f3ede7d3b6dc7cc2704ef7c04a38c58ff559d4b77
 Section: 微信插件
 Description: 点歌封面自定义
 Author: WCDGDIY
@@ -265,26 +326,10 @@ Architecture: iphoneos-arm64
 Maintainer: WCYuanJiao
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
 Filename: ./debs/全局圆角_1.8.2_无根.deb
-Size: 297784
-MD5sum: ea980bbb265169735f11b3de4518725d
-SHA1: 819443903bea3d281ffcfe0e196b0e49bfe2fd6d
-SHA256: b0ff54e3c8cbef5a58cb5092914846d26cb2c19dfd2c5f28fb4a09ef25b19a35
-Section: 微信插件
-Description: 微信全局圆角
-Author: WCYuanJiao
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: 全局圆角
-
-Package: com.hl.yuanjiao
-Version: 1.8.2
-Architecture: iphoneos-arm
-Maintainer: WCYuanJiao
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), preferenceloader (>= 2.2.3)
-Filename: ./debs/全局圆角_1.8.2_有根.deb
-Size: 307568
-MD5sum: 670e821ebf935230b5f425e3f6b90e2c
-SHA1: ba55afa35a73e2a1a11fe3ad2bca91bf7b49449b
-SHA256: 660c78718b158cce89b05fa4b769d22e2d7241e5318846b3830641d7f3815502
+Size: 298456
+MD5sum: a98a1f28ff3268e8ccb2069ad1cfdd23
+SHA1: b8efbd6e5390885d2b24e8aef811c472f6f9ce97
+SHA256: a5a81906e958526fa9a01ffa8c77e85d0434573d5ce1901646c12cd4e09da67f
 Section: 微信插件
 Description: 微信全局圆角
 Author: WCYuanJiao
@@ -297,10 +342,10 @@ Architecture: iphoneos-arm64e
 Maintainer: WCYuanJiao
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/全局圆角1.8.2+隐根.deb
-Size: 297628
-MD5sum: a4c474b607359c37440aa7b650fbfffa
-SHA1: 56d27f8d1766e91a53dfe4881869962eb1cce14b
-SHA256: ec8d4badae825178cdff38369b56164a0e897b24d29e4d6498934ffe1076db20
+Size: 297316
+MD5sum: 65d7e0825da0c9e31b03fba47b087fc7
+SHA1: cfb0167d87c1b313fc6583de6f048ed14f4e6389
+SHA256: 197e58312340f8abfd74156ee173448affd4b30292a208d1697a7adb3388ee58
 Section: 微信插件
 Description: 微信全局圆角
 Author: WCYuanJiao
@@ -309,32 +354,15 @@ Name: WCYuanJiao
 
 Package: com.huami.WCPulse
 Version: 1.0-9
-Architecture: iphoneos-arm
-Maintainer: huami
-Installed-Size: 388
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/WCPulse_1.0-9-arm.deb
-Size: 70296
-MD5sum: c35d960cc36c54270dedb685287e21a8
-SHA1: 71c29d0b407eaff83008f68fe24f7635675c4e6e
-SHA256: 2f02de46aa27d7148ec4a1e0dd07520102be10e175845599a1953afb09a15dbd
-Section: 微信插件
-Description: WCPulse
-Author: huami
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: WCPulse
-
-Package: com.huami.WCPulse
-Version: 1.0-9
 Architecture: iphoneos-arm64
 Maintainer: huami
 Installed-Size: 388
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/WCPulse_1.0-9-arm64.deb
-Size: 70578
-MD5sum: 9bbeebe219827b56456c1bd18d2165d2
-SHA1: 22900e29c30fe921d2c3c4ac8207e1d88d6c0b83
-SHA256: 3e78b2512fa47280c48ca5a57472a98328747f3237cc659c645bef60696c0126
+Size: 70580
+MD5sum: cea7705a980ca4d3bfcc3dd614848419
+SHA1: 75a6e942668dbb516a551ccb4e00409d693c7b63
+SHA256: ce6f570d944e885d3c6e96eed675d7b2c753fcd406b8572faa2a3a17283eef57
 Section: 微信插件
 Description: WCPulse
 Author: huami
@@ -348,10 +376,10 @@ Maintainer: huami
 Installed-Size: 388
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/WCPulse_1.0-9-arm64e.deb
-Size: 70282
-MD5sum: 9f5a5380a1ae3be4b0ae38ba497ab641
-SHA1: 497919d53b43c6653a62425f02797a2565b03836
-SHA256: 9da23f70ed417b49f2b1eafe62f4cbae9db4c35bbeb83ff2e2f32d78bfffa243
+Size: 70468
+MD5sum: 5dafa67393be236bf6e08a206da3651e
+SHA1: 05c97d9b98cb3968c5b2af9208ecfc21aa9fc876
+SHA256: 14dd8588583140442d12002c4e5241ff13a7a30ee382c5a3f46457320c39a70d
 Section: 微信插件
 Description: WCPulse
 Author: huami
@@ -366,10 +394,10 @@ Maintainer: Mikoto
 Depends: mobilesubstrate
 Conflicts: mikotohelper
 Filename: ./debs/Mikoto助手_体验版V1_arm64.deb
-Size: 20762516
-MD5sum: 6e96d4fa3713111f15a9fd1c9de29629
-SHA1: 991f74a1989ba388096392028e19ce228014e40e
-SHA256: edf698e4d8726e42f21c1a86a969a7e35d8634348d9f3bdbd873f044863a87d0
+Size: 20720344
+MD5sum: 7023548af6da4b6c6e03fa86f5e46d61
+SHA1: ade8b38c9c82b3ab3fcfa6f78c48d98e6b74c6e8
+SHA256: e5b8bf31ccdb6df005b56921569d6e3d7d181d844b96facda21564b770df75f3
 Section: 微信插件
 Priority: optional
 Description: 微信多功能插件
@@ -378,17 +406,39 @@ Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47
 Name: Mikoto 助手
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/MikotoHelper/js.json
 
+Package: com.mikotohelper.wechat
+Version: 1.3.6-V1
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: Mikoto
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: mikotohelper
+Filename: ./debs/com.mikotohelper.wechat_1.3.6-V1_iphoneos-arm64e.deb
+Size: 41454848
+MD5sum: 505e450d4715c39182d85a2d84d93446
+SHA1: 64e4dc49a041c3f0d45d131b043b2eaecde4ee64
+SHA256: 5024e52a47bd7b92db48dbc64083bdf79b7fcf96c1b4b189d3af4ee1c39e58df
+Section: 微信插件
+Priority: optional
+Description: 微信多功能插件
+Author: Mikoto
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: Mikoto 助手
+Sileodepiction: 1
+
 Package: com.netskao.wcabtestlocalbackup
 Version: 1.1-1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Nets
 Installed-Size: 72
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/com.netskao.wcabtestlocalbackup_1.1-1_iphoneos-arm64.deb
-Size: 2654
-MD5sum: 78e383067f8fe0c2d74338a66482eb01
-SHA1: db0648e0c1a1054179cc1cd6c099c8b1b6ae843a
-SHA256: 7aab5cb1aecb39e12d584ed3f4b2f4e24d5f05533e755a8df70bc9e61d1f8f47
+Filename: ./debs/com.netskao.wcabtestlocalbackup_1.1-1_iphoneos-arm64e.deb
+Size: 3596
+MD5sum: 414772288d0a7143b2366bef074eced4
+SHA1: 7cb0e3f9711245c22b98684a9164f0f6fd796cb1
+SHA256: 845ce84b995bde2c18481ac14162dd3dc31e4b5c097842f76ca0c25dfd140fee
 Section: 微信插件
 Description: WeChat Enables AB Tested Local Backup, Only 8.0.50+
 Author: Netskao
@@ -397,15 +447,15 @@ Name: WCABTestLocalBackup
 
 Package: com.netskao.wcabtestlocalbackup
 Version: 1.1-1
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 72
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/com.netskao.wcabtestlocalbackup_1.1-1_iphoneos-arm.deb
-Size: 2584
-MD5sum: 15b805fc6a736712c2e6436dcd35e076
-SHA1: fe8c86c4cd864d6961e75e1c388a398d1ab27fbe
-SHA256: 96ccc3de0f437aea9379d3c986e6ab51831b2a94cdf569da021c40e2f64a011c
+Filename: ./debs/com.netskao.wcabtestlocalbackup_1.1-1_iphoneos-arm64.deb
+Size: 2696
+MD5sum: d1cb6ca82f8db096eea269882bfb780e
+SHA1: 0d09658f190c1e7564e0da5a76fc29fc9778299a
+SHA256: 5f064cccce18b38a563311d2c51039a6f1fa7e33b999ab107d9575ce5104a7ae
 Section: 微信插件
 Description: WeChat Enables AB Tested Local Backup, Only 8.0.50+
 Author: Netskao
@@ -414,15 +464,16 @@ Name: WCABTestLocalBackup
 
 Package: com.netskao.wcabtestvoicerecordview
 Version: 1.1-1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Nets
 Installed-Size: 72
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/com.netskao.wcabtestvoicerecordview_1.1-1_iphoneos-arm64.deb
-Size: 2276
-MD5sum: 0ff003f9dfb691159a515523142399f7
-SHA1: 0d3c2e7d42710340ccb334cee3074ff7cda1d3ae
-SHA256: 11cfddbe3c3ef38e8c8cb88778301671f4d69f3a0faac70e099ac61603127e0b
+Filename: ./debs/com.netskao.wcabtestvoicerecordview_1.1-1_iphoneos-arm64e.deb
+Size: 3272
+MD5sum: 60e29cf2da346057b3efb1a8d6e93f95
+SHA1: 0d1c9513e7dccba9b7b945ba65442c04b5ce3099
+SHA256: fbda1c17e075744a7c022c3075bf1763e5975d56b7c56cffe836a2a974f6b751
 Section: 微信插件
 Description: WeChat Enables AB Tested VoiceRecordView New Button, Only 8.0.60+
 Author: Netskao
@@ -431,15 +482,15 @@ Name: WCABTestVoiceRecordView
 
 Package: com.netskao.wcabtestvoicerecordview
 Version: 1.1-1
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 72
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/com.netskao.wcabtestvoicerecordview_1.1-1_iphoneos-arm.deb
-Size: 2198
-MD5sum: 897952f64ab1d84c0791108367fd2946
-SHA1: cce0308177b0052668744985e69e7b39ddc07a47
-SHA256: a9f2c69b126b9060610535885e65de3b9128a3bd3659423b6add3eca0306d574
+Filename: ./debs/com.netskao.wcabtestvoicerecordview_1.1-1_iphoneos-arm64.deb
+Size: 2316
+MD5sum: 96d4bc86fe31e1e51dc3fae76b777ef7
+SHA1: f4a6d575d9592a4826b582554d9cf81fb7aa832c
+SHA256: 9504e4f06f325a3a462234a1334c42151e03175b0df5bd8f2dcd9c5153f2108c
 Section: 微信插件
 Description: WeChat Enables AB Tested VoiceRecordView New Button, Only 8.0.60+
 Author: Netskao
@@ -464,16 +515,34 @@ Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47
 Name: 主题盒子
 
 Package: com.tencent.themebox
-Version: 2.0.6-1
-Architecture: iphoneos-arm
+Version: 2.0.7-1
+Architecture: iphoneos-arm64e
 Maintainer: WeChat
-Installed-Size: 9028
+Installed-Size: 9108
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/主题盒子_2.0.6.deb
-Size: 3952780
-MD5sum: e3b2a7d1ba5d1959bd73d1532765fbb0
-SHA1: 5c29a72c36ef613118ba4e5571507af5dc0c45c9
-SHA256: f1977ab91aefaaa6b82afbc98be952c207cf5328f7fa7a000599e19e9dedab12
+Filename: ./debs/com.tencent.themebox_2.0.7-1_iphoneos-arm64e.deb
+Size: 7865632
+MD5sum: 86bc094f11f67396e81c78eb3a29efd8
+SHA1: befbd189f1949186ecda22140402421288887f27
+SHA256: 707892e88c3331128370e4e8fb1ece58c010c309d6e72f62fa2caecda2ac73b6
+Section: 微信插件
+Description: 微信主题盒子
+Author: WeChat
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 主题盒子
+
+Package: com.tencent.themebox
+Version: 2.0.7-1
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Installed-Size: 9108
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/主题盒子2.0.7_无根.deb
+Size: 3975840
+MD5sum: d9a5bf84a70d130e81cf6992706aa8fd
+SHA1: 5238b9358d5c62ab8c1d10a1ce607acc7365feaa
+SHA256: 0f7fd281dd27ca546fd1f8ec10053fd45b9db96ce63494dcfcec4a515e51f900
 Section: 微信插件
 Description: 微信主题盒子
 Author: WeChat
@@ -482,15 +551,33 @@ Name: 主题盒子
 
 Package: com.wechat.enhance
 Version: 1.4-3
+Architecture: iphoneos-arm64e
+Maintainer: 愫 茶
+Installed-Size: 2028
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wechat.enhance_1.4-3_iphoneos-arm64e.deb
+Size: 451348
+MD5sum: f867c1565661177993f091c99f3f4b3c
+SHA1: 1ae250c22f926d3164ab4160896cce301c8c77cf
+SHA256: 55791f0b22ab1d272585a49a75eb069de926982c6c55bce1a258ce39cf1ed522
+Section: 微信插件
+Description: 微信插件，支持聊天按钮布局自定义等。
+Author: 愫 茶
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: WeChatEnhance
+
+Package: com.wechat.enhance
+Version: 1.4-3
 Architecture: iphoneos-arm64
 Maintainer: 愫 茶
 Installed-Size: 2028
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.wechat.enhance_1.4-3_iphoneos-arm64.deb
-Size: 452034
-MD5sum: f783b20f09154f1fbbbfc504cf167a0d
-SHA1: b2b3ae7dda1b0e5394cd83350a9d4b33f4eacb61
-SHA256: fd214f8f4adff85e20e0e369865131212cd8734aad3a14818a5be45cdd7f7be5
+Size: 450920
+MD5sum: 52eb2239797615d4c0f425fbdb8e5379
+SHA1: 532170d34d146c0354f6ff5fe50cf4cf14d45495
+SHA256: e46692bff57762a9ef51e4e0ade68c92c27cafb24a5e9b33ee0ff9947c325b42
 Section: 微信插件
 Description: 微信插件，支持聊天按钮布局自定义等。
 Author: 愫 茶
@@ -504,9 +591,9 @@ Maintainer: x
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.xiyan.kongbao_9.9.9_iphoneos-arm64e.deb
 Size: 856
-MD5sum: ab7459e0aa971991375b0e00a7e62773
-SHA1: 1d162ef47cfaccdae4c379c962e1386b3053d377
-SHA256: 37ae40e72beef18a9165201ea397880659304c81f407c029ee8631eaa9b7881e
+MD5sum: 0df3d1ab409d5e6fc370c8f18bb99d8a
+SHA1: 7694375ec7a2065a67d255c576f45a8810c04e52
+SHA256: 0c0dedab3082186950b0c6b1ce36cd1781bc16691dad201ce6e924c05921552f
 Section: 微信插件
 Description: 本插件源为互联网资源，仅作为备用
 Author: xiyan
@@ -515,15 +602,33 @@ Name: A空包说明
 
 Package: netskao.wechatpurification
 Version: 4.2-6-END
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 16676
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/netskao.wechatpurification_4.2-6-END_iphoneos-arm64e.deb
+Size: 12549396
+MD5sum: 0bd5247329653b7d6cf706a77973c5d2
+SHA1: 314c98c320fe788ef2965b74e1953694b2edd094
+SHA256: cc87e93e557cec386f334a44f8c520e027c7d3f7b7a14f8de02343cc17fcc6b8
+Section: 微信插件
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Author: Netskao
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 微信净化END
+
+Package: netskao.wechatpurification
+Version: 4.2-6-END
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 16676
 Depends: mobilesubstrate, firmware (>= 12.0)
 Filename: ./debs/微信净化_4.2-6-END无根.deb
-Size: 6282088
-MD5sum: 91d2d01dd721c668768c81f1b303dfe0
-SHA1: 162c8853d9373d61390d3b4117cfbe851c90c664
-SHA256: 699d2f41cd56740bf833adeaa291b8d97ab18412093ecd1b01f4eaa3a89f17f7
+Size: 6276304
+MD5sum: 637e54f09cddb79b023995b16980048f
+SHA1: ae9fdf8c1b77a6f731b3de60a9ed5b057ca70ab5
+SHA256: 859a6f1215f512c55f08d9e67459b3705e6f119023fe57b8fac9e6e88aae9cf5
 Section: 微信插件
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
 Author: Netskao
