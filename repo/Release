@@ -1,8 +1,8 @@
-Origin: xiyan Repo
-Label: xiyan Repo
+Origin: Xiyan's Repo
+Label: Xiyan's Repo
 Suite: stable
 Version: 1.0
-Codename: ios
+Codename: Xiyan
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 夕颜微信zviolety
