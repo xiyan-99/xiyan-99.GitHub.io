@@ -8,7 +8,7 @@ xz -kf Packages
 
 # 3. 推送到GitHub
 git add .
-git commit -m "自动更新插件 $(date '+%Y-%m-%d %H:%M:%S')" || echo "无变更，无需提交"
+git commit -m "自动更新插件 $(date '+%Y-%m-%d %H:%M:%S')"
 git push origin main
 
 
