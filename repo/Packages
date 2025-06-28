@@ -76,16 +76,15 @@ Name: 斗图助手
 
 Package: com.25mao.miyou
 Version: 3.8-6
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
-Filename: ./deb/微信助手/微信助手_3.8-6_隐根_extracted.deb
-Size: 25378648
-MD5sum: 03d5e7487abb34b04058dd769abda907
-SHA1: ceb80c09183eed4287bbf39c15d7973af75588a0
-SHA256: 3861d72de06cc99b9864976b9a67af765443c5c28b1cdf1c3f664293b062d391
-Section: Tweaks
+Filename: ./deb/微信助手/微信助手_3.8-6_无根_extracted_extracted.deb
+Size: 12749356
+MD5sum: 4a04fb0d55ff005cba207ec0df6ebc93
+SHA1: 6f17aa7904e10c7293a4aec59adace12d440b05f
+SHA256: 54653156dda52c84e8033a698744d9e370793849ab80ee2e30dfe43b4f2653d0
+Section: 微信插件
 Priority: optional
 Description: 微信助手
 Author: Mao
@@ -94,15 +93,16 @@ Name: 微信助手
 
 Package: com.25mao.miyou
 Version: 3.8-6
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
-Filename: ./deb/微信助手/微信助手_3.8-6_无根_extracted.deb
-Size: 12749336
-MD5sum: bb6573fa881bc1a3bf0b1e785edf7d7c
-SHA1: 111c6cfa9a4044420b7494ee8ed6974fa792480d
-SHA256: a410106a128f6cc39a4d38aa4cbe48bbd52599a34d40b19857cfd35c668b24ea
-Section: Tweaks
+Filename: ./deb/微信助手/微信助手_3.8-6_隐根_extracted_extracted.deb
+Size: 25378638
+MD5sum: 9edcdf744cc0be9b2d0001f140d838ad
+SHA1: 1063a651348f9880b353dde92d6b314277ea9348
+SHA256: e25cd99681dd476ae33a5d108e2aeeee4b5ea83129b78ea4ab35ac69008d4161
+Section: 微信插件
 Priority: optional
 Description: 微信助手
 Author: Mao
@@ -707,14 +707,15 @@ Maintainer: WeChat
 Installed-Size: 9108
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/主题盒子/com.tencent.themebox_2.0.7-1_iphoneos-arm64e.deb
-Size: 7877396
-MD5sum: 6e68722fbec1cfd11ac6e361e4a9dfed
-SHA1: a3fd777f1268f4435eb6785c4167965d879b3d58
-SHA256: 9a9e04c4ef6b44520d0acc86eb7f5e0a3990c13586d0c3a38c63c7263049e80d
-Section: Tweaks
+Filename: ./deb/主题盒子/com.tencent.themebox_2.0.7-1_iphoneos-arm64e_extracted.deb
+Size: 10706960
+MD5sum: 384f1892746b6cd1cf5d01a010242d85
+SHA1: ec4ba8e2b3893e1a5e5e4fc3bff04fd80300469a
+SHA256: a35f327dc25d31b29e0e15843d593b20e0958410109a4c93a5c93946d3705f1d
+Section: 微信插件
 Description: 微信主题盒子
 Author: WeChat
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: 主题盒子
 
 Package: com.tencent.themebox
@@ -723,14 +724,15 @@ Architecture: iphoneos-arm64
 Maintainer: WeChat
 Installed-Size: 9108
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/主题盒子/主题盒子2.0.7_无根.deb
-Size: 4342524
-MD5sum: cdc9bb451bd41fdf6b4a36347be48e78
-SHA1: 4a259cfb44dfff28ffb6f517b00b644707fe94b1
-SHA256: dad47bfd3cf94ad9e92ed72908baf7156e39d74dd34691b91f30d272ad658f8d
-Section: Tweaks
+Filename: ./deb/主题盒子/主题盒子2.0.7_无根_extracted.deb
+Size: 5376186
+MD5sum: c4b93aeabbd9894b580eb33c1609aed2
+SHA1: e3fded2bea78b0645197cf7cc816acd539595766
+SHA256: 2fd07e0e7ab376ad5304cb5ba02c55a4d6ecddc7440b5d39320f5d2d0feb9e52
+Section: 微信插件
 Description: 微信主题盒子
 Author: WeChat
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: 主题盒子
 
 Package: com.tiaotiao.wxkeyboarduihook
