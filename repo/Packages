@@ -248,21 +248,56 @@ Description: 关于系统输入法和微信输入法的一些自定义，让键�
 Author: baiy
 Name: KeyboardHook
 
+Package: com.be-huge.custom-notification-sound
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 540
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./deb/微信联系人通知铃声/com.be-huge.custom-notification-sound_1.0.0_iphoneos-arm64e_extracted.deb
+Size: 229830
+MD5sum: 6b929553debab002a032838cffbcdaf4
+SHA1: 466d287c028684ebccffef0b178669915604cf1a
+SHA256: b743c97e6792655b43cffd4f31147d71090548b596aa44c8637f8b7382a369f1
+Section: 微信插件
+Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
+Author: be-huge
+Icon: http://apt.xiyan.store/repo/img/chatgpt.PNG
+Name: CustomWeChatNotificationSound
+
+Package: com.be-huge.custom-notification-sound
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 540
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./deb/微信联系人通知铃声/com.be-huge.custom-notification-sound_1.0.0_iphoneos-arm64-1_extracted.deb
+Size: 115786
+MD5sum: ea3926267db3ee4c37f0ddbf037f8d7a
+SHA1: d64aad82fa88f72a57c310f23356cd860b691ad1
+SHA256: ceff194a4dd1196398c48cf106898da0a73d43cbe0be1a53f8ca95f191620036
+Section: 微信插件
+Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
+Author: be-huge
+Icon: http://apt.xiyan.store/repo/img/chatgpt.PNG
+Name: CustomWeChatNotificationSound
+
 Package: com.chatgpthook
 Version: 0.0.1-2+debug
 Architecture: iphoneos-arm64
 Maintainer: SINI
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/chatgpthook/com.chatgpthook_0.0.1-2+debug_iphoneos-arm64_extracted.deb
-Size: 6718
-MD5sum: 91641e3040c48a06b6bcdd28c995873e
-SHA1: 4ef0a2adbc2188f5ba1d6b6a34355b9a25c77f56
-SHA256: 6831c694ed4ec2b34dd9be4ea98fa5cdc2703e10f9ecd549b1380a75a32756c1
+Filename: ./deb/chatgpthook/com.chatgpthook_0.0.1-2+debug_iphoneos-arm64_extracted_extracted.deb
+Size: 6720
+MD5sum: dddc4cffd4b5c10c2d6e217f884804bc
+SHA1: 976fd36170d190140eea3a8ab261f7922328537e
+SHA256: 17944947e689f8c2f7c6e123231dbccb20cb2df042b179a062588c1c9ef785db
 Section: 应用插件
 Description: 去掉ChatGPT每次打开都让我更新系统的弹窗
 Author: SINI
-Icon: https://m.xiyan.pro/图像-2.png
+Icon: http://apt.xiyan.store/repo/img/chatgpt.PNG
 Name: ChatGPTHook
 
 Package: com.chatgpthook
@@ -272,15 +307,15 @@ Maintainer: SINI
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/chatgpthook/com.chatgpthook_0.0.1-2+debug_iphoneos-arm64e_extracted.deb
-Size: 13222
-MD5sum: a59849c3e4bda76a30f1e217c46de81c
-SHA1: b483b941b59742e0fecd2900aa12a8c8d788b15b
-SHA256: a72dafbea1f0e2217b937f418cf634c3403e1d07284b86969a2b47a418cf9ffc
+Filename: ./deb/chatgpthook/com.chatgpthook_0.0.1-2+debug_iphoneos-arm64e_extracted_extracted.deb
+Size: 13228
+MD5sum: cf643c414a3a16e842b2cc1a40ed5812
+SHA1: 15118f145e0ba23276fe273d4e9d142f62d26ba8
+SHA256: 60e4e56a28378324b97a9bf281b2ab61f6e53c9780e6ebd7927eee04373b4141
 Section: 应用插件
 Description: 去掉ChatGPT每次打开都让我更新系统的弹窗
 Author: SINI
-Icon: https://m.xiyan.pro/图像-2.png
+Icon: http://apt.xiyan.store/repo/img/chatgpt.PNG
 Name: ChatGPTHook
 
 Package: com.curtin.pkc
