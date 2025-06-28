@@ -1,17 +1,17 @@
 Package: ThemePro
 Version: 3.9.1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Essential: no
 Maintainer: MustangYM <MustangYM@yeah.net>
 Depends: mobilesubstrate
 Conflicts: ThemePro
 Replaces: ThemePro
 Provides: ThemePro
-Filename: ./deb/themepro/ThemePro-iphoneos-arm64_Rootless_extracted.deb
-Size: 9051946
-MD5sum: 7ea6ac9516cc8e3b6c28df41175b5a55
-SHA1: 4549fc5c93962e344ec5ae8e86f8c2cda4448542
-SHA256: 9a442d920092aec7221a82b2f87551c16f10888e69b94f6cc34cf4e83f32079d
+Filename: ./debs/ThemePro_arm64e.deb
+Size: 11531616
+MD5sum: 5d91e801d70cf545c4672afaa71bfbb9
+SHA1: 4aaa5223bad25a9315b1e0478a33d89fe6331ce3
+SHA256: 7fb249c54fcb455c729a20b055a3e732ad41a5e6e694b189e067a672a79eba4c
 Section: 微信插件
 Priority: optional
 Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
@@ -21,18 +21,18 @@ Name: ThemePro-3.9.1
 
 Package: ThemePro
 Version: 3.9.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Essential: no
 Maintainer: MustangYM <MustangYM@yeah.net>
 Depends: mobilesubstrate
 Conflicts: ThemePro
 Replaces: ThemePro
 Provides: ThemePro
-Filename: ./deb/themepro/ThemePro_3.9.1_iphoneos-arm64e_extracted.deb
-Size: 18099420
-MD5sum: 68109a70d25f0b2479a29daf37784d52
-SHA1: 536cb229440f1d368457ef25032ffcde46789cdd
-SHA256: 01f42751c38a70f23de142da11680b0d8fe1ccdeab35c17ad693f380a447719e
+Filename: ./debs/ThemePro-arm64.deb
+Size: 5765596
+MD5sum: 748ec473a951fd18ca2c1dacb335b051
+SHA1: cfe344635324fd2efcd9476d77f7f6505fda90aa
+SHA256: 68d2e4ba3b793b96184aac6864c428c3fc5a08c8ad5fba7be6b94057dc5b1bd0
 Section: 微信插件
 Priority: optional
 Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
@@ -42,14 +42,14 @@ Name: ThemePro-3.9.1
 
 Package: com.25mao.doutu
 Version: 3.1-6
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
-Filename: ./deb/斗图助手/斗图助手_3.1-6_无根_extracted.deb
-Size: 1502116
-MD5sum: f040257305b95339418bb3e0f3ab0b04
-SHA1: 53058d5361fa07b2d68933b33f7da1597688fa69
-SHA256: 54f555272a3a1cc8a6dc0dc9bbc0ec40644df992de03daf281b06651630dc415
+Filename: ./debs/斗图助手arm64e.deb
+Size: 1052704
+MD5sum: f866e94771497d0b37eecb15ffb951ff
+SHA1: 61bdd0f2888fa45be18cd5c39a43b9308dc1fec2
+SHA256: 9d98d51edade2a76a05906321ed287a092dddc5150d7930b1813d8161ecd2458
 Section: 微信插件
 Priority: optional
 Description: 斗图助手
@@ -59,14 +59,14 @@ Name: 斗图助手
 
 Package: com.25mao.doutu
 Version: 3.1-6
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
-Filename: ./deb/斗图助手/com.25mao.doutu.roothide_3.1-6_iphoneos-arm64e_extracted.deb
-Size: 2984944
-MD5sum: 86d7cb194da3bdc52150b3448641041a
-SHA1: 0a8974a0b3c8760d6a897ac18e9bd89ff34ea039
-SHA256: c8c68ffff06cca8e66366d7712e3c2299c98411a2b150b41be65adec2a4fa99e
+Filename: ./debs/斗图助手arm64.deb
+Size: 1051120
+MD5sum: 3ba030db9af0745e3cb218d4fb7e8f6e
+SHA1: 916604a75a022015d446295e0e77aa5f59bf8667
+SHA256: 2dc7dfda7a9e65b5330b9fdd711eed40e216726d0af96a127b1bf81c1f39a863
 Section: 微信插件
 Priority: optional
 Description: 斗图助手
@@ -75,15 +75,15 @@ Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47
 Name: 斗图助手
 
 Package: com.25mao.miyou
-Version: 3.8-6
+Version: 3.8-5
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
-Filename: ./deb/微信助手/微信助手_3.8-6_无根_extracted_extracted.deb
-Size: 12749356
-MD5sum: 4a04fb0d55ff005cba207ec0df6ebc93
-SHA1: 6f17aa7904e10c7293a4aec59adace12d440b05f
-SHA256: 54653156dda52c84e8033a698744d9e370793849ab80ee2e30dfe43b4f2653d0
+Filename: ./debs/微信助手_3.8-5_无根_extracted.deb
+Size: 8991952
+MD5sum: 576d9f147941acbe895e6611db051c7d
+SHA1: fd0d8800b8f80e3d3ee795327bb8dd1169f990a1
+SHA256: 30165618ede4d9d431ec437d8ec128f490742851be558207416c38151a2336ed
 Section: 微信插件
 Priority: optional
 Description: 微信助手
@@ -92,16 +92,15 @@ Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47
 Name: 微信助手
 
 Package: com.25mao.miyou
-Version: 3.8-6
+Version: 3.8-5
 Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
-Filename: ./deb/微信助手/微信助手_3.8-6_隐根_extracted_extracted.deb
-Size: 25378638
-MD5sum: 9edcdf744cc0be9b2d0001f140d838ad
-SHA1: 1063a651348f9880b353dde92d6b314277ea9348
-SHA256: e25cd99681dd476ae33a5d108e2aeeee4b5ea83129b78ea4ab35ac69008d4161
+Filename: ./debs/微信助手-arm64e.deb
+Size: 17825548
+MD5sum: e412cd78855715cbdcf1c512ac4dc933
+SHA1: fa76529aa9adb160aff4ac7623cafd1b6b12fbb1
+SHA256: adb8632746c9de08082009d63241437ba61fe74a887815bdaecdb92f5c9ee7df
 Section: 微信插件
 Priority: optional
 Description: 微信助手
@@ -114,7 +113,7 @@ Version: 0.1-3
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
-Filename: ./deb/插件管理/com.25mao.wcplugins.rootless_0.1-3_iphoneos-arm64_extracted.deb
+Filename: ./debs/com.25mao.wcplugins.rootless_0.1-3_iphoneos-arm64_extracted.deb
 Size: 25832
 MD5sum: 51c480723b0c1382a64bcd87daee61ac
 SHA1: ad3e436d95f13363c48e82c4fcb2003534e57554
@@ -133,7 +132,7 @@ Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
-Filename: ./deb/插件管理/com.25mao.wcplugins.rootless_0.1-3_iphoneos-arm64e-1_extracted.deb
+Filename: ./debs/com.25mao.wcplugins.rootless_0.1-3_iphoneos-arm64e-1_extracted.deb
 Size: 50786
 MD5sum: a66fffcf35ebd7b2fb89beb930af4326
 SHA1: 79623ebd371b341ca03a083a087002b815e91003
@@ -152,11 +151,11 @@ Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
-Filename: ./deb/url扩展/com.25mao.wxurlexpand.rootless_0.2-0_iphoneos-arm64e_extracted.deb
-Size: 98494
-MD5sum: 83f42d195bd26b069f3b8575e19d8dc1
-SHA1: 9e5e953b9c166f5aade0d048a3bf25d897577368
-SHA256: d8c6e1b07b6a0e6e9af9d0e03c041a7ae4af8cded46567b41bcd08455e3a1ad1
+Filename: ./debs/com.25mao.wxurlexpand.rootless_0.2-0_iphoneos-arm64e_extracted.deb
+Size: 34852
+MD5sum: 3e5de338a010d287ff56271cd78dc02d
+SHA1: 8e886618cbdc16acaa5805a339cb96c6c77a0809
+SHA256: bae70c57e894aa4230f93e9df92da8d10d9f0832711742f57264633840152451
 Section: 微信插件
 Priority: optional
 Description: 扩展微信URLScheme接口
@@ -170,11 +169,11 @@ Version: 0.2-0
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
-Filename: ./deb/url扩展/com.25mao.wxurlexpand.rootless_0.2-0_iphoneos-arm64_extracted.deb
-Size: 49508
-MD5sum: ec577f4f0b954f4649cb2ff93b71af04
-SHA1: 2b2f24f638e4d22300cadd675d85ffc95b171405
-SHA256: c097d47b8cc68892e45bbb120192a1611b10dc4370b4fc44d8586db6a34ec577
+Filename: ./debs/com.25mao.wxurlexpand.rootless_0.2-0_iphoneos-arm64_extracted.deb
+Size: 34032
+MD5sum: 1d74391a79cab4594924be5e46f978b0
+SHA1: 28b99d79e7c24c3232f2445d3ce1519cd9ce30cc
+SHA256: d095c1d59897b33b5369d8625d0762e5c78393958341f76754ae743e431997b6
 Section: 微信插件
 Priority: optional
 Description: 扩展微信URLScheme接口
@@ -185,35 +184,35 @@ Sponsor: admin@25mao.com
 
 Package: com.HBWechatHelper.ailun
 Version: 1.8.8
-Architecture: iphoneos-arm64
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Depends: mobilesubstrate
-Filename: ./deb/黄白助手/黄白助手 1.8.8 无根.deb
-Size: 11590112
-MD5sum: bbc0369fd4881dfdf304c3b895ec9b39
-SHA1: ecb49e2fd6713b57a8e34a5a132d30f45dc69f74
-SHA256: 1625e16f573b67d6eb0f61c22ba1126f507202b01d73515e9ba000361ff3de4f
-Section: 微信插件
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
-Author: HuangBai <QQ:1343309363@qq.com>
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: 黄白助手(微信插件)-Rootless
-
-Package: com.HBWechatHelper.ailun
-Version: 1.8.8
 Architecture: iphoneos-arm64e
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
-Filename: ./deb/黄白助手/com.HBWechatHelper.ailun_1.8.8_iphoneos-arm64e.deb
-Size: 23109816
-MD5sum: 6fe6cbbc4c6add3db91b85f6c403c44e
-SHA1: a0fae5c0ce588eaaaabb5752bcd4040b7cb5dc68
-SHA256: 91f45e816347331e939d3398117326d559ff9dd7ed09cbc21dc2d66cf07389ee
+Filename: ./debs/黄白助手arm64e.deb
+Size: 23115604
+MD5sum: 8e766c21afa5a8fd4557cb5b938e4869
+SHA1: 07d6f78542986799ebac66214428501abef87591
+SHA256: 0124f6a39baeb20739b811b1ce357ad80e1c8f3e2561741859fedfd340a4771a
 Section: 微信插件
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Author: HuangBai <QQ:1343309363@qq.com>
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: 黄白助手
+
+Package: com.HBWechatHelper.ailun
+Version: 1.8.8
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/黄白助手arm64.deb
+Size: 11552268
+MD5sum: 22ab451e4c7112e70901fa93f81d3a40
+SHA1: 4a7a84fb1fcfc1d15b615bdc1aa3c70e37b95742
+SHA256: a6900051b87661b10848ac184d965e0d6ebcaeeb26c414d97eda112567917a04
+Section: 微信插件
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 黄白助手(微信插件)-Rootless
 
 Package: com.baiy.keyboardhook
 Version: 2.0-6+debug
@@ -221,7 +220,7 @@ Architecture: iphoneos-arm64
 Maintainer: baiy
 Installed-Size: 524
 Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: ./deb/键盘插件/键盘自定义/键盘自定义_2.0-6+debug_-arm64_extracted.deb
+Filename: ./debs/键盘自定义_2.0-6+debug_-arm64_extracted.deb
 Size: 88442
 MD5sum: b4148818cdb7a4f266c2d28a9643ab42
 SHA1: dd02cce693b45a556edcc0242d4cabcf93f78dd7
@@ -238,7 +237,7 @@ Maintainer: baiy
 Installed-Size: 524
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: ./deb/键盘插件/键盘自定义/键盘自定义_2.0-6+debug_-arm64-1_extracted.deb
+Filename: ./debs/键盘自定义_2.0-6+debug_-arm64-1_extracted.deb
 Size: 174742
 MD5sum: e36a2536373d5a17a638001bb779377e
 SHA1: 5935a5fdbfad8fcc4692244a0a859be7f262dcf7
@@ -248,86 +247,16 @@ Description: 关于系统输入法和微信输入法的一些自定义，让键�
 Author: baiy
 Name: KeyboardHook
 
-Package: com.be-huge.custom-notification-sound
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 540
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./deb/微信联系人通知铃声/com.be-huge.custom-notification-sound_1.0.28-6月-2025-21-34-09.0_iphoneos-arm64-1_extracted.deb
-Size: 115848
-MD5sum: 2fc133bef2b57e0342c00ab3988a3b57
-SHA1: fe1e1cb90cd3aaf7f8aa5bcc1a01dabf5be458de
-SHA256: 298ffeefb1041c738bb5b78d84bcecf851cc66bc4a91915f9f4cd64f63a89134
-Section: 微信插件
-Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
-Author: be-huge
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: CustomWeChatNotificationSound
-
-Package: com.be-huge.custom-notification-sound
-Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 540
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./deb/微信联系人通知铃声/com.be-huge.custom-notification-sound_1.0.28-6月-2025-21-34-09.0_iphoneos-arm64e_extracted.deb
-Size: 229888
-MD5sum: 2859338b741cb189bd67a84b483d0614
-SHA1: 2b31b28af7802e5deac86139214dbc8c3e919d94
-SHA256: bf955c300ec377cc3500b0ba4fb70731135747be1361ac934312f2fd38518d85
-Section: 微信插件
-Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
-Author: be-huge
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: CustomWeChatNotificationSound
-
-Package: com.chatgpthook
-Version: 0.0.1-2+debug
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/chatgpthook/com.chatgpthook_0.0.1-2+debug_iphoneos-arm64_extracted_extracted.deb
-Size: 6720
-MD5sum: dddc4cffd4b5c10c2d6e217f884804bc
-SHA1: 976fd36170d190140eea3a8ab261f7922328537e
-SHA256: 17944947e689f8c2f7c6e123231dbccb20cb2df042b179a062588c1c9ef785db
-Section: 应用插件
-Description: 去掉ChatGPT每次打开都让我更新系统的弹窗
-Author: SINI
-Icon: http://apt.xiyan.store/repo/img/chatgpt.PNG
-Name: ChatGPTHook
-
-Package: com.chatgpthook
-Version: 0.0.1-2+debug
-Architecture: iphoneos-arm64e
-Maintainer: SINI
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/chatgpthook/com.chatgpthook_0.0.1-2+debug_iphoneos-arm64e_extracted_extracted.deb
-Size: 13228
-MD5sum: cf643c414a3a16e842b2cc1a40ed5812
-SHA1: 15118f145e0ba23276fe273d4e9d142f62d26ba8
-SHA256: 60e4e56a28378324b97a9bf281b2ab61f6e53c9780e6ebd7927eee04373b4141
-Section: 应用插件
-Description: 去掉ChatGPT每次打开都让我更新系统的弹窗
-Author: SINI
-Icon: http://apt.xiyan.store/repo/img/chatgpt.PNG
-Name: ChatGPTHook
-
 Package: com.curtin.pkc
 Version: 0.7-8
 Architecture: iphoneos-arm64e
 Maintainer: curtinlv@126.com
 Depends: firmware (>= 5.0)
-Filename: ./deb/pkc/com.curtin.pkc.roothide_0.7-8_iphoneos-arm64e_extracted.deb
-Size: 2582662
-MD5sum: 0cda4b6fbf630c7dd808c0dcf9f2e91f
-SHA1: 7b79df7bdec1d8d635d36e16937366444af158b5
-SHA256: 4cd5ebea7023f5b945c591aa4ca2ab38a55ff318deb2573a3c35b6aada7696bc
+Filename: ./debs/pkc助手arm64e.deb
+Size: 920900
+MD5sum: 72cde48785f5211c0b08ae5afaa044c6
+SHA1: afd8bc4cf4d442a42563e4b425e887bf0620ef10
+SHA256: 850c1b6f526bf9b22bd7a31a6e5d8b4fd51291b63c68cf1fce5361f8f987eab6
 Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
@@ -341,11 +270,11 @@ Version: 0.7-8
 Architecture: iphoneos-arm64
 Maintainer: curtinlv@126.com
 Depends: firmware (>= 5.0)
-Filename: ./deb/pkc/PKC_无根_0.7-8_extracted.deb
-Size: 1299436
-MD5sum: 30ab743c0f2dd960fea48193b764ae25
-SHA1: 91c8c96ac8114ccf89569a2af2ef094d4e6936ae
-SHA256: 9a0037b6fdcc44a0b2de67ce145b2aa237579cc9625e01444b4cb89195786e4e
+Filename: ./debs/pkc助手arm64.deb
+Size: 919316
+MD5sum: e2fa1df67f1e968ed4127c1d4a48c293
+SHA1: 047100392f0e63a97bbbcbdc237083e0e8a4c1b5
+SHA256: 3b8ac79b8f11ad7643a90e2efc4dbb76030a6308efddaff106db7f6eb1935add
 Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
@@ -360,11 +289,11 @@ Architecture: iphoneos-arm64e
 Maintainer: WeChat
 Installed-Size: 28608
 Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: ./deb/锤子助手/com.dumpapp.wechat-roothide_2.0.6_iphoneos-arm64e_extracted.deb
-Size: 29613712
-MD5sum: a1a17a76a5274996deae3f640e42fffc
-SHA1: 82f0020ea89b1e157fbb91ea8dd251abf810f05d
-SHA256: 88664b32b289e8e855bc732e23afd56a564d96e456693bd7956414f2ec347476
+Filename: ./debs/锤子助手arm64e.deb
+Size: 21029588
+MD5sum: 0040cf4ee3371de9dd7ec5e5b7a32119
+SHA1: a4608959506d5093fd1f80a59eddf8a001ef0917
+SHA256: d0f43ab844bd7c2cb40d0df9be1ee183db5bb240000ea412c93a2a833f60490f
 Section: 微信插件
 Description: 锤子助手插件
 Author: DumpApp
@@ -377,11 +306,11 @@ Architecture: iphoneos-arm64
 Maintainer: WeChat
 Installed-Size: 28608
 Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: ./deb/锤子助手/锤子助手2.0.7_extracted.deb
-Size: 14808368
-MD5sum: 726e00f931bce1340e580a0d4b842b2b
-SHA1: 46c5d29ae369ede1af9c34960ef78e0de484f691
-SHA256: ab9dead37923dda697a89319f60dda28fce8c2f01f20e93a8a85f85f0dec2a27
+Filename: ./debs/锤子助手arm64.deb
+Size: 10510312
+MD5sum: dd57aa163760dfcd48876bcc3e5fdec1
+SHA1: de2f7ea600224e92210239a83fafd8b4fa25e992
+SHA256: 4c93dae5b8ffa9d757445beee155f27d81f7161dfc073fef065eeb79838580af
 Section: 微信插件
 Description: 锤子助手插件
 Author: DumpApp
@@ -395,11 +324,11 @@ Maintainer: END
 Installed-Size: 300
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/通知横幅美化/com.end.wechat_1.3.3_iphoneos-arm64e.deb
-Size: 36628
-MD5sum: 9d6203ba8ae3a41d63341245f65d6722
-SHA1: fefb85d3113fbbca268b235193cae13fe305066e
-SHA256: 816e2d515c4fd1b8dfed0980daa05fe0ecaad9c8cf29b6a0e8f4c662cbc5fdea
+Filename: ./debs/com.end.wechat_1.3.3_iphoneos-arm64e.deb
+Size: 36552
+MD5sum: 14293959b48074fe26c629ad55aacb7c
+SHA1: d5729c01b8af380026fb345968abb87d8b941975
+SHA256: 9d5b09e23883ce1c0cbebba43e1c300d820ba2e8a609d4d519de5ef8d13dba89
 Section: 微信插件
 Description: 微信通知横幅美化
 Author: END
@@ -412,11 +341,11 @@ Architecture: iphoneos-arm64
 Maintainer: END
 Installed-Size: 300
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/通知横幅美化/com.end.wechat_1.3.3_iphoneos-arm64.deb
-Size: 35606
-MD5sum: ea35fdc8992191b86064c1bce19a83bb
-SHA1: 7b41b536f33b3bfe4d472a46398cef0dff798bdc
-SHA256: 20fe7ddbce97c5d688fbb7bce46e375b5bf99d334ef10fecf7fe2980f927c185
+Filename: ./debs/com.end.wechat_1.3.3_iphoneos-arm64.deb
+Size: 35580
+MD5sum: 6c1191c700e5bd3705615fdde1c3a5e9
+SHA1: 152c7084170ec2667e74ccfb889389c974aa95e9
+SHA256: 72e3fc7b14b860828a1426fd12898fa0e4316a4ff169a3d62bfbc9115730f4bb
 Section: 微信插件
 Description: 微信通知横幅美化
 Author: END
@@ -428,11 +357,11 @@ Version: 2.4
 Architecture: iphoneos-arm64e
 Maintainer: WCDGDIY
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/点歌diy/点歌封面自定义2.4+隐根.deb
-Size: 53424
-MD5sum: 0627b6b71eb4375d392cff6bd52d9e57
-SHA1: 095cd74e01e024d88c0cb150211ae60499f7a8e7
-SHA256: 931551ab316be5905d755d1de7b2f8acf711367f75db487df08a633e58a5bf62
+Filename: ./debs/点歌封面自定义2.4+隐根.deb
+Size: 53376
+MD5sum: a3804493584dd09a393926a3c4a93c96
+SHA1: 2f3bc46d5c13e6f8b51a6bd0e488d312af029d3e
+SHA256: d90b97b92834ccb9cccb73f8a03773cbaae9a3539c0596edfb85eb4dc3d4bf6b
 Section: 微信插件
 Description: 点歌封面自定义
 Author: WCDGDIY
@@ -444,11 +373,11 @@ Version: 2.4
 Architecture: iphoneos-arm64
 Maintainer: WCDGDIY
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: ./deb/点歌diy/点歌封面自定义_2.4_无根.deb
-Size: 54026
-MD5sum: aa2596f2a88b1799415e4dc8293cd516
-SHA1: 24bd931b77d1f84012652a189bdac1d5e202062b
-SHA256: 0ad1ad5cad0709de253809046879b318496c935d943fd2b12cf31b5e3facb80f
+Filename: ./debs/点歌封面自定义_2.4_无根.deb
+Size: 54040
+MD5sum: 83487d2b402ce29e32355e73f8e2bc18
+SHA1: cadc8733ca461f7cd18b73fbb14795341d82a5d5
+SHA256: 844a8ce48329ce96ce5b050f3ede7d3b6dc7cc2704ef7c04a38c58ff559d4b77
 Section: 微信插件
 Description: 点歌封面自定义
 Author: WCDGDIY
@@ -460,11 +389,11 @@ Version: 1.8.2
 Architecture: iphoneos-arm64
 Maintainer: WCYuanJiao
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: ./deb/全局圆角/全局圆角_1.8.2_无根.deb
-Size: 298376
-MD5sum: 5f48c2e8ca86778a61b3619377421e23
-SHA1: b79964332911023078805f17d0b7d5e6f4c86473
-SHA256: 18d5769d5df21e1748dcdf1cf8fdcd3e93769740f4905580542a5e7470e4f505
+Filename: ./debs/全局圆角_1.8.2_无根.deb
+Size: 298456
+MD5sum: a98a1f28ff3268e8ccb2069ad1cfdd23
+SHA1: b8efbd6e5390885d2b24e8aef811c472f6f9ce97
+SHA256: a5a81906e958526fa9a01ffa8c77e85d0434573d5ce1901646c12cd4e09da67f
 Section: 微信插件
 Description: 微信全局圆角
 Author: WCYuanJiao
@@ -476,11 +405,11 @@ Version: 1.8.2
 Architecture: iphoneos-arm64e
 Maintainer: WCYuanJiao
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/全局圆角/全局圆角1.8.2+隐根.deb
-Size: 298136
-MD5sum: 564838382e9d9c709d2e529a2bbe36a8
-SHA1: 581ce7631af6e42103ee594b7ff14b728916894d
-SHA256: 4177ea462ffe9ca6cbc2a733ac06fd5148d12736209cb93de9053a814a0c3066
+Filename: ./debs/全局圆角1.8.2+隐根.deb
+Size: 297316
+MD5sum: 65d7e0825da0c9e31b03fba47b087fc7
+SHA1: cfb0167d87c1b313fc6583de6f048ed14f4e6389
+SHA256: 197e58312340f8abfd74156ee173448affd4b30292a208d1697a7adb3388ee58
 Section: 微信插件
 Description: 微信全局圆角
 Author: WCYuanJiao
@@ -493,11 +422,11 @@ Architecture: iphoneos-arm64
 Maintainer: huami
 Installed-Size: 388
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/wcpulse/WCPulse_1.0-9-arm64.deb
-Size: 70634
-MD5sum: bc537938e9634e2dead1c6d3608277ab
-SHA1: eda48bf5ff099c271dbce0cdf4fc6f8af2f67a86
-SHA256: 53bbafbab4ba3c43e03dc3950c6f599b1f32159350c22c5fc5f9507140c6e2ad
+Filename: ./debs/WCPulse_1.0-9-arm64.deb
+Size: 70580
+MD5sum: cea7705a980ca4d3bfcc3dd614848419
+SHA1: 75a6e942668dbb516a551ccb4e00409d693c7b63
+SHA256: ce6f570d944e885d3c6e96eed675d7b2c753fcd406b8572faa2a3a17283eef57
 Section: 微信插件
 Description: WCPulse
 Author: huami
@@ -510,11 +439,11 @@ Architecture: iphoneos-arm64e
 Maintainer: huami
 Installed-Size: 388
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/wcpulse/WCPulse_1.0-9-arm64e.deb
-Size: 70408
-MD5sum: 256d9868b285daa46d824d16895f3832
-SHA1: 844dff0ab966770fa1eae7f5cb5297f290b68a97
-SHA256: 5132bfc2decc9d2255174519be78d623dbc900a9e444d0598e2958b96191cffb
+Filename: ./debs/WCPulse_1.0-9-arm64e.deb
+Size: 70468
+MD5sum: 5dafa67393be236bf6e08a206da3651e
+SHA1: 05c97d9b98cb3968c5b2af9208ecfc21aa9fc876
+SHA256: 14dd8588583140442d12002c4e5241ff13a7a30ee382c5a3f46457320c39a70d
 Section: 微信插件
 Description: WCPulse
 Author: huami
@@ -523,37 +452,17 @@ Name: WCPulse
 
 Package: com.mikotohelper.wechat
 Version: 1.3.6-V1
-Architecture: iphoneos-arm64
-Essential: no
-Maintainer: Mikoto
-Depends: mobilesubstrate
-Conflicts: mikotohelper
-Filename: ./deb/mikoto/Mikoto助手_体验版V1_arm64.deb
-Size: 20762154
-MD5sum: a7a8ba89fc8f38dc808b22ef0ee8f70f
-SHA1: c622dc8798a23a33aa6d213e93480cc9d76ed5e0
-SHA256: 5e9e0666b45fa7f3cc0516596ccc89aede3d317575a28459b4b6ff50f43e6f81
-Section: 微信插件
-Priority: optional
-Description: 微信多功能插件
-Author: Mikoto
-Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
-Name: Mikoto 助手
-Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/MikotoHelper/js.json
-
-Package: com.mikotohelper.wechat
-Version: 1.3.6-V1
 Architecture: iphoneos-arm64e
 Essential: no
 Maintainer: Mikoto
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Conflicts: mikotohelper
-Filename: ./deb/mikoto/com.mikotohelper.wechat_1.3.6-V1_iphoneos-arm64e.deb
-Size: 41439036
-MD5sum: d6b70485cb40f3e371d04da5c0853c71
-SHA1: e89d20000081c9f87de8caec42ff24f80760d31a
-SHA256: c51b94465995c074be644a5f6a726b6a3f2c898ad6beacd9b4f6885b551c4b45
+Filename: ./debs/mikoto-arm64e.deb
+Size: 41454848
+MD5sum: 505e450d4715c39182d85a2d84d93446
+SHA1: 64e4dc49a041c3f0d45d131b043b2eaecde4ee64
+SHA256: 5024e52a47bd7b92db48dbc64083bdf79b7fcf96c1b4b189d3af4ee1c39e58df
 Section: 微信插件
 Priority: optional
 Description: 微信多功能插件
@@ -562,6 +471,26 @@ Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47
 Name: Mikoto 助手
 Sileodepiction: 1
 
+Package: com.mikotohelper.wechat
+Version: 1.3.6-V1
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: Mikoto
+Depends: mobilesubstrate
+Conflicts: mikotohelper
+Filename: ./debs/mikoto-arm64.deb
+Size: 20720344
+MD5sum: 7023548af6da4b6c6e03fa86f5e46d61
+SHA1: ade8b38c9c82b3ab3fcfa6f78c48d98e6b74c6e8
+SHA256: e5b8bf31ccdb6df005b56921569d6e3d7d181d844b96facda21564b770df75f3
+Section: 微信插件
+Priority: optional
+Description: 微信多功能插件
+Author: Mikoto
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: Mikoto 助手
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/MikotoHelper/js.json
+
 Package: com.netskao.wcabtestlocalbackup
 Version: 1.1-1
 Architecture: iphoneos-arm64e
@@ -569,11 +498,11 @@ Maintainer: Nets
 Installed-Size: 72
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./deb/强开外部存储/com.netskao.wcabtestlocalbackup_1.1-1_iphoneos-arm64e.deb
+Filename: ./debs/com.netskao.wcabtestlocalbackup_1.1-1_iphoneos-arm64e.deb
 Size: 3596
-MD5sum: 9d7f8c8b6e3863237d045c70ef174d91
-SHA1: 129075b581a07837c4a56551463de2691eaaa43a
-SHA256: e8a5b54eeb845c56663184d3c34dbe092c9d244073b33042f6c60be26859198c
+MD5sum: 414772288d0a7143b2366bef074eced4
+SHA1: 7cb0e3f9711245c22b98684a9164f0f6fd796cb1
+SHA256: 845ce84b995bde2c18481ac14162dd3dc31e4b5c097842f76ca0c25dfd140fee
 Section: 微信插件
 Description: WeChat Enables AB Tested Local Backup, Only 8.0.50+
 Author: Netskao
@@ -586,11 +515,11 @@ Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 72
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./deb/强开外部存储/com.netskao.wcabtestlocalbackup_1.1-1_iphoneos-arm64.deb
-Size: 2662
-MD5sum: 8abc5dc6bf8588f95fa4c318252d5b24
-SHA1: 6c221ab7c6ba64d802f19b6812dd45e393bacf8b
-SHA256: 078823f81fc9442b890ec5f3d0cb450e13f680526a6251de2877404eaadbc625
+Filename: ./debs/com.netskao.wcabtestlocalbackup_1.1-1_iphoneos-arm64.deb
+Size: 2696
+MD5sum: d1cb6ca82f8db096eea269882bfb780e
+SHA1: 0d09658f190c1e7564e0da5a76fc29fc9778299a
+SHA256: 5f064cccce18b38a563311d2c51039a6f1fa7e33b999ab107d9575ce5104a7ae
 Section: 微信插件
 Description: WeChat Enables AB Tested Local Backup, Only 8.0.50+
 Author: Netskao
@@ -604,11 +533,11 @@ Maintainer: Nets
 Installed-Size: 72
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./deb/强开语音样式/com.netskao.wcabtestvoicerecordview_1.1-1_iphoneos-arm64e.deb
+Filename: ./debs/com.netskao.wcabtestvoicerecordview_1.1-1_iphoneos-arm64e.deb
 Size: 3272
-MD5sum: 1f759d89b6a7131447b88e5fb7e1e9ad
-SHA1: d787d8f8c17c65bfc5dc1801ee97ff02a75e4b4c
-SHA256: e71b678982f9d5bab8d9f9829ac5669d749237738b96205185458b6f55fff474
+MD5sum: 60e29cf2da346057b3efb1a8d6e93f95
+SHA1: 0d1c9513e7dccba9b7b945ba65442c04b5ce3099
+SHA256: fbda1c17e075744a7c022c3075bf1763e5975d56b7c56cffe836a2a974f6b751
 Section: 微信插件
 Description: WeChat Enables AB Tested VoiceRecordView New Button, Only 8.0.60+
 Author: Netskao
@@ -621,11 +550,11 @@ Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 72
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./deb/强开语音样式/com.netskao.wcabtestvoicerecordview_1.1-1_iphoneos-arm64.deb
-Size: 2276
-MD5sum: 778f7a510c1c1da18505fa12314c5644
-SHA1: 5b713899fec2362217f9a5a02667999c83b2669b
-SHA256: b2704c6d33a2600cbf63ce77b16dfcc73fc7375c835636cf74fbc6e35510cad2
+Filename: ./debs/com.netskao.wcabtestvoicerecordview_1.1-1_iphoneos-arm64.deb
+Size: 2316
+MD5sum: 96d4bc86fe31e1e51dc3fae76b777ef7
+SHA1: f4a6d575d9592a4826b582554d9cf81fb7aa832c
+SHA256: 9504e4f06f325a3a462234a1334c42151e03175b0df5bd8f2dcd9c5153f2108c
 Section: 微信插件
 Description: WeChat Enables AB Tested VoiceRecordView New Button, Only 8.0.60+
 Author: Netskao
@@ -638,11 +567,11 @@ Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 304
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./deb/开关ui/com.netskao.wechatuiswitchloader_1.1-5_iphoneos-arm64_extracted.deb
-Size: 149484
-MD5sum: 6c5b51260377f374df4a3503d1f918bd
-SHA1: 7469cf25b36ff80d9757e43d2fa384aa0a80d1a9
-SHA256: 6ef1b55c023f274dbf69071e0c9f9f55a80774b83a02e06f66b5dc91aa05117e
+Filename: ./debs/com.netskao.wechatuiswitchloader_1.1-5_iphoneos-arm64_extracted.deb
+Size: 119464
+MD5sum: 0fa155f1e2411dfdc6429749b26a8a38
+SHA1: 4493010a9c2908d94b2fb3df83263e2c6ac90970
+SHA256: 2bd9ab13aaa95b50b286f45e01ade5f06827c23b2d52b798d93c0371ddee6552
 Section: 微信插件
 Description: 微信开关ui
 Author: Netskao
@@ -656,11 +585,11 @@ Maintainer: Nets
 Installed-Size: 304
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./deb/开关ui/com.netskao.wechatuiswitchloader_1.1-5_iphoneos-arm64e_extracted.deb
-Size: 299412
-MD5sum: d4ebacb087ff157c1a24d025d1422ed6
-SHA1: 478ea198d6b244713dcded0caaf6603b82df8824
-SHA256: 6a03f5c662737f8c57bc1553b20410b6670b807ab30da548817ff6972be7517a
+Filename: ./debs/com.netskao.wechatuiswitchloader_1.1-5_iphoneos-arm64e_extracted.deb
+Size: 120056
+MD5sum: e08728d478323909abf3c16cc49963ca
+SHA1: dedb693d5c8229846429aaa85c43135c10f2c78a
+SHA256: e224826f97322b0a1034edc80379df5da1e1ae9c527e7e9faf91d8e870b5ca4c
 Section: 微信插件
 Description: 微信开关ui
 Author: Netskao
@@ -672,11 +601,11 @@ Version: 2.2-1
 Architecture: iphoneos-arm64
 Maintainer: 平凡
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/虚拟视频/com.pingfan.wechat_2.2-1_iphoneos-arm64-1_extracted.deb
-Size: 2482566
-MD5sum: b06092777f5213a99028750d245639a5
-SHA1: 88b894aab4a234646dbb1bcc84b91b9b326eb846
-SHA256: e78e5d4a5812abe2f7b3c5de195f1412db2209f7959826f71a597401e6c8531c
+Filename: ./debs/com.pingfan.wechat_2.2-1_iphoneos-arm64-1_extracted.deb
+Size: 1657700
+MD5sum: 181ba2c3ed57d8884e8b8d11705985ee
+SHA1: df7ef8e8e33e6bf5b8fadfa073e6add8fdd221d1
+SHA256: c5943ec88904ca8bc0c727a832246449feb931020789c969c15d4bfa34086a5b
 Section: 微信插件
 Description: 虚拟视频。
 Author: 平凡
@@ -689,11 +618,11 @@ Architecture: iphoneos-arm64e
 Maintainer: 平凡
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/虚拟视频/com.pingfan.wechat_2.2-1_iphoneos-arm64e_extracted.deb
-Size: 4966260
-MD5sum: 6db3147eeb86245473c13629edc25653
-SHA1: 47b46230b5a1abe1559f738a971a549bfda61c07
-SHA256: 062ca79dff48243c94070d1454d07f24013abd90887507f4d231121700b19827
+Filename: ./debs/com.pingfan.wechat_2.2-1_iphoneos-arm64e_extracted.deb
+Size: 1652040
+MD5sum: 7a6b3f97e8fc1f0bd06e2cc9edf71122
+SHA1: ea5e8addf4e226581b7ebea2b7a05135b4e99a41
+SHA256: 370ba52c60f71bd95a3783c86df42f698bb272528d6d5ae53001791bac6fb9da
 Section: 微信插件
 Description: 虚拟视频。
 Author: 平凡
@@ -706,11 +635,11 @@ Architecture: iphoneos-arm64
 Maintainer: 苏苏
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/上下毛玻璃/com.susu.wcfrostedglass_1.0.5_iphoneos-arm64_extracted.deb
-Size: 8042
-MD5sum: 2912c32857650d7ffd9fb2736825666e
-SHA1: bb3ca250a102ca34842c48921a75f235b5bfd5bc
-SHA256: 8acd8c9178beba1d455d41c83699eb222d24b61ca221316cedbdf4646708cb6e
+Filename: ./debs/com.susu.wcfrostedglass_1.0.5_iphoneos-arm64_extracted.deb
+Size: 4888
+MD5sum: 981a9613d44de1b70f0ea291a44c99fa
+SHA1: 0ab762e00a28dca2476f987b1cdf967288959fbd
+SHA256: 3ca524190b017d01e24a9d6042c49ae32e1d9b25a1448a0136ea90743fb1ea25
 Section: 微信插件
 Description: 微信界面上下添加毛玻璃效果
 Author: 苏苏
@@ -724,11 +653,11 @@ Maintainer: 苏苏
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/上下毛玻璃/com.susu.wcfrostedglass_1.0.5_iphoneos-arm64e_extracted.deb
-Size: 15422
-MD5sum: 5421a6eeaba7e32b0191bf9adbe1a24e
-SHA1: 8da6e878fdf69966f8d71f311924dc5a636216b5
-SHA256: 193767a1b25f806eb65dcea9c975df80ecc9cc4c9a79fe6c6d25cdc9839b18fa
+Filename: ./debs/com.susu.wcfrostedglass_1.0.5_iphoneos-arm64e_extracted.deb
+Size: 5872
+MD5sum: 8a9cd7e077c9f3ebbe7e8c2527964dc5
+SHA1: 41e48a1784e94247a36694960a9f86cf088451b0
+SHA256: a48197b0248ced4137d92a181214f386a5a03e430d4a77523ca569a9feab0a8d
 Section: 微信插件
 Description: 微信界面上下添加毛玻璃效果
 Author: 苏苏
@@ -737,16 +666,15 @@ Name: SuWCFrostedGlass
 
 Package: com.tencent.themebox
 Version: 2.0.7-1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: WeChat
 Installed-Size: 9108
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/主题盒子/com.tencent.themebox_2.0.7-1_iphoneos-arm64e_extracted.deb
-Size: 10706960
-MD5sum: 384f1892746b6cd1cf5d01a010242d85
-SHA1: ec4ba8e2b3893e1a5e5e4fc3bff04fd80300469a
-SHA256: a35f327dc25d31b29e0e15843d593b20e0958410109a4c93a5c93946d3705f1d
+Filename: ./debs/主题盒子arm64.deb
+Size: 3975840
+MD5sum: d9a5bf84a70d130e81cf6992706aa8fd
+SHA1: 5238b9358d5c62ab8c1d10a1ce607acc7365feaa
+SHA256: 0f7fd281dd27ca546fd1f8ec10053fd45b9db96ce63494dcfcec4a515e51f900
 Section: 微信插件
 Description: 微信主题盒子
 Author: WeChat
@@ -755,15 +683,16 @@ Name: 主题盒子
 
 Package: com.tencent.themebox
 Version: 2.0.7-1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: WeChat
 Installed-Size: 9108
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/主题盒子/主题盒子2.0.7_无根_extracted.deb
-Size: 5376186
-MD5sum: c4b93aeabbd9894b580eb33c1609aed2
-SHA1: e3fded2bea78b0645197cf7cc816acd539595766
-SHA256: 2fd07e0e7ab376ad5304cb5ba02c55a4d6ecddc7440b5d39320f5d2d0feb9e52
+Filename: ./debs/主题盒子arm64e.deb
+Size: 7865632
+MD5sum: 86bc094f11f67396e81c78eb3a29efd8
+SHA1: befbd189f1949186ecda22140402421288887f27
+SHA256: 707892e88c3331128370e4e8fb1ece58c010c309d6e72f62fa2caecda2ac73b6
 Section: 微信插件
 Description: 微信主题盒子
 Author: WeChat
@@ -776,7 +705,7 @@ Architecture: iphoneos-arm64
 Maintainer: TiaoTiao
 Installed-Size: 480
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./deb/键盘插件/微信键盘自定义/com.tiaotiao.wxkeyboarduihook_2.0_iphoneos-arm64_extracted.deb
+Filename: ./debs/com.tiaotiao.wxkeyboarduihook_2.0_iphoneos-arm64_extracted.deb
 Size: 156402
 MD5sum: b7ede62602a91c1d3d2bc66c5b8436f1
 SHA1: d8766369c91325e71090b384f333b9bb2f5ab25a
@@ -793,7 +722,7 @@ Maintainer: TiaoTiao
 Installed-Size: 480
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./deb/键盘插件/微信键盘自定义/com.tiaotiao.wxkeyboarduihook_2.0_iphoneos-arm64e-4_extracted.deb
+Filename: ./debs/com.tiaotiao.wxkeyboarduihook_2.0_iphoneos-arm64e-4_extracted.deb
 Size: 313020
 MD5sum: b56945eb311f9473804d09b7f70757f5
 SHA1: 562d5cfecdfe80cb706476c0b5f948c66c37ccb9
@@ -809,11 +738,11 @@ Architecture: iphoneos-arm64
 Maintainer: null
 Installed-Size: 160
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/预选词修改颜色/com.wctextcolor_1.5_iphoneos-arm64-3_extracted.deb
-Size: 18146
-MD5sum: 36678f1f4f83d06beda0998c3fa94684
-SHA1: db4a695673a15795c63e9398302c80aca61456ca
-SHA256: 23e14591397a86c1342a72b0aa7def694a4c727d8bf33fee24d0ae031bd1b816
+Filename: ./debs/com.wctextcolor_1.5_iphoneos-arm64-3_extracted.deb
+Size: 13860
+MD5sum: 85fb84d14478626a52389568280b4100
+SHA1: f0b431e18961d465cc89689a97b092d5be54a540
+SHA256: 38037e61fa8dc986f2a54605a3fd000e64f7d6462a2ca60c1d12ceb608c547a2
 Section: 微信插件
 Description: 修改微信输入框圆角，预选字颜色。
 Author: null
@@ -827,11 +756,11 @@ Maintainer: null
 Installed-Size: 160
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/预选词修改颜色/com.wctextcolor_1.5_iphoneos-arm64e-3_extracted.deb
-Size: 36180
-MD5sum: d7ca3828f0b3313de29f1d83f80f8d4a
-SHA1: c203c6268e9f303dbc7d847fa2abcb385086d78a
-SHA256: 54744ef9a37f7abc540fdb04ccb093996bff40aea24580cd041f21dde633dae5
+Filename: ./debs/com.wctextcolor_1.5_iphoneos-arm64e-3_extracted.deb
+Size: 15340
+MD5sum: a1248318cf026b367a3ae2706380c3b9
+SHA1: 7dd197410482904b678c70b1f7e1cf35e1e1c9f5
+SHA256: 12b616c13b83eb899caabce1ec4d24c439b00a03e3cb8972dc2fd09e32d36d51
 Section: 微信插件
 Description: 修改微信输入框圆角，预选字颜色。
 Author: null
@@ -845,11 +774,11 @@ Maintainer: 愫 茶
 Installed-Size: 2028
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/enhance/com.wechat.enhance_1.4-3_iphoneos-arm64e.deb
-Size: 451660
-MD5sum: badff87a5ba438681909297c360ba715
-SHA1: 90a3f9169c502501716c93dd3f73d57255d28422
-SHA256: 29327b51c1fb1bbd66d87bb135482ff1f028d5ecd4cad8a7fa1d25c7ae7eba6f
+Filename: ./debs/微信增强-arm64e.deb
+Size: 451348
+MD5sum: f867c1565661177993f091c99f3f4b3c
+SHA1: 1ae250c22f926d3164ab4160896cce301c8c77cf
+SHA256: 55791f0b22ab1d272585a49a75eb069de926982c6c55bce1a258ce39cf1ed522
 Section: 微信插件
 Description: 微信插件，支持聊天按钮布局自定义等。
 Author: 愫 茶
@@ -862,11 +791,11 @@ Architecture: iphoneos-arm64
 Maintainer: 愫 茶
 Installed-Size: 2028
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/enhance/com.wechat.enhance_1.4-3_iphoneos-arm64.deb
-Size: 450766
-MD5sum: 6798e1989e5062ed2c9d7a074056269d
-SHA1: ea92d365c15bee96f00a0c5d533bbf949600b312
-SHA256: a125cbc5cb415c06a9ce411b61c1b975550684adc203d879f514a937e9cab668
+Filename: ./debs/微信增强arm64.deb
+Size: 450920
+MD5sum: 52eb2239797615d4c0f425fbdb8e5379
+SHA1: 532170d34d146c0354f6ff5fe50cf4cf14d45495
+SHA256: e46692bff57762a9ef51e4e0ade68c92c27cafb24a5e9b33ee0ff9947c325b42
 Section: 微信插件
 Description: 微信插件，支持聊天按钮布局自定义等。
 Author: 愫 茶
@@ -879,7 +808,7 @@ Architecture: iphoneos-arm64
 Maintainer: x
 Installed-Size: 232
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./deb/消息直达/com.wechatpushmsgpage_0.0.5_iphoneos-arm64_extracted.deb
+Filename: ./debs/com.wechatpushmsgpage_0.0.5_iphoneos-arm64_extracted.deb
 Size: 39010
 MD5sum: f40c27e964e3576cb07ab66ab2c222b7
 SHA1: c064545be12bf921684ef33c8f71e21ea97a14b0
@@ -898,7 +827,7 @@ Maintainer: x
 Installed-Size: 232
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./deb/消息直达/com.wechatpushmsgpage_0.0.5_iphoneos-arm64e_extracted.deb
+Filename: ./debs/com.wechatpushmsgpage_0.0.5_iphoneos-arm64e_extracted.deb
 Size: 77064
 MD5sum: 4bd5bad7a38a41ded929c115d156e201
 SHA1: 4512a4a0421d7130ff195c503781eb70217a0470
@@ -915,7 +844,7 @@ Version: 9.9.9
 Architecture: iphoneos-arm64e
 Maintainer: x
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/1空包/com.xiyan.kongbao_9.9.9_iphoneos-arm64e.deb
+Filename: ./debs/com.xiyan.kongbao_9.9.9_iphoneos-arm64e.deb
 Size: 776
 MD5sum: cab2acd7f4ebf8064e6319552b44f912
 SHA1: 23bc291605bf9bdd1799d9321e00157311c4ab15
@@ -931,11 +860,11 @@ Version: 0.0.2
 Architecture: iphoneos-arm64
 Maintainer: BypassWechatMSG
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/内容娱乐/com.ydw.bypasswechatmsg_0.0.2_iphoneos-arm64_extracted.deb
-Size: 474208
-MD5sum: f73877572909f36545da54965d4f4fc1
-SHA1: 6b30bdaa849e4ab144b743e36f8b7db72b36e8e9
-SHA256: ab7f9fac2029117ee178c601cba0740e2a53f62730a43fb0bc36a362bc2ad457
+Filename: ./debs/com.ydw.bypasswechatmsg_0.0.2_iphoneos-arm64_extracted.deb
+Size: 323788
+MD5sum: f4cb38374de18f867c1da8e4efa7a0c3
+SHA1: 18fddc1b2eec8f9d30c3aa7271807a4a342102ff
+SHA256: 230bef49a098f3e75b2aeb741912d9fd496424b1d1ce45da902e006a2e9192e7
 Section: 微信插件
 Description: 修改聊天记录外部预览内容文本。
 Author: BypassWechatMSG
@@ -948,11 +877,11 @@ Architecture: iphoneos-arm64e
 Maintainer: BypassWechatMSG
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./deb/内容娱乐/com.ydw.bypasswechatmsg_0.0.2_iphoneos-arm64e_extracted.deb
-Size: 948038
-MD5sum: e79a3fad5abba153d788c6c10ff4f239
-SHA1: 0cf92031b0fe8ac7e6a6c63d0a388ea125e32127
-SHA256: f43f956964fac221d4edcd309d00e387bc638cb4697a1d2a886473f15d9ea3ae
+Filename: ./debs/com.ydw.bypasswechatmsg_0.0.2_iphoneos-arm64e_extracted.deb
+Size: 324312
+MD5sum: 57200f099a6e7510f0564707c2fae13c
+SHA1: f91d96c0e799098a492691061b53c093c9c51860
+SHA256: be1696d4240250dcb70cc8df0c6ad10e2b32b6a1ef9a844e38da90e67f9b3224
 Section: 微信插件
 Description: 修改聊天记录外部预览内容文本。
 Author: BypassWechatMSG
@@ -961,16 +890,15 @@ Name: BypassWechatMSG
 
 Package: netskao.wechatpurification
 Version: 4.2-6-END
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 16676
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: ./deb/微信净化/netskao.wechatpurification_4.2-6-END_iphoneos-arm64e.deb
-Size: 12548404
-MD5sum: d7646c9c402385b31e35c8031d7a9005
-SHA1: d1d0bbbadff19e1cb19345ec40cdca1529a23693
-SHA256: 28e18118a0a8f1589a001a7995f3eed031982b2a98c768d0874a0b0a395cd475
+Filename: ./debs/微信净化_arm64.deb
+Size: 6276304
+MD5sum: 637e54f09cddb79b023995b16980048f
+SHA1: ae9fdf8c1b77a6f731b3de60a9ed5b057ca70ab5
+SHA256: 859a6f1215f512c55f08d9e67459b3705e6f119023fe57b8fac9e6e88aae9cf5
 Section: 微信插件
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
 Author: Netskao
@@ -979,15 +907,16 @@ Name: 微信净化END
 
 Package: netskao.wechatpurification
 Version: 4.2-6-END
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Nets
 Installed-Size: 16676
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: ./deb/微信净化/微信净化_4.2-6-END无根.deb
-Size: 6273410
-MD5sum: fc0d11f3f7e0fc2958149d8766986ce9
-SHA1: 0a74d7a4cadea96b69f7c583541fde8e9fb3b6a8
-SHA256: f3b69035310aa1faf0797368f4ab379c0e83c63c8b6a26eca9590c6ca452286e
+Filename: ./debs/微信净化arm64e.deb
+Size: 12549396
+MD5sum: 0bd5247329653b7d6cf706a77973c5d2
+SHA1: 314c98c320fe788ef2965b74e1953694b2edd094
+SHA256: cc87e93e557cec386f334a44f8c520e027c7d3f7b7a14f8de02343cc17fcc6b8
 Section: 微信插件
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
 Author: Netskao
@@ -1000,7 +929,7 @@ Architecture: iphoneos-arm64e
 Maintainer: wechat我的背景图
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: ./deb/微信圆角/wechat.bjt_1.0_iphoneos-arm64e_extracted.deb
+Filename: ./debs/wechat.bjt_1.0_iphoneos-arm64e_extracted.deb
 Size: 38510
 MD5sum: 6d76cca89d64cd2368af6e809506238a
 SHA1: a9b1e4ee7ba7fa757129fb4be1b33ffc271049dc
@@ -1016,7 +945,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: wechat我的背景图
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: ./deb/微信圆角/wechat.bjt_1.0_iphoneos-arm64_extracted.deb
+Filename: ./debs/wechat.bjt_1.0_iphoneos-arm64_extracted.deb
 Size: 19124
 MD5sum: 7375802e0c38e854090a307a25bf08fc
 SHA1: 9548d8cc3590c231050b8edab802ee8dfccbacf9
@@ -1033,7 +962,7 @@ Architecture: iphoneos-arm64e
 Maintainer: wechat动态背景
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: ./deb/微信圆角/wechat.dtbj_1.0_iphoneos-arm64e_extracted.deb
+Filename: ./debs/wechat.dtbj_1.0_iphoneos-arm64e_extracted.deb
 Size: 81514
 MD5sum: ffb81d14cdc56bad285b500a054beb31
 SHA1: 4044de95e2c5a429bd73c3a2dd2e28ca52470368
@@ -1049,7 +978,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: wechat动态背景
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: ./deb/微信圆角/wechat.dtbj_1.0_iphoneos-arm64_extracted.deb
+Filename: ./debs/wechat.dtbj_1.0_iphoneos-arm64_extracted.deb
 Size: 40378
 MD5sum: d4be39c3bae8f2e8a6636ec5726d0606
 SHA1: 8cd71175b928830f0185b3023cbfa30db4c139eb
@@ -1065,7 +994,7 @@ Version: 1314
 Architecture: iphoneos-arm64
 Maintainer: wechat圆角
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: ./deb/微信圆角/wechat.yuanjiao_1314_iphoneos-arm64.deb
+Filename: ./debs/wechat.yuanjiao_1314_iphoneos-arm64.deb
 Size: 36696
 MD5sum: 78f366977c9505a1994f9fd82bd341b2
 SHA1: dc17c77ad0f8469ed3abc6f1c2d9c73373b97fe3
@@ -1082,7 +1011,7 @@ Architecture: iphoneos-arm64e
 Maintainer: wechat圆角
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: ./deb/微信圆角/wechat.yuanjiao_1314_iphoneos-arm64e.deb
+Filename: ./debs/wechat.yuanjiao_1314_iphoneos-arm64e.deb
 Size: 50168
 MD5sum: 7379339b5755b7982fe095c6e7300f01
 SHA1: f9038ef05dbc18cb6f74c751dd8e709487cea677
