@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dpkg-scanpackages -m ./debs > Packages
+dpkg-scanpackages -m ./deb > Packages
 bzip2 -kf Packages
 gzip -c Packages > Packages.gz
 xz -kf Packages
