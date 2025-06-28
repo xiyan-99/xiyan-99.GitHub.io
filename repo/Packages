@@ -250,37 +250,37 @@ Name: KeyboardHook
 
 Package: com.be-huge.custom-notification-sound
 Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 540
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./deb/微信联系人通知铃声/com.be-huge.custom-notification-sound_1.0.28-6月-2025-21-34-09.0_iphoneos-arm64-1_extracted.deb
+Size: 115848
+MD5sum: 2fc133bef2b57e0342c00ab3988a3b57
+SHA1: fe1e1cb90cd3aaf7f8aa5bcc1a01dabf5be458de
+SHA256: 298ffeefb1041c738bb5b78d84bcecf851cc66bc4a91915f9f4cd64f63a89134
+Section: 微信插件
+Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
+Author: be-huge
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: CustomWeChatNotificationSound
+
+Package: com.be-huge.custom-notification-sound
+Version: 1.0.0
 Architecture: iphoneos-arm64e
 Maintainer: be-huge
 Installed-Size: 540
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./deb/微信联系人通知铃声/com.be-huge.custom-notification-sound_1.0.0_iphoneos-arm64e_extracted.deb
-Size: 229830
-MD5sum: 6b929553debab002a032838cffbcdaf4
-SHA1: 466d287c028684ebccffef0b178669915604cf1a
-SHA256: b743c97e6792655b43cffd4f31147d71090548b596aa44c8637f8b7382a369f1
+Filename: ./deb/微信联系人通知铃声/com.be-huge.custom-notification-sound_1.0.28-6月-2025-21-34-09.0_iphoneos-arm64e_extracted.deb
+Size: 229888
+MD5sum: 2859338b741cb189bd67a84b483d0614
+SHA1: 2b31b28af7802e5deac86139214dbc8c3e919d94
+SHA256: bf955c300ec377cc3500b0ba4fb70731135747be1361ac934312f2fd38518d85
 Section: 微信插件
 Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
 Author: be-huge
-Icon: http://apt.xiyan.store/repo/img/chatgpt.PNG
-Name: CustomWeChatNotificationSound
-
-Package: com.be-huge.custom-notification-sound
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 540
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./deb/微信联系人通知铃声/com.be-huge.custom-notification-sound_1.0.0_iphoneos-arm64-1_extracted.deb
-Size: 115786
-MD5sum: ea3926267db3ee4c37f0ddbf037f8d7a
-SHA1: d64aad82fa88f72a57c310f23356cd860b691ad1
-SHA256: ceff194a4dd1196398c48cf106898da0a73d43cbe0be1a53f8ca95f191620036
-Section: 微信插件
-Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
-Author: be-huge
-Icon: http://apt.xiyan.store/repo/img/chatgpt.PNG
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: CustomWeChatNotificationSound
 
 Package: com.chatgpthook
