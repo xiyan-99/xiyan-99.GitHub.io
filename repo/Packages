@@ -108,6 +108,43 @@ Author: Mao
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: 微信助手
 
+Package: com.25mao.wcplugins
+Version: 0.1-3
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.25mao.wcplugins.rootless_0.1-3_iphoneos-arm64_extracted.deb
+Size: 25832
+MD5sum: 51c480723b0c1382a64bcd87daee61ac
+SHA1: ad3e436d95f13363c48e82c4fcb2003534e57554
+SHA256: 685c1a13c6b21926d9f541d0e72f3896dd60d29d25fb04da1ff7f2e895bea89e
+Section: 微信插件
+Priority: optional
+Description: 插件管理
+Author: Mao
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 微信插件管理
+Sponsor: admin@25mao.com
+
+Package: com.25mao.wcplugins
+Version: 0.1-3
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.25mao.wcplugins.rootless_0.1-3_iphoneos-arm64e-1_extracted.deb
+Size: 50786
+MD5sum: a66fffcf35ebd7b2fb89beb930af4326
+SHA1: 79623ebd371b341ca03a083a087002b815e91003
+SHA256: b6db88e17d35f0d46ea2b0f36a3a8e587b21f8bc914df122d09b27b05f49867b
+Section: 微信插件
+Priority: optional
+Description: 插件管理
+Author: Mao
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 微信插件管理
+Sponsor: admin@25mao.com
+
 Package: com.25mao.wxurlexpand.rootless
 Version: 0.2-0
 Architecture: iphoneos-arm64e
@@ -802,6 +839,43 @@ Author: 愫 茶
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: WeChatEnhance
 
+Package: com.wechatpushmsgpage
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: x
+Installed-Size: 232
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.wechatpushmsgpage_0.0.5_iphoneos-arm64_extracted.deb
+Size: 39010
+MD5sum: f40c27e964e3576cb07ab66ab2c222b7
+SHA1: c064545be12bf921684ef33c8f71e21ea97a14b0
+SHA256: 33c2a99056505cc31adeecdb1a9f8f3e4af58fd2a914ffcf9287da83617ffcc0
+Section: 微信插件
+Description: 微信插件，弥补点击微信通知无法跳转到聊天界面
+Author: be-huge
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 微信消息直达
+Sponsor: x
+
+Package: com.wechatpushmsgpage
+Version: 0.0.5
+Architecture: iphoneos-arm64e
+Maintainer: x
+Installed-Size: 232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.wechatpushmsgpage_0.0.5_iphoneos-arm64e_extracted.deb
+Size: 77064
+MD5sum: 4bd5bad7a38a41ded929c115d156e201
+SHA1: 4512a4a0421d7130ff195c503781eb70217a0470
+SHA256: 9228675a3941aca3e9d2a46ac9d021c51ca099de92d631f0c53e0640ab9ffed7
+Section: 微信插件
+Description: 微信插件，弥补点击微信通知无法跳转到聊天界面
+Author: be-huge
+Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
+Name: 微信消息直达
+Sponsor: x
+
 Package: com.xiyan.kongbao
 Version: 9.9.9
 Architecture: iphoneos-arm64e
@@ -885,4 +959,103 @@ Description: 微信净化，还原聊天本质，干净的微信给你，仅支�
 Author: Netskao
 Icon: https://raw.githubusercontent.com/xiyan-99/xiyan-99.GitHub.io/f8aa36c87e47485c8c0b5271df358119f04297b2/repo/img/icon/wxicon.jpg
 Name: 微信净化END
+
+Package: wechat.bjt
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: wechat我的背景图
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: ./debs/wechat.bjt_1.0_iphoneos-arm64e_extracted.deb
+Size: 38510
+MD5sum: 6d76cca89d64cd2368af6e809506238a
+SHA1: a9b1e4ee7ba7fa757129fb4be1b33ffc271049dc
+SHA256: 99a3b47bcbbccc4b135148a66b0de8243752a5e0454fe70c91efe1c78782cc13
+Section: 微信插件
+Description: wechat我的背景图
+Author: wechat我的背景图
+Icon: https://img.xiyan.pro/i/2025/03/26/lmvj6g.png
+Name: wechat我的背景图
+
+Package: wechat.bjt
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: wechat我的背景图
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: ./debs/wechat.bjt_1.0_iphoneos-arm64_extracted.deb
+Size: 19124
+MD5sum: 7375802e0c38e854090a307a25bf08fc
+SHA1: 9548d8cc3590c231050b8edab802ee8dfccbacf9
+SHA256: fd7d3f65d16f8311a5a9d4c01b271e5e61eeb7d24bd29fe89f44b826a0636a4e
+Section: 微信插件
+Description: wechat我的背景图
+Author: wechat我的背景图
+Icon: https://img.xiyan.pro/i/2025/03/26/lmvj6g.png
+Name: wechat我的背景图
+
+Package: wechat.dtbj
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: wechat动态背景
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: ./debs/wechat.dtbj_1.0_iphoneos-arm64e_extracted.deb
+Size: 81514
+MD5sum: ffb81d14cdc56bad285b500a054beb31
+SHA1: 4044de95e2c5a429bd73c3a2dd2e28ca52470368
+SHA256: f247fc85f056d0596d91a5c7f682ba56b7886f185d127f72dfcc04919724f111
+Section: 微信插件
+Description: wechat动态背景
+Author: wechat动态背景
+Icon: https://img.xiyan.pro/i/2025/03/26/lmvj6g.png
+Name: wechat动态背景
+
+Package: wechat.dtbj
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: wechat动态背景
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: ./debs/wechat.dtbj_1.0_iphoneos-arm64_extracted.deb
+Size: 40378
+MD5sum: d4be39c3bae8f2e8a6636ec5726d0606
+SHA1: 8cd71175b928830f0185b3023cbfa30db4c139eb
+SHA256: a30f42a5bef9634a6f29dd1964a03070dc51376cd6389b13076a05675afdf156
+Section: 微信插件
+Description: wechat动态背景
+Author: wechat动态背景
+Icon: https://img.xiyan.pro/i/2025/03/26/lmvj6g.png
+Name: wechat动态背景
+
+Package: wechat.yuanjiao
+Version: 1314
+Architecture: iphoneos-arm64
+Maintainer: wechat圆角
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: ./debs/wechat.yuanjiao_1314_iphoneos-arm64.deb
+Size: 36696
+MD5sum: 78f366977c9505a1994f9fd82bd341b2
+SHA1: dc17c77ad0f8469ed3abc6f1c2d9c73373b97fe3
+SHA256: 62347725b80440a8a3141a509648e0c21b5b93dd0dad4b64e7346879ca1f367b
+Section: 微信插件
+Description: wechat圆角
+Author: wechat圆角
+Icon: https://img.xiyan.pro/i/2025/03/26/lmvj6g.png
+Name: wechat圆角
+
+Package: wechat.yuanjiao
+Version: 1314
+Architecture: iphoneos-arm64e
+Maintainer: wechat圆角
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: ./debs/wechat.yuanjiao_1314_iphoneos-arm64e.deb
+Size: 50168
+MD5sum: 7379339b5755b7982fe095c6e7300f01
+SHA1: f9038ef05dbc18cb6f74c751dd8e709487cea677
+SHA256: ea2e1c438201deb3832487d205df5faf462e970fdd245c17bdb54a0aa8d0f5f6
+Section: 微信插件
+Description: wechat圆角
+Author: wechat圆角
+Icon: https://img.xiyan.pro/i/2025/03/26/lmvj6g.png
+Name: wechat圆角
 
